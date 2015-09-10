@@ -1,14 +1,38 @@
 # Site settings
-title: Your awesome title
-email: your-email@domain.com
+title: Maria Gwyn McDowell
+email: mariagwyn@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+url: "http://mariagwyn.com" # the base hostname & protocol for your site
+twitter_username: mariagwyn
+github_username:  mariagwyn
 
 # Build settings
 markdown: kramdown
+# Markdown Processors
+kramdown:
+  input: GFM
+# Styling
+sass:
+    sass_dir: _sass
+    style: compressed
+
+# Defaults
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "default"
+      author: "Maria Gwyn McDowell"
+  -
+    scope:
+      path: "projects"
+      type: "pages" # previously `page` in Jekyll 2.2.
+    values:
+      layout: "project" # overrides previous default layout
+      author: "Mr. Hyde"
