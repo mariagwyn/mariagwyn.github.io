@@ -1,38 +1,39 @@
 # Site settings
 title: Maria Gwyn McDowell
-email: mariagwyn@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Maria Gwyn McDowell is a scholar with a penchant for ministry, a theologian with an inclination for practice.  She is feminist, a student of liberation theology, Eastern Orthodoxy, and at her occassional best, a lover of God and all that God has created.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://mariagwyn.com" # the base hostname & protocol for your site
-twitter_username: mariagwyn
-github_username:  mariagwyn
+twitter: mariagwyn
+github:  mariagwyn
+google: mariagwyn
 
 # Build settings
+source: _source
+destination: public
 markdown: kramdown
 # Markdown Processors
 kramdown:
   input: GFM
-# Styling
-sass:
-    sass_dir: _sass
-    style: compressed
 
-# Defaults
+sass:
+  sass_dir: _sass
+  style: :expanded
+  # nested
+  # expanded
+  # compact
+  # compressed
+
 defaults:
   -
     scope:
       path: ""
-      type: "posts"
     values:
       layout: "default"
       author: "Maria Gwyn McDowell"
   -
     scope:
-      path: "projects"
-      type: "pages" # previously `page` in Jekyll 2.2.
+      path: "articles"
     values:
-      layout: "project" # overrides previous default layout
+      layout: "article" # overrides previous default layout
       author: "Mr. Hyde"

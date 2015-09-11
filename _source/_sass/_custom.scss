@@ -1,0 +1,21 @@
+ul.article-links {
+  li {
+    display:inline-block;
+    a {
+      display: inherit;
+      width: 3em;
+      height: 3em;
+      background-repeat: no-repeat;
+      background-size: contain;
+      &.project-muse {
+        background-image: url(/assets/style-images/logo-project-muse.png);
+      }
+      &.sage {
+        background-image: url(/assets/style-images/logo-sage.png);
+      }
+      &.academia {
+        background-image: url(/assets/style-images/logo-academia.png);
+      }
+    }
+  }
+}

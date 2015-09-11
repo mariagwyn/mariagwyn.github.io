@@ -1,0 +1,29 @@
+{% include head.html %}
+  <body class="article{% if page.class %} {{ page.class }}{% endif %}">
+    {% include header.html %}
+      <div class="page-content">
+        <div class="wrapper">
+          <article class="article-content">
+            <h1>{{ page.title }}</h1>
+            {{ content }}
+          </article>
+          <aside class="article-info">
+            <p>Journal: <a href="{{ page.journal-link }}">{{ page.journal }}</a></p>
+            <p>Publication Date: {{ page.pub-date }}</p>
+            <p>Pages: {{ page.pp }}</p>
+              <ul class="article-links">
+              {% if page.host %}
+                <li><a href="{{ page.host-link }}" class="{{ page.host | downcase | replace: " ", "-" }}"></a></li>
+              {% endif %}
+              {% if page.academia %}
+                <li><a href="https://www.academia.edu/{{ page.academia }}" class="academia"></a></li>
+              {% endif %}
+              </ul>
+              <p><a href="/writes">@TODO change&larr; See all {{ site.categories.article | size }} articles</a></p>
+          </aside>
+      </div>
+
+        {% include footer.html %}
+      </div>
+  </body>
+</html>
