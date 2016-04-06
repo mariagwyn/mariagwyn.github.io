@@ -16,13 +16,17 @@
 
   {% endif %}
 
-  <div class="row">
+  <div class="row page-body">
     <div class="small-12 medium-8 medium-offset-2 large-offset-2 end columns">
     <div class="page-content">
+      {% if page.image-primary %}
       <div class="post-image">
         <img src="{{ page.image-primary}} " alt="{{ page.image-caption }}">
         <p>{{ page.image-caption }}</p>
       </div>
+      {% endif %}
+      <h1>{{ page.title }}</h1>
+      <p>{{ page.description }}</p>
       {{ content }}
     </div>
   </div>

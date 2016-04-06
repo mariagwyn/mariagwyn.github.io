@@ -1,0 +1,51 @@
+@font-face {
+  font-family: GentiumPlus;
+  src: url(http://site/fonts/GentiumPlus-R.woff);
+}
+@font-face {
+  font-family: GentiumPlus;
+  font-style: italic;
+  src: url(http://site/fonts/GentiumPlus-I.woff);
+}
+
+body {
+  font-family: 'Gentium Basic', serif;
+  }
+.fade {opacity: .5;}
+.large {font-size: 2rem; margin-top: 0;}
+.tl-media .tl-media-blockquote blockquote {
+  font-size: 1.4rem;
+}
+.tl-media .tl-media-blockquote blockquote br {
+  margin:.5rem 0;
+}
+.tl-media .tl-media-blockquote blockquote p {
+  margin: .5rem 0 0 0;
+  font-size: 1.4rem;
+}
+.tl-media .tl-media-blockquote blockquote p:before {
+  content: none;
+}
+.ww {}
+
+#_1st-council-of-nicea .tl-media .tl-media-blockquote blockquote  {
+    font-size: 1rem;
+  }
+
+/*
+ * Tooltip Styles
+ */
+ .photo {
+   width: 300px;
+   text-align: center;
+ }
+ .photo .ui-widget-header {
+   margin: 1em 0;
+ }
+ .map {
+   width: 350px;
+   height: 350px;
+ }
+ .ui-tooltip {
+   max-width: 350px;
+ }

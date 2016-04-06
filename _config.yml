@@ -61,7 +61,6 @@ defaults:
       layout: "default"
       author: "Maria Gwyn McDowell"
       base_url: "/"
-      image-primary: /assets/images/chi.jpg
 # theme
 theme:
   favicons:

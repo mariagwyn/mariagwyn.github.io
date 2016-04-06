@@ -22,6 +22,7 @@ footer {
   }
   .copy {text-align: center;}
 }
+.page-body {padding: 2em 0;}
 /**
  * Icons
  */
@@ -83,6 +84,7 @@ footer {
      border-radius: 50%;
      display: block;
      margin: 0 auto;
+     border: $warning-color solid 2px;
    }
    @media only screen and (min-width: 40.063em) {
      .focus-img {

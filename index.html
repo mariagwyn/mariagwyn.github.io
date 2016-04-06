@@ -5,14 +5,8 @@ title: "Welcome"
 ---
 
 <div class="home">
-<section id="front" class="page">
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-</section>
-<section class="column medium-6">
-  <a class="twitter-timeline" href="https://twitter.com/mariagwyn" data-widget-id="717843354139041793">Tweets by @mariagwyn</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-</section>
-<section id="academia" class="class="column medium-6"">
+  <h2><a href="/cv">Curriculum Vitae</a></h2>
+<section id="academia" class="column medium-6">
   <h2>Articles</h2>
   {% for post in site.categories.article %}
   <div class="post-short">
@@ -35,5 +29,12 @@ title: "Welcome"
     <p>{{ post.description }}</p>
   </div>
   {% endfor %}
+</section>
+<section id="front" class="page">
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+</section>
+<section class="column medium-6">
+  <a class="twitter-timeline" href="https://twitter.com/mariagwyn" data-widget-id="717843354139041793">Tweets by @mariagwyn</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 </section>
 </div>
