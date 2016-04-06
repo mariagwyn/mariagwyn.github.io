@@ -73,5 +73,5 @@ theme:
       - name: CV
         url: /cv/
       - name: Repository
-        url: https://github.com/penibelst/jekyll-noita
+        url: https://github.com/mariagwyn
         class: small button
