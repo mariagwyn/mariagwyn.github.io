@@ -1,0 +1,31 @@
+<div class="top-bar" data-topbar id="topbar">
+    <h1 class="column medium-6"><a href="/">{{ site.title }}</a></h1>
+    {% if site.theme.topbar.left %}
+    <div class="top-bar-left">
+      <ul class="dropdown menu" data-dropdown-menu>
+        <li class="menu-text"><a href="/">{{ site.title }}</a></li>
+        {% for item in site.theme.topbar.left %}
+        <li{% if item.class %} class="has-form"{% endif %}>
+          <a href="{{ item.url }}" class="{{ item.class }}">{{ item.name }}</a>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+    {% endif %}
+
+    {% if site.theme.topbar.right %}
+    <div class="top-bar-right">
+      <ul class="dropdown menu" data-dropdown-menu>
+      {% for item in site.theme.topbar.right %}
+        <li{% if item.class %} class="has-form"{% endif %}>
+          <a href="{{ item.url }}" class="{{ item.class }}">{{ item.name }}</a>
+        </li>
+      {% endfor %}
+      </ul>
+    </div>
+    {% endif %}
+  </div>
+</div>
+
+<header class="site-header row">
+</header>

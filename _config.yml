@@ -1,0 +1,78 @@
+# Site settings
+title: Maria Gwyn McDowell
+
+# Versioning
+current_version: 1.0.0
+foundation_version: 6.0.0
+
+name:          Maria Gwyn McDowell
+description :  Theology | Ethics | Practice
+copyright:     Copyright (c) 2016 | @mariagwyn | All rights reserved
+url:           http://mariagwyn.com
+email:         mariagwyn@gmail.com
+github:           mariagwyn
+twitter:          mariagwyn
+facebook:         mariagwyn
+#site_phone:         (555) 555-1234
+bio: > # this means to ignore newlines until "baseurl:"
+  Maria Gwyn McDowell is a scholar with a penchant for ministry, a theologian with an inclination for practice.  She is feminist, a student of liberation theology, a scholar of Eastern Orthodoxy, and a member of The Episcopal Church.  She received her PhD in Theological Ethics from Boston College and writes on gender, sexuality and women in the Church. She is an irregular lover of God and God's emerging creation, and a fervent heckler of all teams which oppose the Rose City Thorns.
+#ga_id:             ##-########-###
+
+
+# Dependencies
+markdown:           kramdown
+#Syntax Highlighter
+#highlighter:        pygments
+
+# Permalinks
+permalink:          pretty
+
+# Server
+source:             ./source
+destination:        ./public
+baseurl: ""
+port:               9002
+url:                http://mariagwyn.com
+
+# exclude this stuff when building the static site
+exclude:            [
+                      '.gitignore',
+                      'README.md',
+                      'Gemfile',
+                      'Gemfile.lock',
+                    ]
+
+
+# Assets
+# We specify the directory for Jekyll so we can use @imports.
+sass:
+  sass_dir:          ./assets/stylesheets
+  style:            :expanded
+  # nested
+  # expanded
+  # compact
+  # compressed
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"
+      author: "Maria Gwyn McDowell"
+      base_url: "/"
+      image-primary: /assets/images/chi.jpg
+# theme
+theme:
+  favicons:
+    #- /assets/2014/04/21/favicon-152.png
+  topbar:
+    toggle: Menu
+    right:
+      - name: About
+        url: /about/
+      - name: CV
+        url: /cv/
+      - name: Repository
+        url: https://github.com/penibelst/jekyll-noita
+        class: small button

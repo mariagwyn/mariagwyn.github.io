@@ -1,0 +1,55 @@
+//
+// Foundation-Jekyll - Style Variables
+// Author: @aaronkwhite
+//
+
+// We use these as default colors throughout
+$primary-color: #4A7BAD !default;
+$secondary-color: #77931A !default;
+$tertiary-color:  #fffdee !default;
+$alert-color: #f04124 !default;     // cinnabar
+$success-color: #4A7BAD !default;
+$warning-color: #F6B241 !default;   // carrot
+$info-color: #a0d3e8 !default;      // cornflower
+$black: #444444;
+$white: #fefefe;
+$grey-color:       #828282;
+$grey-color-light: lighten($grey-color, 40%);
+$grey-color-dark:  darken($grey-color, 25%);
+
+// Base Typography
+// ------------------
+
+@import url(https://fonts.googleapis.com/css?family=Merriweather:400,400italic,700);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
+@import url(https://fonts.googleapis.com/css?family=Forum);
+$font-size-base: 16px;
+$font-size: 1rem;
+$sans-serif: 'Open Sans', 'Lucida Grande', Myriad, sans-serif;
+$serif: 'Merriweather', Georgia, serif;
+$line-height-general: 1.5;
+$line-height-text: 1.8;
+$body-font-family: $sans-serif !default;
+$body-font-color: #3F1D0B;
+$body-background: $white;
+$header-font-family: $serif !default;
+$header-font-color: $primary-color;
+
+// Breadcrumb Variable Overrides:
+$crumb-bg: $body-background;
+//Top bar
+$topbar-background: $primary-color;
+$topbar-link-color: $white;
+
+
+
+$color-icon: $tertiary-color;
+$color-link: $secondary-color;
+$color-active: $alert-color;
+$color-icon-active: $warning-color;
+$bg-hover: $warning-color;
+$topbar-bg: $primary-color;
+$blockquote-font-color: color-opacity($body-font-color, 0.9);
+// ChiRo background
+$background-image: url(../images/chi.jpg);
+

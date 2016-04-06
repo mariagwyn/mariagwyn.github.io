@@ -1,0 +1,53 @@
+{% capture lvl %}{{ page.url | append:'index.html' | split:'/' | size }}{% endcapture %}
+{% capture relative %}{% for i in (3..lvl) %}../{% endfor %}{% endcapture %}
+
+<!doctype html>
+<!--[if IE 9]><html class="lt-ie10" lang="en" > <![endif]-->
+<html class="no-js" lang="en" data-useragent="Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; Trident/6.0)">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+    {% include robots.html %}
+    <meta name="description" content="{% include meta-description.html %}">
+    <meta name="author" content="{{ site.author.name }}" />
+    <meta name="copyright" content="{{ site.copyright }}"/>
+
+    <!-- Open Graph: https://developers.facebook.com/docs/opengraph/howtos/maximizing-distribution-media-content/
+    Twitter: https://dev.twitter.com/docs/cards/types/summary-card
+    ============================== -->
+    <meta property="og:title" content="{{ page.title }}"/>
+    <meta property="og:site_name" content=" {{ site.title }}"/>
+    <meta property="og:url" content=" - {{ site.url }}"/>
+    <meta property="og:description" content="{% include meta-description.html %}"/>
+    <meta property="og:image" content="{{ page.imageurl }}"/>
+    <meta property="og:type"  content="article" />
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@{{ site.author.twitter }}">
+    <meta name="twitter:title" content="{{ page.title }}">
+    <meta name="twitter:description" content="{% include meta-description.html %}">
+    <meta name="twitter:image" content="{{ page.imageurl }}">
+
+    <!-- 404 Redirect -->
+    {% if page.url == "/404.html" %}
+      <meta http-equiv="refresh" content="5; url=/">
+    {% endif %}
+    <!-- /404 Redirect -->
+    <link rel="alternate" type="application/rss+xml" title="{{ site.name }}" href="{{ site.url }}/feed.xml | prepend: site.baseurl | prepend: site.url }}">
+
+    <link rel="stylesheet" href="{{ page.base_url }}assets/stylesheets/style.css" />
+    {% if page.stylesheet %}
+      <link rel="stylesheet" type="text/css" href="{{ page.base_url }}assets/stylesheets/individual/{{ page.stylesheet }}.css">
+    {% endif %}
+    <!-- Foundation Favicons -->
+    {% for favicon in site.theme.favicons %}
+      {% assign size = favicon | split: '-' | last | split: '.' | first %}
+      <link rel="icon"
+        sizes="{{ size }}x{{ size }}"
+        href="{{ favicon }}">
+      <link rel="apple-touch-icon"
+        sizes="{{ size }}x{{ size }}"
+        href="{{ favicon }}">
+    {% endfor %}
+
+  </head>

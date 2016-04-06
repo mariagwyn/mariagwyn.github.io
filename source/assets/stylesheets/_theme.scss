@@ -1,0 +1,125 @@
+//
+// Foundation-Jekyll - Custom Theme Styles
+//
+footer {
+  ul {
+    li {
+      list-style: none;
+    }
+  }
+}
+
+.top-bar {
+  a {color: $topbar-link-color;}
+  h1 {font-size: 160%; }
+}
+.site-footer {
+  padding: 1em;
+  background: $secondary-color;
+  color: $white;
+  a {
+    color: $warning-color;
+  }
+  .copy {text-align: center;}
+}
+/**
+ * Icons
+ */
+.fa {
+  padding-right:.5rem;
+  font-size: 1.6rem;
+  display: inline-block;
+  width: 2rem;
+}
+
+.post-image {
+  width: 50%;
+  float:left;
+  padding: 1em 1em 1em 0;
+  p {
+    text-align: center;
+    font-size: .8rem;
+  }
+}
+ .hero {
+   background: no-repeat center center;
+   background-size: cover;
+   height: 40vh;
+   position: relative;
+   &:before {
+    content: '';
+ 		position: absolute;
+ 		top: 0;
+ 		right: 0;
+ 		bottom: 0;
+ 		left: 0;
+ 		background-image: linear-gradient(to bottom right,$grey-color,$grey-color-light);
+ 		opacity: .8;
+   }
+   .intro {
+     position: relative;
+     top: -10%;
+   }
+   h1 {
+     color: #fff;
+     font-size: 1.5rem;
+     line-height: 1.5em;
+     letter-spacing: -0.025em;
+     font-weight: 300;
+     text-align: center;
+   }
+   p {
+     color: #fff;
+     line-height: 1.75em;
+     font-weight: 200;
+     text-align: center;
+     margin-bottom: 2rem;
+   }
+   .focus-img {
+     background: no-repeat center center;
+     background-size: cover;
+     height: 16rem;
+     width: 16rem;
+     border-radius: 50%;
+     display: block;
+     margin: 0 auto;
+   }
+   @media only screen and (min-width: 40.063em) {
+     .focus-img {
+       height: 18rem;
+       width: 18rem;
+     }
+     h1 {
+       padding-top: 4.5rem;
+       text-align: right;
+       font-size: 2.5rem;
+     }
+     p {
+       text-align: right;
+     }
+   }
+ }
+
+
+
+ ul.article-links {
+   li {
+     display:inline-block;
+     a {
+       display: inherit;
+       width: 3em;
+       height: 3em;
+       background-repeat: no-repeat;
+       background-size: contain;
+       &.project-muse {
+         background-image: url(/assets/style-images/logo-project-muse.png);
+       }
+       &.sage {
+         background-image: url(/assets/style-images/logo-sage.png);
+       }
+       &.academia {
+         background-image: url(/assets/style-images/logo-academia.png);
+       }
+     }
+   }
+ }
