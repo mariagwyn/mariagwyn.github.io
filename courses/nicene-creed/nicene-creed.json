@@ -189,11 +189,25 @@
       },
       {
         "text": {
+          "headline": "Revising Nicea",
+          "text": "<p>The Player:<ul><li>Apollinarius, Bishop of Laodicea (~390 AD): 'Jesus does not have a human soul, spirit, or mind.'</li></ul></p><p>The Issues:<ul><li>Personal unity of the divine and humen in Jesus</li><li>Human freedom in Jesus' life</li><li>A hierarchy of natures?</li></ul>"
+        },
+        "start_date": {
+          "year": "382"
+        },
+        "display_date": "Revising Nicea",
+        "group": "Reception",
+        "media": {
+          "url": "<blockquote><p>We believe in one Lord, Jesus Christ , the <strong>only-begotten</strong> Son of God, <strong>eternally [aeons]</strong> begotten of the Father, God from God, Light from Light, true God from true God, begotten, not made, of one Being with the Father; through him all things were made.</p><p>For us and for our salvation, he came down <strong>from heaven</strong>, was incarnate <strong>of the Holy Spirit and the Virgin Mary</strong>, and became truly human.</p><p>For our sake he <strong>was crucified for us under Pontius Pilate; he</strong> suffered <strong>death and was buried</strong>. On the third day he rose again, <strong>according to the Scriptures</strong>; he ascended into heaven, <strong>and is seated at the right hand of the Father</strong>; He will come <strong>again in glory</strong> to judge the living and the dead, <strong>and his kingdom will have no end</strong>.</p></blockquote>"
+        }
+      },
+      {
+        "text": {
           "headline": "Receiving Constantinople",
           "text": "<p>The Issues:<ul><li>How many natures, wills, substances, persons?</li><li>Is Mary the 'bearer of God' (<em>Theotokos</em>) or the 'bearer of Christ' (<em>Christokos</em>)?</li></ul><p>The Players:<ul><li>Nestorius (386–450), Patriarch of Constantinople: continued Apollinarianism by referring to Mary as <em>Christokos</em>.</li><li>Antiochene School: emphasized distinction of two natures at the expense of articulating unity. They begin with the Jesus of the synoptic gospels.</li><li>Alexandrian School: emphasizes divinity at the expense of either Jesus' human nature/soul (Arius, Apollinarius) or its salvific significance (Athanasius). They begin with the Jesus of the prologue of John, 'The Word was ...'</li></ul></p>"
         },
         "start_date": {
-          "year": "382"
+          "year": "383"
         },
         "end_date": {
           "year": "430"
