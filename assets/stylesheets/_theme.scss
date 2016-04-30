@@ -1,6 +1,19 @@
 //
 // Foundation-Jekyll - Custom Theme Styles
 //
+.small {
+  font-size: 1.6rem;
+  .float-right {
+    float: right;
+    bottom: -1em;
+    position: relative;
+  }
+}
+.border {border-bottom: 1px solid $primary-color-light;}
+
+h1, h2 {
+  letter-spacing: -1px;
+}
 footer {
   ul {
     li {
@@ -42,68 +55,38 @@ footer {
     font-size: .8rem;
   }
 }
- .hero {
-   background: no-repeat center center;
-   background-size: cover;
-   height: 40vh;
-   position: relative;
-   &:before {
-    content: '';
- 		position: absolute;
- 		top: 0;
- 		right: 0;
- 		bottom: 0;
- 		left: 0;
- 		background-image: linear-gradient(to bottom right,$grey-color,$grey-color-light);
- 		opacity: .8;
-   }
-   .intro {
-     position: relative;
-     top: -10%;
-   }
-   h1 {
-     color: #fff;
-     font-size: 1.5rem;
-     line-height: 1.5em;
-     letter-spacing: -0.025em;
-     font-weight: 300;
-     text-align: center;
-   }
-   p {
-     color: #fff;
-     line-height: 1.75em;
-     font-weight: 200;
-     text-align: center;
-     margin-bottom: 2rem;
-   }
-   .focus-img {
-     background: no-repeat center center;
-     background-size: cover;
-     height: 16rem;
-     width: 16rem;
-     border-radius: 50%;
-     display: block;
-     margin: 0 auto;
-     border: $warning-color solid 2px;
-   }
-   @media only screen and (min-width: 40.063em) {
-     .focus-img {
-       height: 18rem;
-       width: 18rem;
-     }
-     h1 {
-       padding-top: 4.5rem;
-       text-align: right;
-       font-size: 2.5rem;
-     }
-     p {
-       text-align: right;
-     }
-   }
- }
+.feed-container {
+  position: relative;
 
+}
+.feed-header {
+}
+#wit-feed {
+}
+.feed-item {
+  .thumb {
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    margin: .25rem 1rem 1rem 0;
+    position: relative;
+    float: left;
+    img {
+        position: absolute;
+        margin: auto;
+        min-height: 100%;
+        min-width: 100%;
+        background: $background-image 60% 25%;
 
-
+        /* For the following settings we set 100%, but it can be higher if needed
+        See the answer's update */
+        left: -100%;
+        right: -100%;
+        top: -100%;
+        bottom: -100%;
+    }
+  }
+}
  ul.article-links {
    li {
      display:inline-block;
@@ -125,3 +108,24 @@ footer {
      }
    }
  }
+
+
+//
+// Responsive settings
+//
+
+body {
+  // Only affects medium screens and larger
+  @include breakpoint(medium) {
+    // All CSS in here goes inside the media query
+    background: yellow;
+  }
+  @include breakpoint(small) {
+    // All CSS in here goes inside the media query
+    background: aquamarine;
+  }
+  @include breakpoint(large) {
+    // All CSS in here goes inside the media query
+    background: salmon;
+  }
+}

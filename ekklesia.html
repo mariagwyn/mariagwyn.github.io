@@ -1,0 +1,25 @@
+---
+layout: default
+title: "Ekklesia"
+permalink: /ekklesia/
+---
+
+<div class="ekklesia">
+  <h1 class="">Ekklesia</h1>
+  <p>Sermons, church-related articles, educational materials and projects.</p>
+  {% for post in site.categories.ekklesia %}
+    <div class="pub-info">
+      {% if post.pub-type %}<p class="pub-type"><strong>{{ post.pub-type }}</strong></p>{% endif %}
+      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+      {% if post.pub-link %}
+        <em><a href="{{ page.pub-link }}" target="_blank">{{ post.pub-source }}</a></em>{% if post.pub-volume %}, {{ post.pub-volume }}{% endif %}
+      {% else %}<em>{{ post.pub-source }}</em>{% endif %}{% if post.pub-volume %}{{ post.pub-volume }}{% endif %}
+      <br />
+      {% if post.pub-location %}{{ post.pub-location }}{% endif %}
+      {% if post.pub-date %}{{ post.pub-date }}{% endif %}</p>
+      <h3>{{ post.description }}</h3>
+      <blockquote>{{ post.excerpt }}</blockquote>
+      {% if post.academia %}<div class="academia">On <a href="https://www.academia.edu/{{ post.academia }}" target="_blank" >Academia.edu</a></div>{% endif %}
+    </div>
+  {% endfor %}
+</div>

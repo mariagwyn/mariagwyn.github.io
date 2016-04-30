@@ -72,6 +72,10 @@ theme:
         url: /about/
       - name: CV
         url: /cv/
+      - name: Publications
+        url: /publications/
+      - name: Ekklesia
+        url:  /ekklesia/
       - name: Repository
         url: https://github.com/mariagwyn
         class: small button

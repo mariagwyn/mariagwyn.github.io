@@ -3,19 +3,31 @@
 // Author: @aaronkwhite
 //
 
+$global-font-size: 90%;
 // We use these as default colors throughout
-$primary-color: #4A7BAD !default;
-$secondary-color: #77931A !default;
-$tertiary-color:  #fffdee !default;
-$alert-color: #f04124 !default;     // cinnabar
-$success-color: #4A7BAD !default;
-$warning-color: #F6B241 !default;   // carrot
-$info-color: #a0d3e8 !default;      // cornflower
-$black: #444444;
-$white: #fefefe;
-$grey-color:       #828282;
-$grey-color-light: lighten($grey-color, 40%);
-$grey-color-dark:  darken($grey-color, 25%);
+$foundation-palette: (
+  primary: #4A7BAD,
+  secondary: #77931A,
+  tertiary: #fffdee,
+  success: #4A7BAD,
+  warning: #F6B241,
+  alert: #ec5840,
+  black-color: #444444,
+  white-color: #fefefe,
+  grey-color: #828282
+);
+$primary-color-light: lighten(map-get($foundation-palette, primary), 20%);
+$primary-color-dark: darken(map-get($foundation-palette, primary), 25%);
+$grey-color-light: lighten(map-get($foundation-palette, grey-color), 40%);
+$grey-color-dark:  darken(map-get($foundation-palette, grey-color), 25%);
+
+// 3. The Grid
+// -----------
+
+$grid-column-gutter: (
+  small: 20px,
+  medium: 60px,
+);
 
 // Base Typography
 // ------------------
@@ -23,33 +35,49 @@ $grey-color-dark:  darken($grey-color, 25%);
 @import url(https://fonts.googleapis.com/css?family=Merriweather:400,400italic,700);
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
 @import url(https://fonts.googleapis.com/css?family=Forum);
-$font-size-base: 16px;
-$font-size: 1rem;
 $sans-serif: 'Open Sans', 'Lucida Grande', Myriad, sans-serif;
-$serif: 'Merriweather', Georgia, serif;
-$line-height-general: 1.5;
-$line-height-text: 1.8;
+$serif: Baskerville, "Sorts Mill Goudy", Georgia, serif;
+//$serif: 'Merriweather', Georgia, serif;
 $body-font-family: $sans-serif !default;
-$body-font-color: #3F1D0B;
-$body-background: $white;
+$body-font-color: map-get($foundation-palette, black-color);
+$body-background: map-get($foundation-palette, tertiary);
+
 $header-font-family: $serif !default;
-$header-font-color: $primary-color;
+$header-lineheight: 1.1;
+$header-sizes: (
+  small: (
+    'h1': 24,
+    'h2': 20,
+    'h3': 19,
+    'h4': 18,
+    'h5': 17,
+    'h6': 16,
+  ),
+  medium: (
+    'h1': 36,
+    'h2': 30,
+    'h3': 28,
+    'h4': 24,
+    'h5': 20,
+    'h6': 16,
+  ),
+);
+$subheader-color: $primary-color-light;
+$blockquote-color: $primary-color-dark;
+$blockquote-border: 1px solid $primary-color-dark;
+
 
 // Breadcrumb Variable Overrides:
 $crumb-bg: $body-background;
 //Top bar
-$topbar-background: $primary-color;
-$topbar-link-color: $white;
+$topbar-background: map-get($foundation-palette, primary);
+$topbar-link-color: map-get($foundation-palette, tertiary);
+$topbar-bg: map-get($foundation-palette, primary);
 
-
-
-$color-icon: $tertiary-color;
-$color-link: $secondary-color;
-$color-active: $alert-color;
-$color-icon-active: $warning-color;
-$bg-hover: $warning-color;
-$topbar-bg: $primary-color;
-$blockquote-font-color: color-opacity($body-font-color, 0.9);
+$color-icon: map-get($foundation-palette, tertiary);
+$color-link: map-get($foundation-palette, secondary);
+$color-active: map-get($foundation-palette, alert);
+$color-icon-active: map-get($foundation-palette, warning);
+$bg-hover: map-get($foundation-palette, warning);
 // ChiRo background
 $background-image: url(../images/chi.jpg);
-

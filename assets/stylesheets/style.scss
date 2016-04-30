@@ -9,7 +9,7 @@
 @import 'foundation';
 
 // Include All of Foundation 6
-@include foundation-everything;
+@include foundation-everything(true);
 
 // Customize Foundation 6. Uncomment the components you need:
 
@@ -49,7 +49,7 @@
 // @include foundation-tooltip;
 // @include foundation-top-bar;
 
-
+@include add-foundation-colors;
 // Font-Awesome
 @import 'font-awesome/font-awesome';
 
@@ -57,7 +57,7 @@
 //@import url(https://fonts.googleapis.com/css?family=Muli:400,300,300italic);
 
 // Custom theme files
-@import 'base';
+//@import 'base';
 @import 'theme';
 
 @import 'syntax';

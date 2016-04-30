@@ -1,10 +1,13 @@
 ---
-layout: default
+layout: page
 title: "Dancing with God"
 date: 2015-05-31
 categories:
 - ekklesia
 - sermon
+pub-type: Sermon
+pub-location: "All Saints Episcopal Church, Portland, Oregon"
+pub-date: 31 May, 2015
 feastday: Trinity Sunday
 image-primary: /assets/images/ekklesia/holytrinity-ns-96px.jpg
 image-caption: "'Holy Trinity' ('The Hospitality of Abraham') written by a Nun of New Skete."

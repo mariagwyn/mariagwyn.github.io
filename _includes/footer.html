@@ -1,18 +1,17 @@
 <footer class="site-footer">
   <div class="row">
-    <div class="small-12 medium-8 medium-offset-2 large-offset-2 end columns">
-      <div class="column medium-4">
+      <div class="column small-12 medium-4">
         <ul class="contact-list">
           <li>{{ site.title }}</li>
           <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
         </ul>
       </div>
-      <div class="column medium-4">
+      <div class="column small-12 medium-4">
         <ul class="social-media-list">
           {% if site.github %}
           <li>
             <a href="https://github.com/{{ site.github }}">
-              <i class="fa fa-github"></i><span class="username">{{ site.github }}</span>
+              <i class="fa fa-github"></i><span class="username">Git Me</span>
             </a>
           </li>
           {% endif %}
@@ -20,24 +19,23 @@
           {% if site.twitter %}
           <li>
             <a href="https://twitter.com/{{ site.twitter }}">
-              <i class="fa fa-twitter"></i><span class="username">{{ site.twitter }}</span>
+              <i class="fa fa-twitter"></i><span class="username">Tweet Me</span>
             </a>
           </li>
           {% endif %}
           {% if site.facebook %}
           <li>
             <a href="https://facebook.com/{{ site.facebook }}">
-              <i class="fa fa-facebook"></i><span class="username">{{ site.twitter }}</span>
+              <i class="fa fa-facebook"></i><span class="username">Facebook Me</span>
             </a>
           </li>
           {% endif %}
         </ul>
       </div>
 
-      <div class="column medium-4">
-        <p class="text">This site is built with Jekyll, source code at <a href="https://github.com/jekyll/jekyll">github.com/jekyll/jekyll</a></p>
+      <div class="column small-12 medium-4">
+        <p class="text">This site is built with <a href="https://github.com/jekyll/jekyll">Jekyll</a> and <a href="https://pages.github.com/">hosted on github</a>.</p>
       </div>
     </div>
     <p class="copy column small-12">{{ site.copyright }}</p>
-  </div>
 </footer>

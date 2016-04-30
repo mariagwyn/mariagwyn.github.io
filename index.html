@@ -1,40 +1,65 @@
 ---
 layout: bare
 title: "Welcome"
-
 ---
 
 <div class="home">
   <h2><a href="/cv">Curriculum Vitae</a></h2>
-<section id="academia" class="column medium-6">
-  <h2>Articles</h2>
-  {% for post in site.categories.article %}
+<div class="row">
+  <div id="academia" class="column small-12 medium-6">
+  <h2 class="small subheader border">Publications<small class="float-right"><a href="/publications/">See all</a></small></h2>
+  {% for post in site.categories.publication %}
   <div class="post-short">
-    <h4>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-      <small>{{ post.date | date: '%F' }}</small>
-    </h4>
-    <p>{{ post.description }}</p>
+    <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+    <p>{{ page.description }}</p>
+    <p><em>{{ post.pub-source }}</em><br />{% if post.pub-location %}{{post.pub-location}}: {{post.publisher}}, {% endif %}{{post.pub-date}}</p>
   </div>
   {% endfor %}
-</section>
-<section id="ekklesia" class="class="column medium-6"">
-    <h2>Ekklesia</h2>
-  {% for post in site.categories.ekklesia %}
-  <div class="post-short">
-    <h4>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-      <small>{{ post.date | date: '%F' }}</small>
-    </h4>
-    <p>{{ post.description }}</p>
   </div>
-  {% endfor %}
-</section>
+  <div id="ekklesia" class="column small-12 medium-6"">
+    <h2 class="small subheader border">Ekklesia<small class="float-right"><a href="/ekklesia/">See all</a></small></h2>
+    {% for post in site.categories.ekklesia %}
+    <div class="post-short">
+      <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+      <small>{{ post.date | date: '%F' }}</small>
+      <p>{{ post.description }}</p>
+    </div>
+    {% endfor %}
+  </div>
+</div>
 <section id="front" class="page">
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 </section>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.8.4/moment.min.js"></script>
+<script src="{{ page.base_url }}assets/javascripts/jquery.rss.js"></script>
+<script>
+  jQuery(function($) {
+    $("#wit-feed").rss("https://womenintheology.org/author/mariagwyn/feed",
+    {
+      limit: 6,
+      dateFormat: 'D MMM, YYYY',
+      layoutTemplate: "{entries}",
+      entryTemplate:'<div class="feed-item column"><h5><a href="{url}" target="_blank">{title}</a></h5><div class="thumb medium-4"><img src="{teaserImageUrl}"></div><small>{date}</small><br/>{shortBody}... <br/><a href="{url}" target="_blank" class="readmore">read more ››</a></div>'
+    }),
+    $("#deip-feed").rss("http://deiprofundis.org/feed",
+    {
+      limit: 3,
+      dateFormat: 'D MMM, YYYY',
+      layoutTemplate: "{entries}",
+      entryTemplate:'<div class="feed-item column"><h5><a href="{url}" target="_blank">{title}</a></h5><small>{date}</small><br/>{shortBody}... <br/><a href="{url}" target="_blank" class="readmore">read more ››</a></div>'
+    })
+  })
+</script>
+<h4>Recent <a href="http://womenintheology.org" target="_blank">WIT</a> Posts</h4>
+<div id="wit-feed" class="row small-up-1 medium-up-2 large-up-3"></div>
+<h4>Recent <a href="http://deiprofundis.org" target="_blank">DeiProfundis</a> Posts</h4>
+<div id="deip-feed" class="row small-up-1 medium-up-2 large-up-3"></div>
+
 <section class="column medium-6">
-  <a class="twitter-timeline" href="https://twitter.com/mariagwyn" data-widget-id="717843354139041793">Tweets by @mariagwyn</a>
+  <a class="twitter-timeline"
+    href="https://twitter.com/mariagwyn"
+    data-widget-id="717843354139041793"
+    data-chrome="nofooter">Tweets by @mariagwyn</a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 </section>
 </div>

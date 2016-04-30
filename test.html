@@ -1,0 +1,37 @@
+---
+layout: page
+title: "Welcome"
+
+---
+
+
+    <script src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.8.4/moment.min.js"></script>
+    <script src="{{ page.base_url }}assets/javascripts/jquery.rss.js"></script>
+    <script>
+      jQuery(function($) {
+        $("#wit-feed").rss("https://womenintheology.org/author/mariagwyn/feed",
+        {
+          limit: 9,
+          dateFormat: 'D MMM, YYYY',
+          layoutTemplate: "<div class='feed-container'>{feed}{totalEntries}{entries}</div>",
+          entryTemplate:'<p><a href="{url}">{title}</a><br/>{date}<br/><a href="{url}"><img class="thumbnail" src="{teaserImageUrl}"></a>{shortBody}</p>'
+        }),
+        $("#deip-feed").rss("http://deiprofundis.org/feed",
+        {
+          limit: 9,
+          dateFormat: 'D MMM, YYYY',
+          layoutTemplate: "<div class='feed-container'>{re-use}{entries}</div>",
+          entryTemplate: "{dynamic}, {static}, {re-use}",
+          tokens: {
+            dynamic: function(entry, tokens){ return "dynamic-stuff: " + entry.title },
+            "re-use": function(entry, tokens){ return encodeURIComponent(tokens.author) },
+            static: "static"
+          }
+        })
+      })
+    </script>
+    <div id="wit-feed"><h2>Recent WIT Posts</h2></div>
+    <script>
+    </script>
+    <div id="deip-feed"><h2>Recent DeiProfundis Posts</h2></div>
