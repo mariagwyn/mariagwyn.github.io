@@ -10,6 +10,8 @@
 
 body {
   font-family: 'Gentium Basic', serif;
+  background: black;
+  color: white;
   }
 .fade {opacity: .5;}
 .large {font-size: 2rem; margin-top: 0;}
@@ -26,6 +28,30 @@ body {
 .tl-media .tl-media-blockquote blockquote p:before {
   content: none;
 }
+.tl-slide-content {
+  color: white;
+  background: black;
+}
+.tl-slidenav-previous .tl-slidenav-content-container .tl-slidenav-icon, .tl-slidenav-next .tl-slidenav-content-container .tl-slidenav-icon, .tl-slidenav-previous .tl-slidenav-content-container .tl-slidenav-title, .tl-slidenav-next .tl-slidenav-content-container .tl-slidenav-title, .tl-slidenav-previous .tl-slidenav-content-container .tl-slidenav-description, .tl-slidenav-next .tl-slidenav-content-container .tl-slidenav-description {
+  color: white;
+  text-shadow: 1px 1px 1px #333;
+}
+.tl-timeline p {
+    font-size: 16px;
+    line-height: 1.3em;
+}
+.tl-slide {
+  background: black;
+  color: white;
+}
+.tl-text {
+  background: black;
+}
+.tl-text p {
+  color: white;
+}
+
+
 .ww {}
 
 #_1st-council-of-nicea .tl-media .tl-media-blockquote blockquote  {

@@ -2,3 +2,6 @@ public*
 .sass-cache
 
 .DS_Store
+
+/* Local Testing */
+test*
