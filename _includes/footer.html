@@ -3,19 +3,11 @@
       <div class="column small-12 medium-4">
         <ul class="contact-list">
           <li>{{ site.title }}</li>
-          <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+          <li class="rss-subscribe">Subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></li>
         </ul>
       </div>
       <div class="column small-12 medium-4">
         <ul class="social-media-list">
-          {% if site.github %}
-          <li>
-            <a href="https://github.com/{{ site.github }}">
-              <i class="fa fa-github"></i><span class="username">Git Me</span>
-            </a>
-          </li>
-          {% endif %}
-
           {% if site.twitter %}
           <li>
             <a href="https://twitter.com/{{ site.twitter }}">
@@ -30,12 +22,26 @@
             </a>
           </li>
           {% endif %}
+          {% if site.linkedin %}
+          <li>
+            <a href="https://www.linkedin.com/in/{{ site.linkedin }}">
+              <i class="fa fa-linkedin"></i><span class="username">Linkedin</span>
+            </a>
+          </li>
+          {% endif %}
+          {% if site.github %}
+          <li>
+            <a href="https://github.com/{{ site.github }}">
+              <i class="fa fa-github"></i><span class="username">Git Me</span>
+            </a>
+          </li>
+          {% endif %}
         </ul>
       </div>
 
       <div class="column small-12 medium-4">
         <p class="text">This site is built with <a href="https://github.com/jekyll/jekyll">Jekyll</a> and <a href="https://pages.github.com/">hosted on github</a>.</p>
+        <p class="copy column small-12">{{ site.copyright }}</p>
       </div>
     </div>
-    <p class="copy column small-12">{{ site.copyright }}</p>
 </footer>

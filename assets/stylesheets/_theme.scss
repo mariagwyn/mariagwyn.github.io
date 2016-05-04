@@ -36,6 +36,7 @@ footer {
   .copy {text-align: center;}
 }
 .page-body {padding: 2em 0;}
+
 /**
  * Icons
  */
@@ -44,6 +45,14 @@ footer {
   font-size: 1.6rem;
   display: inline-block;
   width: 2rem;
+}
+
+ul.social-media-share {
+  margin-left: 0;
+  li {
+    list-style: none;
+    display: inline-block;
+  }
 }
 
 .post-image {

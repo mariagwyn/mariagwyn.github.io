@@ -3,8 +3,6 @@ layout: default
 ---
 
 <div class="page">
-{% if page.pub-type %}<p class="pub-type"><strong>{{ page.pub-type }}</strong></p>{% endif %}
-<h1>{{ page.title }}</h1>
 <div class="pub-info">
   {% if page.pub-link %}
     <em><a href="{{ page.pub-link }}" target="_blank">{{ page.pub-source }}</a></em>{% if page.pub-volume %}, {{ page.pub-volume }}{% endif %}
@@ -12,7 +10,6 @@ layout: default
   <br />
   {% if page.pub-location %}{{ page.pub-location }}: {{page.publisher}}, {% endif %}
   {% if page.pub-date %}{{ page.pub-date }}{% endif %}{% if page.pp %}, pp. {{ page.pp}}{% endif %}</p>
-  {% if page.academia %}<div class="academia">On <a href="https://www.academia.edu/{{ page.academia }}" target="_blank" >Academia.edu</a></div>{% endif %}
 </div>
 {% if page.image-primary %}
 <div class="post-image">

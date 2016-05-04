@@ -4,11 +4,13 @@ title: "Welcome"
 ---
 
 <div class="home">
+  <h1><small>The website of </small><br />Maria Gwyn McDowell, <small>MDiv, PhD</small></h1>
+  <p>Maria Gwyn McDowell is a scholar with a penchant for ministry, a theologian with an inclination for practice.  She is feminist, a student of liberation theology, a scholar of Eastern Orthodoxy, and a member of The Episcopal Church.  She received her PhD in Theological Ethics from Boston College and writes on gender, sexuality and women in the Church. She is an irregular lover of God and God's emerging creation, and a fervent heckler of all teams which oppose the Rose City Thorns.</p>
   <h2><a href="/cv">Curriculum Vitae</a></h2>
 <div class="row">
   <div id="academia" class="column small-12 medium-6">
   <h2 class="small subheader border">Publications<small class="float-right"><a href="/publications/">See all</a></small></h2>
-  {% for post in site.categories.publication %}
+  {% for post in site.categories.publication limit:3 %}
   <div class="post-short">
     <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
     <p>{{ page.description }}</p>
@@ -27,9 +29,6 @@ title: "Welcome"
     {% endfor %}
   </div>
 </div>
-<section id="front" class="page">
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-</section>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.8.4/moment.min.js"></script>
 <script src="{{ page.base_url }}assets/javascripts/jquery.rss.js"></script>
 <script>
