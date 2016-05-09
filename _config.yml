@@ -79,4 +79,4 @@ theme:
         url:  /ekklesia/
       - name: Repository
         url: https://github.com/mariagwyn
-        class: small button
+        # class: small button

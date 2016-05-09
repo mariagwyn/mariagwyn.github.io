@@ -6,8 +6,8 @@
       <h1>{{ page.title }}</h1>
     </div>
     <div class="small-12 medium-2 medium-offset-1 column infoblock">
-      <p><i class="fa fa-calendar-o"></i>{{ page.date | date: "%-d %B %Y" }}</p>
-      {% if page.academia %}<p class="academia">On <a href="https://www.academia.edu/{{ page.academia }}" target="_blank" >Academia.edu</a></p>{% endif %}
+      {% if page.date %}<p><i class="fa fa-calendar-o"></i>{{ page.date | date: "%-d %B %Y" }}</p>{% endif %}
+      {% if page.academia %}<p class="fa academia">On <a href="https://www.academia.edu/{{ page.academia }}" target="_blank" >Academia.edu</a></p>{% endif %}
       {% include socialmedia.html %}
     </div>
     <div class="small-12 medium-8 end column">

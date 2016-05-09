@@ -1,5 +1,4 @@
 <div class="top-bar" data-topbar id="topbar">
-    <h1 class="column medium-6"><a href="/">{{ site.title }}</a></h1>
     {% if site.theme.topbar.left %}
     <div class="top-bar-left">
       <ul class="dropdown menu" data-dropdown-menu>
@@ -15,17 +14,35 @@
 
     {% if site.theme.topbar.right %}
     <div class="top-bar-right">
+      <div id="top-bar-nav">
       <ul class="dropdown menu" data-dropdown-menu>
       {% for item in site.theme.topbar.right %}
-        <li{% if item.class %} class="has-form"{% endif %}>
+      {% if page.url == item.url %}
+            <li class="active">
+          {% else %}
+            <li>
+          {% endif %}
           <a href="{{ item.url }}" class="{{ item.class }}">{{ item.name }}</a>
         </li>
       {% endfor %}
       </ul>
     </div>
+    </div>
     {% endif %}
-  </div>
 </div>
 
-<header class="site-header row">
+<header class="site-header">
+  <div class="row">
+    <div class="small-12 medium-offset-3 column header-primary"><h1><a href="/">Maria Gwyn McDowell, <small>MDiv, PhD</small></a></h1></div>
+  </div>
+  <div class="header-secondary">
+    <div class="row">
+      <div class="small-12 medium-2 medium-offset-1 column header-picture-container">
+      <div class="header-picture">
+        <a href="/"><img src="/assets/images/Maria_McDowell.jpg"></a>
+      </div>
+    </div>
+      
+    </div>
+  </div>
 </header>

@@ -12,15 +12,13 @@ $foundation-palette: (
   success: #4A7BAD,
   warning: #F6B241,
   alert: #ec5840,
-  black-color: #444444,
-  white-color: #fefefe,
-  grey-color: #828282
 );
+$primary-text: #301B11;
+$primary-text-something: lighten($primary-text, 70%);
+$primary-text-light: #C5B9A9;
 $primary-color-light: lighten(map-get($foundation-palette, primary), 20%);
 $primary-color-dark: darken(map-get($foundation-palette, primary), 25%);
-$grey-color-light: lighten(map-get($foundation-palette, grey-color), 40%);
-$grey-color-dark:  darken(map-get($foundation-palette, grey-color), 25%);
-
+$tertiary: map-get($foundation-palette, tertiary);
 // 3. The Grid
 // -----------
 
@@ -39,7 +37,7 @@ $sans-serif: 'Open Sans', 'Lucida Grande', Myriad, sans-serif;
 $serif: Baskerville, "Sorts Mill Goudy", Georgia, serif;
 //$serif: 'Merriweather', Georgia, serif;
 $body-font-family: $sans-serif !default;
-$body-font-color: map-get($foundation-palette, black-color);
+$body-font-color: $primary-text;
 $body-background: map-get($foundation-palette, tertiary);
 
 $header-font-family: $serif !default;
@@ -65,14 +63,23 @@ $header-sizes: (
 $subheader-color: $primary-color-light;
 $blockquote-color: $primary-color-dark;
 $blockquote-border: 1px solid $primary-color-dark;
-
+$header-small-font-color: $primary-text-light;
 
 // Breadcrumb Variable Overrides:
 $crumb-bg: $body-background;
 //Top bar
-$topbar-background: map-get($foundation-palette, primary);
-$topbar-link-color: map-get($foundation-palette, tertiary);
-$topbar-bg: map-get($foundation-palette, primary);
+$topbar-background: map-get($foundation-palette, tertiary);
+$topbar-link-color: map-get($foundation-palette, secondary);
+// 22. Menu
+// --------
+
+$menu-margin: 0;
+$menu-margin-nested: 1rem;
+$menu-item-padding: 0.7rem 1rem;
+$menu-item-color-active: darken(map-get($foundation-palette, secondary), 9%);
+$menu-item-background-active: none;
+$menu-icon-spacing: 0.25rem;
+
 
 $color-icon: map-get($foundation-palette, tertiary);
 $color-link: map-get($foundation-palette, secondary);
