@@ -7,7 +7,8 @@
 $foundation-palette: (
   primary: #4A7BAD,
   secondary: #77931A,
-  tertiary: #fffdee,
+  tertiary: #7D1E19,
+  background: #fff,
   success: #4A7BAD,
   warning: #F6B241,
   alert: #ec5840,
@@ -18,6 +19,10 @@ $primary-text-light: #C5B9A9;
 $primary-color-light: lighten(map-get($foundation-palette, primary), 20%);
 $primary-color-dark: darken(map-get($foundation-palette, primary), 25%);
 $tertiary: map-get($foundation-palette, tertiary);
+$background: map-get($foundation-palette, background);
+
+$global-radius: 1rem;
+
 // 3. The Grid
 // -----------
 
@@ -37,7 +42,7 @@ $serif: Baskerville, "Sorts Mill Goudy", Georgia, serif;
 //$serif: 'Merriweather', Georgia, serif;
 $body-font-family: $sans-serif !default;
 $body-font-color: $primary-text;
-$body-background: map-get($foundation-palette, tertiary);
+$body-background: map-get($foundation-palette, light);
 
 $header-font-family: $serif !default;
 $header-lineheight: 1.1;
@@ -67,8 +72,19 @@ $header-small-font-color: $primary-text-light;
 // Breadcrumb Variable Overrides:
 $crumb-bg: $body-background;
 //Top bar
-$topbar-background: map-get($foundation-palette, tertiary);
+$topbar-background: map-get($foundation-palette, background);
 $topbar-link-color: map-get($foundation-palette, secondary);
+
+// 13. Callout
+// -----------
+
+$callout-background-fade: 85%;
+$callout-border: none;
+$callout-margin: 0 0 1rem 0;
+$callout-padding: 1rem;
+$callout-link-tint: 30%;
+$callout-font-color: $background;
+$callout-font-color-alt: $body-background;
 // 22. Menu
 // --------
 
@@ -80,7 +96,7 @@ $menu-item-background-active: none;
 $menu-icon-spacing: 0.25rem;
 
 
-$color-icon: map-get($foundation-palette, tertiary);
+$color-icon: map-get($foundation-palette, background);
 $color-link: map-get($foundation-palette, secondary);
 $color-active: map-get($foundation-palette, alert);
 $color-icon-active: map-get($foundation-palette, warning);

@@ -1,47 +1,53 @@
-<footer class="site-footer">
-  <div class="row">
-      <div class="column small-12 medium-4">
-        <ul class="contact-list">
-          <li>{{ site.title }}</li>
-          <li class="rss-subscribe">Subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></li>
-          <li >Visit me on <a href="https://bc.academia.edu/MariaMcDowell" target="_blank">Academia.edu</a></li>
-        </ul>
+<footer class="site-footer dumbotron">
+  <div class="row" data-equalizer data-equalize-on="medium" id="footer-eq">
+      <div class="column small-12 medium-4 contacts">
+        <div class="callout" data-equalizer-watch>
+          <ul class="contact-list">
+            <li>{{ site.title }}</li>
+            <li class="rss-subscribe">Subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></li>
+            <li >Visit me on <a href="https://bc.academia.edu/MariaMcDowell" target="_blank">Academia.edu</a></li>
+          </ul>
+        </div>
       </div>
-      <div class="column small-12 medium-4">
-        <ul class="social-media-list">
-          {% if site.twitter %}
-          <li>
-            <a href="https://twitter.com/{{ site.twitter }}">
-              <i class="fa fa-twitter"></i><span class="username">Tweet Me</span>
-            </a>
-          </li>
-          {% endif %}
-          {% if site.facebook %}
-          <li>
-            <a href="https://facebook.com/{{ site.facebook }}">
-              <i class="fa fa-facebook"></i><span class="username">Facebook Me</span>
-            </a>
-          </li>
-          {% endif %}
-          {% if site.linkedin %}
-          <li>
-            <a href="https://www.linkedin.com/in/{{ site.linkedin }}">
-              <i class="fa fa-linkedin"></i><span class="username">Linkedin</span>
-            </a>
-          </li>
-          {% endif %}
-          {% if site.github %}
-          <li>
-            <a href="https://github.com/{{ site.github }}">
-              <i class="fa fa-github"></i><span class="username">Git Me</span>
-            </a>
-          </li>
-          {% endif %}
-        </ul>
+      <div class="column small-12 medium-4 socialmedia">
+        <div class="callout" data-equalizer-watch>
+          <ul class="social-media-list">
+            {% if site.twitter %}
+            <li>
+              <a href="https://twitter.com/{{ site.twitter }}">
+                <i class="fa fa-twitter"></i><span class="username">Tweet Me</span>
+              </a>
+            </li>
+            {% endif %}
+            {% if site.facebook %}
+            <li>
+              <a href="https://facebook.com/{{ site.facebook }}">
+                <i class="fa fa-facebook"></i><span class="username">Facebook Me</span>
+              </a>
+            </li>
+            {% endif %}
+            {% if site.linkedin %}
+            <li>
+              <a href="https://www.linkedin.com/in/{{ site.linkedin }}">
+                <i class="fa fa-linkedin"></i><span class="username">Linkedin</span>
+              </a>
+            </li>
+            {% endif %}
+            {% if site.github %}
+            <li>
+              <a href="https://github.com/{{ site.github }}">
+                <i class="fa fa-github"></i><span class="username">Git Me</span>
+              </a>
+            </li>
+            {% endif %}
+          </ul>
+        </div>
       </div>
 
-      <div class="column small-12 medium-4">
-        <p class="text">This site is built with <a href="https://github.com/jekyll/jekyll">Jekyll</a> and <a href="https://pages.github.com/">hosted on github</a>.</p>
+      <div class="column small-12 medium-4 colophon">
+        <div class="callout" data-equalizer-watch>
+          <p class="text">This site is built with <a href="https://github.com/jekyll/jekyll">Jekyll</a> and <a href="https://pages.github.com/">hosted on github</a>.</p>
+        </div>
       </div>
       <p class="copy column small-12">{{ site.copyright }}</p>
     </div>

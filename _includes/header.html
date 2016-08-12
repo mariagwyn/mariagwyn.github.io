@@ -35,14 +35,50 @@
   <div class="row">
     <div class="small-12 medium-offset-3 column header-primary"><h1><a href="/">Maria Gwyn McDowell, <small>MDiv, PhD</small></a></h1></div>
   </div>
-  <div class="header-secondary">
+  <div class="dumbotron header-secondary">
     <div class="row">
       <div class="small-12 medium-2 medium-offset-1 column header-picture-container">
-      <div class="header-picture">
-        <a href="/"><img src="/assets/images/Maria_McDowell.jpg"></a>
+        <div class="header-picture">
+          <a href="/"><img src="/assets/images/Maria_McDowell.jpg"></a>
+        </div>
       </div>
     </div>
-      
-    </div>
+    {% if page.special == 'home' %}
+      <div class="highlight-1" id="db">
+        <div class="row centered" data-equalizer data-equalize-on="medium" id="header-eq">
+          <div class="column small-12 medium-4 cv">
+            <a href="/cv" class="callout" data-equalizer-watch>
+              <div class="solid"></div>
+              <h2>Curriculum Vitae</h2>
+            </a>
+          </div>
+
+          <div class="column small-12 medium-4 publications">
+            <a href="/publications" class="callout" data-equalizer-watch>
+              <div class="solid"></div>
+              <h2>Publications</h2>
+              <p>Academic (primarily) publications and presentations.</p>
+            </a>
+          </div>
+
+          <div class="column small-12 medium-4 ekklesia" data-equalizer-watch>
+            <a href="/ekklesia" class="callout" data-equalizer-watch>
+              <div class="solid"></div>
+              <h2>Ekklesia</h2>
+              <p>Sermons, church-related articles, educational materials and projects.</p>
+            </a>
+          </div>
+        </div><!-- /row -->
+      </div>
+      <div class="highlight-2" id="y">
+        <div class="row">
+          <div class="column bio">
+            <p>Maria Gwyn McDowell is a scholar with a penchant for ministry, a theologian with an inclination for practice.  She is feminist, a student of liberation theology, a scholar of Eastern Orthodoxy, and a member of <a href="http://www.episcopalchurch.org/" target="_blank">The Episcopal Church</a>.  She received her PhD in Theological Ethics from <a href="http://www.bc.edu/schools/cas/theology/" target="_blank">Boston College</a> and writes on <a href="https://bc.academia.edu/MariaMcDowell" target="_blank">gender, sexuality and women</a> in the Church. She is an irregular lover of God and God's emerging creation, and a fervent heckler of all teams which oppose the <a href="http://www.timbers.com/thornsfc" target="_blank">Rose City Thorns</a>.</p>
+          </div>
+        </div><!-- /row -->
+      </div>
+    {% endif %}
   </div>
+
+<!-- Original -->
 </header>

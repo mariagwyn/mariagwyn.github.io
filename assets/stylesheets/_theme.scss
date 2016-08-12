@@ -14,23 +14,118 @@
 h1, h2 {
   letter-spacing: -1px;
 }
+// Common Classes
+.centered {
+  text-align: center;
+}
 .home h4 {margin: 2rem 0 1rem 0;}
-footer {
-  ul {
-    li {
-      list-style: none;
-    }
+.callout {
+  border-radius: $global-radius;
+}
+.solid {
+  height: 2em;
+  margin: -1em -1em 1em -1em;
+  border-top-left-radius: $global-radius;
+  border-top-right-radius: $global-radius;
+}
+// Layout
+.top-bar {
+  padding-top: 0;
+  a {color: $topbar-link-color;}
+  h1 {font-size: 160%; }
+}
+#top-bar-nav {
+  float:right;
+}
+.menu {
+  a {
+    border-top: .4rem solid transparent;
+  }
+  .active a {
+    border-top: .4rem solid $menu-item-color-active;
   }
 }
-header {
+/**
+ * Dumbotron (fun background image in header and footer)
+ */
+#db, #y {
+  // Reset
+  background: none;
 }
+.dumbotron {
+  background-attachment: fixed;
+  background-image: url(/assets/images/chi.jpg);
+  background-size: cover;
+  border-top: 1px solid $primary-text;
+  border-bottom: 1px solid $primary-text;
+  .highlight-1 {
+    .callout {padding-top: 0;}
+    a {
+      &.callout {
+        display:block;
+      }
+    }
+    p {
+      font-size: 110%;
+      color: $background;
+    }
+  }
+  .highlight-2, #y {
+    background-color: rgba($primary-text, 0.7);
+    color: $background;
+    padding-top: 1em;
+    margin: 1.8em 0 2em 0;
+  }
+  a {
+    color: $background;
+    &:hover {
+      color: $warning-color;
+    }
+  }
+  h2, h3, h4, h5, h6 {
+    color: $background;
+  }
+}
+
+.cv {
+  .solid {
+    background-color: rgba($primary-color, 0.8);
+  }
+  .callout {
+    background-color: rgba($primary-color, 0.5);
+  }
+  &:hover {
+    .callout {background-color: rgba($primary-color, 0.8);}
+  }
+}
+.publications {
+  .solid {
+    background-color: rgba($secondary-color, 0.8);
+  }
+  .callout {
+    background-color: rgba($secondary-color, 0.5);
+  }
+  &:hover {
+    .callout {background-color: rgba($secondary-color, 0.8);}
+  }
+}
+.ekklesia {
+  .solid {
+    background-color: rgba($tertiary, 0.8);
+  }
+  .callout {
+    background-color: rgba($tertiary, 0.5);
+  }
+  &:hover {
+    .callout {background-color: rgba($tertiary, 0.8);}
+  }
+}
+
 .header-primary {
 }
 .header-secondary {
-  background: url(/assets/images/chi.jpg) repeat-x 0% 40%;
-  border-top: 1px solid $primary-text;
-  border-bottom: 1px solid $primary-text;
 }
+// Picture and text in .header-primary
 .header-picture {
   position: relative;
   height: 10rem;
@@ -51,36 +146,39 @@ header {
       border-width: 0 0 1px 0;
     }
   img {
-    border: 0.4rem solid $tertiary;
+    border: 0.4rem solid $background;
     border-radius: 50%;
     height: 10em;
     width: 10em;
     margin-bottom: 1em;
   }
 }
-
-.top-bar {
-  padding-top: 0;
-  a {color: $topbar-link-color;}
-  h1 {font-size: 160%; }
-}
-#top-bar-nav {
-  float:right;
-}
-.menu {
-  a {
-    border-top: .4rem solid transparent;
-  }
-  .active a {
-    border-top: .4rem solid $menu-item-color-active;
+footer {
+  ul {
+    li {
+      list-style: none;
+    }
   }
 }
 .site-footer {
   padding: 1em;
-  background: $secondary-color;
-  color: $white;
   a {
     color: $warning-color;
+  }
+  .contacts {
+    .callout {
+      background-color: rgba($tertiary, 0.8);
+    }
+  }
+  .socialmedia {
+    .callout {
+      background-color: rgba($secondary-color, 0.8);
+    }
+  }
+  .colophon {
+    .callout {
+      background-color: rgba($primary-color, 0.8);
+    }
   }
   .copy {text-align: center;}
 }
@@ -166,108 +264,6 @@ ul.social-media-share {
      }
    }
  }
-//
-// Twitter
-//
-/* Just for looks */
-#latest-tweets {
-  .user, .tweet, .timePosted {
-    float:left;
-  }
-
-  .user {
-    width:25%;
-  }
-
-  .tweet {
-    width:50%;
-  }
-
-  .timePosted {
-    width:15%;
-  }
-
-  .user {
-    clear:left;
-  }
-
-  .user a {
-   width: 100px;
-  }
-
-  .user span span {
-    width:100px;
-    display:block;
-    margin-top:10px;
-  }
-
-  .user img, .user a > span {
-    float:left;
-  }
-
-  .interact {
-    float:left;
-    width:10%;
-    margin-top:-7px;
-  }
-
-  .interact a {
-    margin-left:5px;
-    float:left;
-  }
-
-  .user a > span {
-    margin-left:10px;
-  }
-
-  .media img {
-    max-width:250px;
-    max-height:250px;
-  }
-
-  #linkage {
-    position:fixed;
-    top:0px;
-    right:0px;
-    background-color:#3d3d3d;
-    color:#ffffff;
-    text-decoration:none;
-    padding:5px;
-    width:10%;
-    font-family:arial;
-  }
-
-  .tco-hidden{
-    display: none;
-  }
-}
-
-/* Remove padding, margin, bullets and
-   make sure it's only one line */
-#latest-tweets ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    white-space: nowrap;
-    float: left; /* This makes the ul the full width of the children */
-}
-
-/* Tweets on one line, separated */
-#latest-tweets ul li {
-    display: inline-block;
-    margin: 0 20px 0 0;
-}
-
-#latest-tweets ul li p {
-    margin: 0;
-}
-
-/* Hide some stuff we don't want */
-#latest-tweets ul li div.user,
-#latest-tweets ul li p.timePosted,
-#latest-tweets ul li p.interact {
-}
-
 
 //
 // Responsive settings
