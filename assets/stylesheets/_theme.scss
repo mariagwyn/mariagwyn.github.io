@@ -14,6 +14,7 @@
 h1, h2 {
   letter-spacing: -1px;
 }
+.home h4 {margin: 2rem 0 1rem 0;}
 footer {
   ul {
     li {
@@ -84,7 +85,7 @@ header {
   .copy {text-align: center;}
 }
 .page-body {padding: 2em 0;}
-
+.infoblock {font-size: 90%;}
 /**
  * Icons
  */
@@ -165,6 +166,107 @@ ul.social-media-share {
      }
    }
  }
+//
+// Twitter
+//
+/* Just for looks */
+#latest-tweets {
+  .user, .tweet, .timePosted {
+    float:left;
+  }
+
+  .user {
+    width:25%;
+  }
+
+  .tweet {
+    width:50%;
+  }
+
+  .timePosted {
+    width:15%;
+  }
+
+  .user {
+    clear:left;
+  }
+
+  .user a {
+   width: 100px;
+  }
+
+  .user span span {
+    width:100px;
+    display:block;
+    margin-top:10px;
+  }
+
+  .user img, .user a > span {
+    float:left;
+  }
+
+  .interact {
+    float:left;
+    width:10%;
+    margin-top:-7px;
+  }
+
+  .interact a {
+    margin-left:5px;
+    float:left;
+  }
+
+  .user a > span {
+    margin-left:10px;
+  }
+
+  .media img {
+    max-width:250px;
+    max-height:250px;
+  }
+
+  #linkage {
+    position:fixed;
+    top:0px;
+    right:0px;
+    background-color:#3d3d3d;
+    color:#ffffff;
+    text-decoration:none;
+    padding:5px;
+    width:10%;
+    font-family:arial;
+  }
+
+  .tco-hidden{
+    display: none;
+  }
+}
+
+/* Remove padding, margin, bullets and
+   make sure it's only one line */
+#latest-tweets ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    white-space: nowrap;
+    float: left; /* This makes the ul the full width of the children */
+}
+
+/* Tweets on one line, separated */
+#latest-tweets ul li {
+    display: inline-block;
+    margin: 0 20px 0 0;
+}
+
+#latest-tweets ul li p {
+    margin: 0;
+}
+
+/* Hide some stuff we don't want */
+#latest-tweets ul li div.user,
+#latest-tweets ul li p.timePosted,
+#latest-tweets ul li p.interact {
+}
 
 
 //
