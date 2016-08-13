@@ -274,13 +274,13 @@ ul.social-media-share {
 body {
   @include breakpoint(small down) {
     // All CSS in here goes inside the media query
-    background: aquamarine;
+//    background: aquamarine;
     footer {text-align: center;}
   }
   // Only affects medium screens and larger
   @include breakpoint(medium) {
     // All CSS in here goes inside the media query
-    background: yellow;
+//    background: yellow;
   }
   @include breakpoint(medium down) {
     // All CSS in here goes inside the media query
@@ -292,10 +292,10 @@ body {
   // Only affects medium screens and larger
   @include breakpoint(medium-large) {
     // All CSS in here goes inside the media query
-    background: LawnGreen;
+//    background: LawnGreen;
   }
   @include breakpoint(large) {
     // All CSS in here goes inside the media query
-    background: salmon;
+//    background: salmon;
   }
 }
