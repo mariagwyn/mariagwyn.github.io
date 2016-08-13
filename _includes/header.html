@@ -1,4 +1,9 @@
-<div class="top-bar" data-topbar id="topbar">
+<div class="title-bar" data-responsive-toggle="topbar-menu" data-hide-for="medium">
+  <div class="title-bar-title"></div>
+  <button class="menu-icon" type="button" data-toggle></button>
+</div>
+
+<div class="top-bar" id="topbar-menu">
     {% if site.theme.topbar.left %}
     <div class="top-bar-left">
       <ul class="dropdown menu" data-dropdown-menu>
@@ -33,11 +38,11 @@
 
 <header class="site-header">
   <div class="row">
-    <div class="small-12 medium-offset-3 column header-primary"><h1><a href="/">Maria Gwyn McDowell, <small>MDiv, PhD</small></a></h1></div>
+    <div class="small-8 small-offset-4 large-offset-3 column header-primary"><h1><a href="/">Maria Gwyn McDowell, <small>MDiv, PhD</small></a></h1></div>
   </div>
   <div class="dumbotron header-secondary">
     <div class="row">
-      <div class="small-12 medium-2 medium-offset-1 column header-picture-container">
+      <div class="small-3 small-offset-1 large-2 column header-picture-container">
         <div class="header-picture">
           <a href="/"><img src="/assets/images/Maria_McDowell.jpg"></a>
         </div>
@@ -45,24 +50,24 @@
     </div>
     {% if page.special == 'home' %}
       <div class="highlight-1" id="db">
-        <div class="row centered" data-equalizer data-equalize-on="medium" id="header-eq">
-          <div class="column small-12 medium-4 cv">
-            <a href="/cv" class="callout" data-equalizer-watch>
+        <div class="row centered" data-equalizer="header" data-equalize-on="large" data-equalize-on-stack=false id="header-eq">
+          <div class="column small-12 large-4 cv">
+            <a href="/cv" class="callout" data-equalizer-watch="header">
               <div class="solid"></div>
               <h2>Curriculum Vitae</h2>
             </a>
           </div>
 
-          <div class="column small-12 medium-4 publications">
-            <a href="/publications" class="callout" data-equalizer-watch>
+          <div class="column small-12 medium-6 large-4 publications">
+            <a href="/publications" class="callout" data-equalizer-watch="header">
               <div class="solid"></div>
               <h2>Publications</h2>
               <p>Academic (primarily) publications and presentations.</p>
             </a>
           </div>
 
-          <div class="column small-12 medium-4 ekklesia" data-equalizer-watch>
-            <a href="/ekklesia" class="callout" data-equalizer-watch>
+          <div class="column small-12 medium-6 large-4 ekklesia">
+            <a href="/ekklesia" class="callout" data-equalizer-watch="header">
               <div class="solid"></div>
               <h2>Ekklesia</h2>
               <p>Sermons, church-related articles, educational materials and projects.</p>

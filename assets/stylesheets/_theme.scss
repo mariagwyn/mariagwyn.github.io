@@ -126,10 +126,13 @@ h1, h2 {
 .header-secondary {
 }
 // Picture and text in .header-primary
+.header-picture-container {
+  padding-left: 0;
+}
 .header-picture {
   position: relative;
-  height: 10rem;
-  width: 10rem;
+//  height: 10rem;
+//  width: 10rem;
   border-radius: 50%;
   margin-top: -5.2em;
   margin-bottom: 1em;
@@ -148,13 +151,12 @@ h1, h2 {
   img {
     border: 0.4rem solid $background;
     border-radius: 50%;
-    height: 10em;
-    width: 10em;
-    margin-bottom: 1em;
+    margin-bottom: 1px;
   }
 }
 footer {
   ul {
+    margin-left: 0;
     li {
       list-style: none;
     }
@@ -270,17 +272,30 @@ ul.social-media-share {
 //
 
 body {
+  @include breakpoint(small down) {
+    // All CSS in here goes inside the media query
+    background: aquamarine;
+    footer {text-align: center;}
+  }
   // Only affects medium screens and larger
   @include breakpoint(medium) {
     // All CSS in here goes inside the media query
-//    background: yellow;
+    background: yellow;
   }
-  @include breakpoint(small) {
+  @include breakpoint(medium down) {
     // All CSS in here goes inside the media query
-//    background: aquamarine;
+    .header-picture-container {
+      padding: 0;
+    }
+  }
+
+  // Only affects medium screens and larger
+  @include breakpoint(medium-large) {
+    // All CSS in here goes inside the media query
+    background: LawnGreen;
   }
   @include breakpoint(large) {
     // All CSS in here goes inside the media query
-//    background: salmon;
+    background: salmon;
   }
 }

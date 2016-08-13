@@ -1,7 +1,7 @@
 <footer class="site-footer dumbotron">
-  <div class="row" data-equalizer data-equalize-on="medium" id="footer-eq">
+  <div class="row" data-equalizer="footer" data-equalize-on-stack="false" id="footer-eq">
       <div class="column small-12 medium-4 contacts">
-        <div class="callout" data-equalizer-watch>
+        <div class="callout" data-equalizer-watch="footer">
           <ul class="contact-list">
             <li>{{ site.title }}</li>
             <li class="rss-subscribe">Subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></li>
@@ -10,7 +10,7 @@
         </div>
       </div>
       <div class="column small-12 medium-4 socialmedia">
-        <div class="callout" data-equalizer-watch>
+        <div class="callout" data-equalizer-watch="footer">
           <ul class="social-media-list">
             {% if site.twitter %}
             <li>
@@ -45,7 +45,7 @@
       </div>
 
       <div class="column small-12 medium-4 colophon">
-        <div class="callout" data-equalizer-watch>
+        <div class="callout" data-equalizer-watch="footer">
           <p class="text">This site is built with <a href="https://github.com/jekyll/jekyll">Jekyll</a> and <a href="https://pages.github.com/">hosted on github</a>.</p>
         </div>
       </div>
