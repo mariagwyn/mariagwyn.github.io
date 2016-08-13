@@ -51,7 +51,11 @@ h1, h2 {
   float:right;
 }
 .menu {
-  display:inline-block;
+  @include breakpoint(small only) {
+    &.vertical {
+      display: inline-block;
+    }
+  }
   a {
     border-top: .4rem solid transparent;
   }
