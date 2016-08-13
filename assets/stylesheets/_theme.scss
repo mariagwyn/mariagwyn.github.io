@@ -272,7 +272,7 @@ ul.social-media-share {
 //
 
 body {
-  @include breakpoint(small down) {
+  @include breakpoint(small) {
     // All CSS in here goes inside the media query
 //    background: aquamarine;
     footer {text-align: center;}
