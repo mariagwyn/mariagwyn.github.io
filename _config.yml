@@ -62,8 +62,8 @@ defaults:
       layout: "default"
       author: "Maria Gwyn McDowell"
       base_url: "/"
-# theme
-theme:
+
+theme_settings:
   favicons:
     #- /assets/2014/04/21/favicon-152.png
   topbar:

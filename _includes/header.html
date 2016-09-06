@@ -4,11 +4,11 @@
 </div>
 
 <div class="top-bar" id="topbar-menu">
-    {% if site.theme.topbar.left %}
+    {% if site.theme_settings.topbar.left %}
     <div class="top-bar-left">
       <ul class="dropdown menu" data-dropdown-menu>
         <li class="menu-text"><a href="/">{{ site.title }}</a></li>
-        {% for item in site.theme.topbar.left %}
+        {% for item in site.theme_settings.topbar.left %}
         <li{% if item.class %} class="has-form"{% endif %}>
           <a href="{{ item.url }}" class="{{ item.class }}">{{ item.name }}</a>
         </li>
@@ -17,11 +17,11 @@
     </div>
     {% endif %}
 
-    {% if site.theme.topbar.right %}
+    {% if site.theme_settings.topbar.right %}
     <div class="top-bar-right">
       <div id="top-bar-nav">
       <ul class="menu vertical medium-horizontal">
-      {% for item in site.theme.topbar.right %}
+      {% for item in site.theme_settings.topbar.right %}
       {% if page.url == item.url %}
             <li class="active">
           {% else %}

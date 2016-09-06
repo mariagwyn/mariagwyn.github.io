@@ -40,7 +40,7 @@
       <link rel="stylesheet" type="text/css" href="{{ page.base_url }}assets/stylesheets/individual/{{ page.stylesheet }}.css">
     {% endif %}
     <!-- Foundation Favicons -->
-    {% for favicon in site.theme.favicons %}
+    {% for favicon in site.theme_settings.favicons %}
       {% assign size = favicon | split: '-' | last | split: '.' | first %}
       <link rel="icon"
         sizes="{{ size }}x{{ size }}"
