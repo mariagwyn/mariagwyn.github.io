@@ -20,10 +20,11 @@ description: "An autobiographical essay on growing up a woman with a call to the
   Full Text
 </a>
 <br />
-<a href="http://wipfandstock.com/the-church-has-left-the-building.html" target="_blank">
+<a href="http://wipfandstock.com/the-church-has-left-the-building.html">
   <i class="fa fa-book"></i>
   Purchase the book at Wipf & Stock
 </a>
+
 ### Excerpt
 
 For as long as I can remember, the church has been my building, my home, my *ekklesia*. Its sounds, sights, and smells—no matter where I heard, saw, or smelled them—would assemble themselves around me, as if I were there, as if I were touching its walls, kneeling on its rugs, kissing its icons.
