@@ -5,7 +5,7 @@ layout: default
 <div class="page">
 <div class="pub-info">
   {% if page.pub-link %}
-    <em><a href="{{ page.pub-link }}" target="_blank">{{ page.pub-source }}</a></em>{% if page.pub-volume %}, {{ page.pub-volume }}{% endif %}
+    <em><a href="{{ page.pub-link }}" target="_blank">{{ page.pub-source }}</a></em>{% if page.editor-prefix %}{{ page.editor-prefix }} {% endif %}{% if page.editor %}{{ page.editor }}. {% endif %}{% if page.pub-volume %}, {{ page.pub-volume }}{% endif %}
   {% else %}<em>{{ page.pub-source }}</em>{% endif %}{% if page.pub-volume %}{{ page.pub-volume }}{% endif %}
   <br />
   {% if page.pub-location %}{{ page.pub-location }}{% endif %}{% if page.publisher %}: {{page.publisher}}{% endif %}{% if page.pub-date %}, {{ page.pub-date }}{% endif %}{% if page.pp %}, pp. {{ page.pp}}{% endif %}</p>
@@ -13,7 +13,9 @@ layout: default
 {% if page.image-primary %}
 <div class="post-image">
   <img src="{{ page.image-primary}} " alt="{{ page.image-caption }}">
-  <p>{{ page.image-caption }}</p>
+  {% if page.image-primary %}
+    <p>{{ page.image-caption }}</p>
+  {% endif %}
 </div>
 {% endif %}
 {{ content }}

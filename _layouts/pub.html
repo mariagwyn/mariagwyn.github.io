@@ -4,11 +4,26 @@ layout: default
 <div class="publication">
 <div class="pub-info">
   {% if page.pub-link %}
-    <em><a href="{{ page.pub-link }}" target="_blank">{{ page.pub-source }}</a></em>{% if page.pub-volume %}, {{ page.pub-volume }}{% endif %}
-  {% else %}<em>{{ page.pub-source }}</em>{% endif %}{% if page.pub-volume %}{{ page.pub-volume }}{% endif %}
-  <br />
-  {% if page.pub-location %}{{ page.pub-location }}: {{page.publisher}}, {% endif %}
+    <em><a href="{{ page.pub-link }}" target="_blank">{{ page.pub-source }}</a></em>
+  {% else %}
+  <em>{{ page.pub-source }}</em>{% endif %}
+  {% if page.pub-volume %}<br />{{ page.pub-volume }}{% endif %}
+  {% if page.editor %}<br />
+    {% if page.editor-prefix %}{{ page.editor-prefix }} {% endif %}{{ page.editor }}
+  {% endif %}
+  {% if page.pub-location %}
+    <br />
+    {{ page.pub-location }}: {{page.publisher}},
+  {% endif %}
   {% if page.pub-date %}{{ page.pub-date }}{% endif %}{% if page.pp %}, pp. {{ page.pp}}{% endif %}</p>
 </div>
+{% if page.image-primary %}
+<div class="post-image">
+  <img src="{{ page.image-primary}} " alt="{{ page.image-caption }}">
+  {% if page.image-primary %}
+    <p>{{ page.image-caption }}</p>
+  {% endif %}
+</div>
+{% endif %}
 {{ content }}
 </div>
