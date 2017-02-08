@@ -342,7 +342,7 @@ $abbr-underline: 1px dotted $black !default;
     border-bottom: $hr-border;
     border-left: 0;
     margin: $hr-margin;
-    clear: both;
+    // clear: both;
   }
 
   // Lists

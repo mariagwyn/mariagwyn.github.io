@@ -24,6 +24,11 @@ description: "An autobiographical essay on growing up a woman with a call to the
   <i class="fa fa-book"></i>
   Purchase the book at Wipf & Stock
 </a>
+<br />
+<a href="https://www.amazon.com/Church-Has-Left-Building-Twenty-First/dp/1498239560">
+  <i class="fa fa-amazon"></i>
+  Purchase the book at Amazon
+</a>
 
 ### Excerpt
 

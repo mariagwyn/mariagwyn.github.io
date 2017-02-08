@@ -10,7 +10,7 @@ publisher: "Cascade Books"
 pub-link: http://wipfandstock.com/the-church-has-left-the-building.html
 pub-location: "Eugene, Oregon"
 pub-date: 2016
-image-primary: /assets/images/pubs/bookcover_clb2016.jpg
+image-primary: /assets/images/pubs/bookcover_2016_clb.jpg
 description: "The origin of the phrase 'the church has left the building' lies with Elvis. In order to clear halls of his riotous fans after concerts, it was announced that 'Elvis has left the building.'' Here, the expression highlights intense change within the church. Not only does the church change for its own existence, it also does so for the life of the world. The church cannot avoid the many past and future changes of our constantly transforming society, demographic changes long in process. What you have before you is a gathering of first-hand reflections--stories really--from a diverse group of Christians, lay as well as ordained. While each has a distinctive experience of the church in our time, all of them have something to say about the many changes in our society and how these are affecting our faith, the parish, and pastoral work."
 ---
 
