@@ -18,8 +18,8 @@ special: home
     {% endfor %}
   </div>
   <div id="academia" class="column small-12 medium-large-6">
-  <h2 class="small subheader border">Publications<small class="float-right"><a href="/publications/">See all</a></small></h2>
-  {% for post in site.categories.publication limit: 4 %}
+  <h2 class="small subheader border">Academia<small class="float-right"><a href="/academia/">See all</a></small></h2>
+  {% for post in site.categories.academia limit: 4 %}
     <div class="post-short">
       <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
       <p>{% if post.pub-source %}<em>{{ post.pub-source }}</em><br />{% endif %}{% if post.pub-location %}{{post.pub-location}}: {{post.publisher}}, {% endif %}{{post.pub-date}}</p>

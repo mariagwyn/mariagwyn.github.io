@@ -2,7 +2,11 @@
 layout: pub
 title: "Toward the endless day: the life of Elisabeth Behr-Sigel"
 date: 2010-10-01
-categories: publication
+category:
+- academia
+tags:
+- ordination
+- Orthodoxy
 pub-type: Review
 pub-source: Anglican Theological Review
 journal-link: http://www.anglicantheologicalreview.org/

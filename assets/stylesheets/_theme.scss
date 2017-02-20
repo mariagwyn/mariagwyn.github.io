@@ -130,7 +130,7 @@ h1, h2 {
     .callout {background-color: rgba($primary-color, 0.8);}
   }
 }
-.publications {
+.academia {
   .solid {
     background-color: rgba($secondary-color, 0.8);
   }
@@ -217,17 +217,15 @@ footer {
   .copy {text-align: center;}
 }
 .page-body {padding: 2em 0;}
-.infoblock {font-size: 90%;}
+.infoblock {font-size: 80%;}
 /**
  * Icons
  */
 .fa {
-  padding-right:.5rem;
-  font-size: 1.6rem;
   display: inline-block;
   width: 2rem;
 }
-
+.fa-stack-1x {font-size: 1.2em;}
 ul.social-media-share {
   margin-left: 0;
   li {

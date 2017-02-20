@@ -2,7 +2,12 @@
 layout: pub
 title: "Fragile Repentances"
 date: 2016-12-01
-categories: publication
+category:
+- academia
+tags:
+- Orthodoxy
+- marriage
+- homosexuality
 pub-type: Essay
 pub-source: "‘For I Am Wonderfully Made’: Texts on Eastern Orthodoxy and LGBT Inclusion"
 editor: "Misha Cherniak, Olga Gerassimenko, Michael Brinkscr&ouml;der."

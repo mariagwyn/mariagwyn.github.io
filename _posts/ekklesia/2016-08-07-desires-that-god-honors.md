@@ -2,9 +2,10 @@
 layout: page
 title: "Desires that God Honors"
 date: 2016-08-07
-categories:
+category:
 - ekklesia
-- sermon
+tags:
+- pentecost
 pub-type: Sermon
 pub-location: "St. Paul's Episcopal Church, Oregon City, Oregon"
 pub-date: 08 August, 2016

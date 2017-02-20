@@ -2,9 +2,11 @@
 layout: page
 title: "Justice as Asceticism"
 date: 2004-03-12
-categories:
+category:
 - ekklesia
-- lecture
+tags:
+- ethics
+- asceticism
 pub-type: Lecture
 pub-location: "St. Mary Orthodox Church, Cambridge, MA"
 pub-date: 12 March, 2004

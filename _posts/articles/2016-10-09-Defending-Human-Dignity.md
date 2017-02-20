@@ -2,7 +2,12 @@
 layout: pub
 title: "Defending Human Dignity: A Response to the Pre-Conciliar Document ‘The Mission of the Orthodox Church in Today’s World,’"
 date: 2016-10-09
-categories: publication
+category:
+- academia
+tags:
+- human rights
+- ethics
+- Orthodoxy
 pub-type: Essay
 pub-source: "Toward the Holy and Great Council: Theological Reflections"
 editor: "Fr. Robert M. Arida, Susan Ashbrook Harvey, David Dunn, Maria McDowell, Teva Regule, and Bryce E. Rich."

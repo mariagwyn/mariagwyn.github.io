@@ -2,7 +2,12 @@
 layout: pub
 title: "Seeing Gender: Orthodox Liturgy, Orthodox Personhood"
 date: 2013-10-01
-categories: publication
+category:
+- academia
+tags:
+- ordination
+- gender
+- liturgy
 pub-type: Article
 pub-source: Journal of the Society of Christian Ethics
 journal-link: https://scethics.org/journal

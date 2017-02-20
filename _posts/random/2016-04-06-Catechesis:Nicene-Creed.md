@@ -4,7 +4,10 @@ title: "The Nicene Creed"
 date: 2016-04-06
 categories:
 - ekklesia
-- projects
+tags:
+- theology
+- Nicene Creed
+pub-type: Catechesis
 description: A Creedal Timeline for Catechesis
 image-primary: /projects/nicene-creed/images/Rylands_Nicene_Creed_papyrus.jpg
 image-caption: "Oldest extant manuscript of the Nicene Creed, dated to the 5th Century"

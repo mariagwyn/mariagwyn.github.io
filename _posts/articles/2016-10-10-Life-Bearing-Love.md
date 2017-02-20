@@ -2,7 +2,12 @@
 layout: pub
 title: "Life-Bearing Love: A Too Risky Vision"
 date: 2016-10-09
-categories: publication
+category:
+- academia
+tags:
+- Orthodoxy
+- marriage
+- homosexuality
 pub-type: Essay
 pub-source: "Toward the Holy and Great Council: Theological Reflections"
 editor: "Maria McDowell"

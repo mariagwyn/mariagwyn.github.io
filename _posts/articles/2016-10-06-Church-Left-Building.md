@@ -2,7 +2,10 @@
 layout: pub
 title: "The Church has Left the Building: <br />Faith, Parish, and Ministry in the Twenty-First Century"
 date: 2016-10-01
-categories: publication
+category:
+- academia
+tags:
+- book
 pub-type: "Edited Volume"
 editor: "Michael Plekon, Maria Gwyn McDowell, and Elizabeth Schroeder."
 editor-prefix: "Eds."

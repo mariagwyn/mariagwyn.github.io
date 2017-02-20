@@ -4,7 +4,9 @@ title: "Ambiguity and Mystery: The 'More' of God"
 date: 2003-03-12
 categories:
 - ekklesia
-- lecture
+tags:
+- theology
+- mystery
 pub-type: Lecture
 pub-location: "St. Mary Orthodox Church, Cambridge, MA"
 pub-date: 12 March, 2003

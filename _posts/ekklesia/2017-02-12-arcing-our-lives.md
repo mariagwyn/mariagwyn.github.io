@@ -2,13 +2,14 @@
 layout: page
 title: "Arcing Our Lives"
 date: 2017-02-12
-categories:
+category:
 - ekklesia
-- sermon
+tags:
+- epiphany
 pub-type: Sermon
 pub-location: "St. Michael & All Angels, Portland, Oregon"
 pub-date: 12 February, 2017
-description: A sermon for the sixth week after Epiphany, 2017
+description: A Sermon given on Sunday, the 6th week after Epiphany, 2017
 excerpt: "We are arrows in the quiver of God, shot forth to arc towards justice, mercy, peace, and love. The arc of the universe does not bend itself towards justice. We bend it. We are the universe into which God in Christ enters, and it is our lives, our choice to persistently love one another, to make the beloved community present every day and in every place, that bends the arc of the universe towards justice."
 ---
 **Scripture:**

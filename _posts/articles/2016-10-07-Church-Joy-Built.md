@@ -2,7 +2,12 @@
 layout: pub
 title: "The Home that Joy Built"
 date: 2016-10-07
-categories: publication
+category:
+- academia
+tags:
+- ordination
+- gender
+- autobiographical
 pub-type: Essay
 pub-source: "The Church has Left the Building: Faith, Parish, and Ministry in the Twenty-First Century"
 editor: "Michael Plekon, Maria Gwyn McDowell, and Elizabeth Schroeder."

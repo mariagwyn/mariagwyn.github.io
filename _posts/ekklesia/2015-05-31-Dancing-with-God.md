@@ -2,9 +2,11 @@
 layout: page
 title: "Dancing with God"
 date: 2015-05-31
-categories:
+category:
 - ekklesia
-- sermon
+tags:
+- theology
+- trinity
 pub-type: Sermon
 pub-location: "All Saints Episcopal Church, Portland, Oregon"
 pub-date: 31 May, 2015

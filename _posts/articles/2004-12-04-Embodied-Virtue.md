@@ -2,7 +2,13 @@
 layout: pub
 title: "Embodied Virtue: Male and Female Priests"
 date: 2009-12-04
-categories: publication
+category:
+- academia
+tags:
+- ordination
+- gender
+- liturgy
+- Orthodoxy
 pub-type: Essay
 pub-source: "Women in the Orthodox Church: past roles future paradigms: papers of the Sophia Institute Academic Conference, New York, Dec 4th 2008"
 publisher: "Theotokos Press"

@@ -2,7 +2,11 @@
 layout: pub
 title: "Marriage, Family, and Scripture"
 date: 2016-10-09
-categories: publication
+category:
+- academia
+tags:
+- Orthodoxy
+- marriage
 pub-type: Essay
 pub-source: "Toward the Holy and Great Council: Theological Reflections"
 editor: "Bryce E. Rich, Fr. Robert M. Arida, Susan Ashbrook Harvey, David Dunn, Maria McDowell, and Teva Regule."

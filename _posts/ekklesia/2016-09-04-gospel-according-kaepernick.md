@@ -2,9 +2,10 @@
 layout: page
 title: "The Gospel According to Kaepernick"
 date: 2016-09-04
-categories:
+category:
 - ekklesia
-- sermon
+tags:
+- pentecost
 pub-type: Sermon
 pub-location: "St. Paul's Episcopal Church, Oregon City, Oregon"
 pub-date: 04 September, 2016

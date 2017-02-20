@@ -2,15 +2,16 @@
 layout: page
 title: "Toward Good News"
 date: 2016-05-08
-categories:
+category:
 - ekklesia
-- sermon
+tags:
+- easter
 pub-type: Sermon
 pub-location: "St. Paul Episcopal Church, Oregon City, Oregon"
 pub-date: 08 May, 2016
 image-primary: https://upload.wikimedia.org/wikipedia/commons/f/f9/Mosaic_in_the_Octagonal_Basilica%2C_Philippi_%287272832610%29.jpg
 image-caption: "Mosaic in the Octagonal Basilica, Philippi"
-description: A Sermon given on 08 May, 2016
+description: A Sermon given on Sunday, the 7th week of Easter, 2016
 excerpt: "In Paul's response, we recognize how incomplete our efforts to love others are. We live in a world where sometimes there seems to be no perfectly good choice. In the slave girl, we recognize what it is like to be at the receiving end of perhaps thoughtless good intentions, the receiving end of someone else's help that may be true, but isn't enough, or just isn't what you need. Today we come together bracketed by a leave-taking and a promise, standing exactly where that slave-girl stood two millennia ago. We hope for the completion of what God has started, we wait, we are thirsty (Rev 22:17)."
 ---
 **Scripture:**

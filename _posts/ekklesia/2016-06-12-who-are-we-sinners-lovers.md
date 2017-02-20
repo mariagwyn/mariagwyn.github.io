@@ -2,9 +2,10 @@
 layout: page
 title: "Who are We, Sinners or Lovers?"
 date: 2016-06-12
-categories:
+category:
 - ekklesia
-- sermon
+tags:
+- pentecost
 pub-type: Sermon
 pub-location: "St. Paul's Episcopal Church, Oregon City, Oregon"
 pub-date: 12 June, 2016

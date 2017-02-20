@@ -2,7 +2,13 @@
 layout: pub
 title: "The Iconicity of Priesthood: Male Bodies or Embodied Virtue?"
 date: 2013-08-01
-categories: publication
+category:
+- academia
+tags:
+- ordination
+- gender
+- virtue
+- patristics
 pub-type: Article
 pub-source: Studies in Christian Ethics
 journal-link: http://sce.sagepub.com/
