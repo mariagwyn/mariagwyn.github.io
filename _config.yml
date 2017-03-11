@@ -53,6 +53,9 @@ sass:
   # expanded
   # compact
   # compressed
+collections:
+  category:
+    output: true
 
 defaults:
   -
@@ -82,3 +85,7 @@ theme_settings:
       - name: Repository
         url: https://github.com/mariagwyn
         # class: small button
+gems:
+  - jekyll-sitemap
+  - jekyll-redirect-from
+include: ["_pages"]

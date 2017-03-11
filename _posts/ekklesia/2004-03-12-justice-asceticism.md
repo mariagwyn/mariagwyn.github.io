@@ -4,6 +4,7 @@ title: "Justice as Asceticism"
 date: 2004-03-12
 category:
 - ekklesia
+- lecture
 tags:
 - ethics
 - asceticism

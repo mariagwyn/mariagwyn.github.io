@@ -1,0 +1,21 @@
+<ul class="no-bullet pub-categories">
+{% assign tags_list = page.categories %}
+  {% if tags_list.first[0] == null %}
+    {% for tag in tags_list %}
+      <li>
+        <a href="{{ tag | absolute_url }}">
+          <span class="fa-stack fa-lg">
+            <i class="fa fa-circle fa-stack-2x"></i>
+            <i class="fa fa-tag fa-stack-1x fa-inverse fa-rotate-90"></i>
+          </span>
+          {{ tag | capitalize }}
+        </a>
+      </li>
+    {% endfor %}
+  {% else %}
+    {% for tag in tags_list %}
+      <li><a href="#{{ tag[0] }}">{{ tag[0] | capitalize }} <span>{{ tag[1].size }}</span></a></li>
+    {% endfor %}
+  {% endif %}
+{% assign tags_list = nil %}
+</ul>

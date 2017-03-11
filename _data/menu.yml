@@ -1,0 +1,15 @@
+docs_list_title: Menu
+menu:
+
+- name: About
+  url: /about/
+- name: Ekklesia
+  url:  /ekklesia/
+- name: Academia
+  url: /academia/
+- name: CV
+  url: /cv/
+- name: 'Archive'
+  url:  /archive/
+- name: Repository
+  url: https://github.com/mariagwyn

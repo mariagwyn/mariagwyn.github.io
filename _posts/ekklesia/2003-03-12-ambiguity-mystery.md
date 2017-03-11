@@ -4,6 +4,7 @@ title: "Ambiguity and Mystery: The 'More' of God"
 date: 2003-03-12
 categories:
 - ekklesia
+- lecture
 tags:
 - theology
 - mystery

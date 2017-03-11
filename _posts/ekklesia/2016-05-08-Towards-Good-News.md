@@ -4,6 +4,7 @@ title: "Toward Good News"
 date: 2016-05-08
 category:
 - ekklesia
+- sermon
 tags:
 - easter
 pub-type: Sermon

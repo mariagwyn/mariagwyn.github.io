@@ -1,0 +1,28 @@
+---
+layout: default
+type: archive
+---
+
+<div class="archive-description">
+  <h4>{{ content }}</h4>
+</div>
+
+<div class="wrap archive">
+{% if site.categories[page.category] %}
+  <div class="row small-up-1 medium-up-2 large-up-3">
+    {% for post in site.categories[page.category] %}
+      <div class="column">
+        <h3><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></h3>
+        <time>
+          <span class="month">{{ post.date | date: "%b" }}</span>
+          <span class="day">{{ post.date | date: "%d" }}</span>
+          <span class="year">{{ post.date | date: "%Y" }}</span>
+        </time>
+        <p>{{ post.pub-location }}</p>
+      </div>
+    {% endfor %}
+  </div>
+{% else %}
+  <p>There are no posts in this category.</p>
+{% endif %}
+</div>

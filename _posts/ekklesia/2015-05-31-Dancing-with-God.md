@@ -4,6 +4,7 @@ title: "Dancing with God"
 date: 2015-05-31
 category:
 - ekklesia
+- sermon
 tags:
 - theology
 - trinity

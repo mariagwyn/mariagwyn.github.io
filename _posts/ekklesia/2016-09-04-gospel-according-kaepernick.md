@@ -4,6 +4,7 @@ title: "The Gospel According to Kaepernick"
 date: 2016-09-04
 category:
 - ekklesia
+- sermon
 tags:
 - pentecost
 pub-type: Sermon

@@ -4,14 +4,15 @@ title: "Basics of Faith: The Image of God"
 date: 2017-02-19
 category:
 - ekklesia
+- catechesis
 tags:
 - image of God
 - theology
-pub-type: Presentation
+pub-type: Catechesis
 pub-location: "St. Michael & All Angels, Portland, Oregon"
 pub-date: 19 February, 2017
-description: "Part of a series on the Basics of the Faith, this session discussed the Image of God."
-excerpt: "Tradition holds, that every human being is in the image of God, but it does not define exactly in what this image consists. Epiphanius of Salamas"
+description: "Part 1 of a series on the Basics of the Faith, the Image of God."
+excerpt: "Tradition holds, that every human being is in the image of God, but it does not define exactly in what this image consists. --Epiphanius of Salamas"
 
 ---
 <div class="flex-video">

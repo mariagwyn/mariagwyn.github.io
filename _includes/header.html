@@ -3,6 +3,7 @@
   <button class="menu-icon" type="button" data-toggle></button>
 </div>
 
+<div data-sticky-container>
 <div class="top-bar" id="topbar-menu">
     {% if site.theme_settings.topbar.left %}
     <div class="top-bar-left">
@@ -17,23 +18,31 @@
     </div>
     {% endif %}
 
-    {% if site.theme_settings.topbar.right %}
     <div class="top-bar-right">
       <div id="top-bar-nav">
-      <ul class="menu vertical medium-horizontal">
-      {% for item in site.theme_settings.topbar.right %}
+      <ul class="dropdown menu" data-dropdown-menu>
+      {% for item in site.data.menu.menu %}
       {% if page.url == item.url %}
-            <li class="active">
+        <li class="active">
           {% else %}
-            <li>
+        <li>
           {% endif %}
-          <a href="{{ item.url }}" class="{{ item.class }}">{{ item.name }}</a>
-        </li>
-      {% endfor %}
-      </ul>
+            <a href="{{ item.url }}" class="{{ item.class }}">{{ item.name }}</a>
+            {% if item.subitems != null %}
+            <ul class="">
+            {% for subentry in item.subitems %}
+              <li>
+                <a href="{{ subentry.url }}" class="{{ subentry.class }}">{{ subentry.name }}</a>
+              </li>
+            {% endfor %}
+            </ul>
+            {% endif %}
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
     </div>
-    </div>
-    {% endif %}
+</div>
 </div>
 
 <header class="site-header">

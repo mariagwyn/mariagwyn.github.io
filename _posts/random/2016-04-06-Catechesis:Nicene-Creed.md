@@ -4,6 +4,7 @@ title: "The Nicene Creed"
 date: 2016-04-06
 categories:
 - ekklesia
+- catechesis
 tags:
 - theology
 - Nicene Creed

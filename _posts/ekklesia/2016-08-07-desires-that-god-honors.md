@@ -4,6 +4,7 @@ title: "Desires that God Honors"
 date: 2016-08-07
 category:
 - ekklesia
+- sermon
 tags:
 - pentecost
 pub-type: Sermon
