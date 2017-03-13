@@ -4,6 +4,7 @@
 </div>
 
 <div data-sticky-container>
+
 <div class="top-bar" id="topbar-menu">
     {% if site.theme_settings.topbar.left %}
     <div class="top-bar-left">
@@ -20,7 +21,7 @@
 
     <div class="top-bar-right">
       <div id="top-bar-nav">
-      <ul class="dropdown menu" data-dropdown-menu>
+      <ul class="dropdown menu vertical medium-horizontal" data-dropdown-menu>
       {% for item in site.data.menu.menu %}
       {% if page.url == item.url %}
         <li class="active">
