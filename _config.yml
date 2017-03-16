@@ -36,20 +36,22 @@ port:               9002
 url:                http://mariagwyn.com
 
 # exclude this stuff when building the static site
-exclude:            [
-                      '.gitignore',
-                      'README.md',
-                      'Gemfile',
-                      'Gemfile.lock'
-                    ]
-
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - CNAME
+  - assets/_dev
+  - gulpfile.js
+  - node_modules
+  - package.json
 
 # Assets
 # We specify the directory for Jekyll so we can use @imports.
 sass:
   sass_dir:          ./assets/_dev/scss
   style:            :expanded
-  sourcemap:        true
   # nested
   # expanded
   # compact

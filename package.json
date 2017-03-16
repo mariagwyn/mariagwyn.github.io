@@ -1,0 +1,29 @@
+{
+  "name": "mariagwyn-jekyll",
+  "version": "1.0.0",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-connect": "^2.3.1",
+    "gulp-clean-css": "^3.0.3",
+    "gulp-plumber": "^1.0.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-util": "^3.0.7",
+    "gulp-sass-lint": "^1.1.1",
+    "gulp-shell": "^0.5.2",
+    "gulp-size": "^2.1.0",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-concat": "^2.5.2",
+    "js-yaml": "^3.4.6",
+    "node-sass-import-once": "^1.2.0",
+    "rimraf": "*"
+  },
+  "scripts": {
+    "start": "gulp",
+    "build": "gulp build",
+    "watch": "gulp watch",
+    "postinstall": "node_modules/.bin/rimraf node_modules/**/*.info"
+  },
+  "private": true
+}

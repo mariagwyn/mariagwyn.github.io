@@ -4,17 +4,17 @@
 
 // We use these as default colors throughout
 $foundation-palette: (
-  primary: #4A7BAD,
-  secondary: #77931A,
-  tertiary: #7D1E19,
+  primary: #4a7bad,
+  secondary: #77931a,
+  tertiary: #7d1e19,
   background: #fff,
-  success: #4A7BAD,
-  warning: #F6B241,
+  success: #4a7bad,
+  warning: #f6B241,
   alert: #ec5840,
 );
-$primary-text: #301B11;
+$primary-text: #301b11;
 $primary-text-something: lighten($primary-text, 70%);
-$primary-text-light: #C5B9A9;
+$primary-text-light: #c5B9a9;
 $primary-color-light: lighten(map-get($foundation-palette, primary), 20%);
 $primary-color-dark: darken(map-get($foundation-palette, primary), 25%);
 $tertiary: map-get($foundation-palette, tertiary);
@@ -46,11 +46,11 @@ $grid-column-gutter: (
 // Base Typography
 // ------------------
 
-@import url(https://fonts.googleapis.com/css?family=Merriweather:400,400italic,700);
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
-@import url(https://fonts.googleapis.com/css?family=Forum);
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400,400italic,700');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+@import url('https://fonts.googleapis.com/css?family=Forum');
 $sans-serif: 'Open Sans', 'Lucida Grande', Myriad, sans-serif;
-$serif: Baskerville, "Sorts Mill Goudy", Georgia, serif;
+$serif: Baskerville, 'Sorts Mill Goudy', Georgia, serif;
 //$serif: 'Merriweather', Georgia, serif;
 $body-font-family: $sans-serif !default;
 $body-font-color: $primary-text;
@@ -110,10 +110,10 @@ $callout-font-color-alt: $body-background;
 
 $menu-margin: 0;
 $menu-margin-nested: 1rem;
-$menu-item-padding: 0.7rem 1rem;
+$menu-item-padding: .7rem 1rem;
 $menu-item-color-active: darken(map-get($foundation-palette, secondary), 9%);
 $menu-item-background-active: none;
-$menu-icon-spacing: 0.25rem;
+$menu-icon-spacing: .25rem;
 
 // 34. Title Bar
 // -------------
@@ -130,4 +130,4 @@ $color-active: map-get($foundation-palette, alert);
 $color-icon-active: map-get($foundation-palette, warning);
 $bg-hover: map-get($foundation-palette, warning);
 // ChiRo background
-$background-image: url(../images/chi.jpg);
+$background-image: url('../images/chi.jpg');
