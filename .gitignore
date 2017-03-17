@@ -1,5 +1,5 @@
+/* Exclude Jekyll Build */
 public*
-.sass-cache
 
 .DS_Store
 
@@ -9,3 +9,7 @@ test*
 /* Don't commit Dev packages */
 assets/_dev/bower_components
 node_modules
+
+/* Exclude Caching */
+.sass-cache
+.jekyll-metadata
