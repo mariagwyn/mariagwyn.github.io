@@ -1,5 +1,11 @@
 Notes:
 
+@TODO:
+- Add image optimization
+- Break out gulp tasks into files.
+- Get dropdown menu to work properly.
+- Add page fading on clicks to internal links.
+
 Other Foundation JS to add in if necessary:
 
 - "assets/_dev/bower_components/jquery/dist/jquery.js"
