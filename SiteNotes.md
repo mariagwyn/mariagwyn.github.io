@@ -1,20 +1,22 @@
 Notes:
 
 @TODO:
-- Add image optimization
 - Break out gulp tasks into files.
 - Get dropdown menu to work properly.
 - Add page fading on clicks to internal links.
+- Update foundation _settings.scss override file.
+- Explain _dev/assets structure.
 
-Other Foundation JS to add in if necessary:
+##### Other Foundation JS to add in if necessary:
 
 - "assets/_dev/bower_components/jquery/dist/jquery.js"
 - "assets/_dev/bower_components/what-input/dist/what-input.js"
-# Core Foundation files
+
+##### Core Foundation files
 - "assets/_dev/bower_components/foundation-sites/js/foundation.core.js"
 - "assets/_dev/bower_components/foundation-sites/js/foundation.util.*.js"
-# Individual Foundation components
-# If you aren't using a component, just remove it from the list
+
+##### Individual Foundation components
 - "assets/_dev/bower_components/foundation-sites/js/foundation.abide.js"
 - "assets/_dev/bower_components/foundation-sites/js/foundation.accordion.js"
 - "assets/_dev/bower_components/foundation-sites/js/foundation.accordionMenu.js"

@@ -10,20 +10,32 @@
 // Import our global variables first so we can use
 // them in Foundations's variables file
 
-// Global Config Variables
-@import 'base/config';
+// Global Variables imported before Foundation foundation/settings can use them.
+@import 'utilities/variables';
 
 // Foundation 6
 @import 'foundation/foundation';
 
-//
-// Fonts
-// --------------------------------------------------
-@import '../bower_components/font-awesome/scss/font-awesome';
+// Utilities
+//@import 'utilities/functions';
+//@import 'utilities/mixins';
 
-// Google fonts
-//@import url(https://fonts.googleapis.com/css?family=Muli:400,300,300italic);
+// Base
+//@import 'base/reset';
+//@import 'base/base';
+@import 'base/typography';
+@import 'base/base';
 
-// Custom theme files
-//@import 'base';
-@import 'theme';
+// Layout
+@import 'layout/header';
+@import 'layout/topbar';
+@import 'layout/navigation';
+@import 'layout/content';
+@import 'layout/footer';
+@import 'layout/responsive';
+
+// Components
+@import 'components/dumbotron';
+@import 'components/feeds';
+@import 'components/blocks';
+@import 'components/posts';

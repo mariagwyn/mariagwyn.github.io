@@ -1,0 +1,40 @@
+// Dumbotron (fun background image in header and footer)
+
+.dumbotron {
+  background-attachment: fixed;
+  background-image: url('/assets/images/chi.jpg');
+  background-size: cover;
+  border-bottom: 1px solid $primary-text;
+  border-top: 1px solid $primary-text;
+
+  .highlight-1 {
+
+    .callout {padding-top: 0;}
+
+    a {
+      &.callout {
+        display: block;
+      }
+    }
+
+    p {
+      color: $background;
+      font-size: 110%;
+    }
+  }
+
+  .highlight-2 {
+    background-color: rgba($primary-text, .7);
+    color: $background;
+    margin: 1.8em 0 2em;
+    padding-top: 1em;
+  }
+
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: $background;
+  }
+}

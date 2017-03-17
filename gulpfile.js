@@ -1,18 +1,19 @@
 // Require all the things
 const gulp = require('gulp'),
-      sass = require('gulp-sass'),
-      gutil = require('gulp-util'),
-      plumber = require('gulp-plumber'),
-      rename = require('gulp-rename'),
-      minifyCSS = require('gulp-clean-css'),
-      prefixer = require('gulp-autoprefixer'),
-      connect = require('gulp-connect');
-      cp = require('child_process');
-      sassLint = require('gulp-sass-lint');
-      sourcemaps = require('gulp-sourcemaps');
-      concat = require('gulp-concat');
-      yaml = require('js-yaml');
-      fs = require('fs');
+  concat = require('gulp-concat'),
+  sass = require('gulp-sass'),
+  gutil = require('gulp-util'),
+  plumber = require('gulp-plumber'),
+  rename = require('gulp-rename'),
+  minifyCSS = require('gulp-clean-css'),
+  prefixer = require('gulp-autoprefixer'),
+  connect = require('gulp-connect'),
+  cp = require('child_process'),
+  sassLint = require('gulp-sass-lint'),
+  sourcemaps = require('gulp-sourcemaps'),
+  yaml = require('js-yaml'),
+  fs = require('fs'),
+  imagemin = require('gulp-imagemin');
 
 // Set the path variables
 const base_path = './',
@@ -21,8 +22,11 @@ const base_path = './',
       paths = {
           js: src + '/js/*.js',
           scss: [ src +'/scss/*.scss',
-                  src +'/scss/**/* .scss',
+                  src +'/scss/**/*.scss',
                   src +'/scss/**/**/*.scss'],
+          img:  [ src + '/imgs/*.jpg',
+                  src + '/imgs/*/*.*',
+                  src + '/imgs/*/*/*.*'],
           jekyll: ['index.html', '_posts/*', '_layouts/*', '_includes/*' , 'assets/*', 'assets/**/*']
       };
 
@@ -41,7 +45,6 @@ gulp.task('sass-lint', () => {
     .pipe(sassLint.failOnError())
 });
 
-
 // Compile sass to css
 gulp.task('compile-sass', () => {
   return gulp.src(paths.scss)
@@ -49,6 +52,7 @@ gulp.task('compile-sass', () => {
         gutil.log(gutil.colors.red(error.message));
         gulp.task('compile-sass').emit('end');
     }))
+    .pipe(sourcemaps.init())
     .pipe(sass())
     .pipe(prefixer('last 3 versions', 'ie 9'))
     .pipe(minifyCSS())
@@ -62,6 +66,12 @@ gulp.task('combine-js', () => {
     .pipe(sourcemaps.init())
     .pipe(concat('app.js'))
     .pipe(gulp.dest(dist + '/js'));
+});
+
+gulp.task('optimize-images', () => {
+  return gulp.src(paths.img)
+    .pipe(imagemin())
+    .pipe(gulp.dest(dist + '/images'));
 });
 
 // Rebuild Jekyll
@@ -81,9 +91,12 @@ gulp.task('server', () => {
 
 // Watch files
 gulp.task('watch', () => {
+  gulp.watch(paths.scss, ['sass-lint']);
   gulp.watch(paths.scss, ['compile-sass']);
+  gulp.watch(paths.js, ['combine-js']);
+  gulp.watch(paths.imgs, ['optimize-images']);
   gulp.watch(paths.jekyll, ['build-jekyll']);
 });
 
 // Start Everything with the default task
-gulp.task('default', [ 'compile-sass', 'combine-js', 'build-jekyll', 'server', 'watch' ]);
+gulp.task('default', [ 'sass-lint', 'compile-sass', 'combine-js', 'optimize-images', 'build-jekyll', 'server', 'watch' ]);

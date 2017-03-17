@@ -1,5 +1,6 @@
 //
-// Foundation-Jekyll - Override variables
+// Foundation-Jekyll - Override variables.
+// Add variables you want to use within Foundation settings to base/variables.
 //
 
 // We use these as default colors throughout
@@ -9,12 +10,12 @@ $foundation-palette: (
   tertiary: #7d1e19,
   background: #fff,
   success: #4a7bad,
-  warning: #f6B241,
+  warning: #f6b241,
   alert: #ec5840,
 );
 $primary-text: #301b11;
 $primary-text-something: lighten($primary-text, 70%);
-$primary-text-light: #c5B9a9;
+$primary-text-light: #c5b9a9;
 $primary-color-light: lighten(map-get($foundation-palette, primary), 20%);
 $primary-color-dark: darken(map-get($foundation-palette, primary), 25%);
 $tertiary: map-get($foundation-palette, tertiary);

@@ -1,0 +1,12 @@
+// Responsive settings
+
+body {
+  @include breakpoint(small) {
+    footer {text-align: center;}
+  }
+  @include breakpoint(medium down) {
+    .header-picture-container {
+      padding: 0;
+    }
+  }
+}

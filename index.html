@@ -5,57 +5,59 @@ special: home
 ---
 
 <div class="home">
-  <div class="row">
-    <div id="cv" class="cvresume column small-12 medium-large-6">
+  <div class="row cvresume">
+    <div class="cv column small-12 medium-large-6">
       <h2><a href="/assets/documents/McDowell-CV.pdf"><i class="fa fa-file-pdf-o fa-1x"></i>Curriculum Vitae</a></h2>
     </div>
-    <div id="resume" class="cvresume column small-12 medium-large-6">
+    <div class="resume column small-12 medium-large-6">
       <h2><a href="/assets/documents/McDowell-Resume-Ekklesia_web.pdf"><i class="fa fa-file-pdf-o fa-1x"></i>Resume (Ekklesia)</a></h2>
     </div>
-</div>
-<div class="row">
-  <div id="ekklesia" class="column small-12 medium-large-6">
-    <h2 class="small subheader border">Ekklesia<small class="float-right"><a href="/ekklesia/">See all</a></small></h2>
-    {% for post in site.categories.ekklesia limit: 4 %}
-    <div class="post-short">
-      <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-      <small>{{ post.date | date: '%F' }}</small>
-      <p>{{ post.description }}</p>
+  </div>
+  <div class="row">
+    <div id="ekklesia" class="column small-12 medium-large-6">
+      <h2 class="small subheader border">Ekklesia<small class="float-right"><a href="/ekklesia/">See all</a></small></h2>
+      {% for post in site.categories.ekklesia limit: 4 %}
+      <div class="post-short">
+        <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+        <small>{{ post.date | date: '%F' }}</small>
+        <p>{{ post.description }}</p>
+      </div>
+      {% endfor %}
     </div>
+    <div id="academia" class="column small-12 medium-large-6">
+    <h2 class="small subheader border">Academia<small class="float-right"><a href="/academia/">See all</a></small></h2>
+    {% for post in site.categories.academia limit: 4 %}
+      <div class="post-short">
+        <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+        <p>{% if post.pub-source %}<em>{{ post.pub-source }}</em><br />{% endif %}{% if post.pub-location %}{{post.pub-location}}: {{post.publisher}}, {% endif %}{{post.pub-date}}</p>
+      </div>
     {% endfor %}
-  </div>
-  <div id="academia" class="column small-12 medium-large-6">
-  <h2 class="small subheader border">Academia<small class="float-right"><a href="/academia/">See all</a></small></h2>
-  {% for post in site.categories.academia limit: 4 %}
-    <div class="post-short">
-      <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-      <p>{% if post.pub-source %}<em>{{ post.pub-source }}</em><br />{% endif %}{% if post.pub-location %}{{post.pub-location}}: {{post.publisher}}, {% endif %}{{post.pub-date}}</p>
     </div>
-  {% endfor %}
   </div>
-</div>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.8.4/moment.min.js"></script>
-<script src="{{ page.base_url }}assets/javascripts/jquery.rss.js"></script>
-<script>
-  jQuery(function($) {
-    $("#wit-feed").rss("https://womenintheology.org/author/mariagwyn/feed",
-    {
-      limit: 6,
-      dateFormat: 'D MMM, YYYY',
-      layoutTemplate: "{entries}",
-      entryTemplate:'<div class="feed-item column"><h5><a href="{url}" target="_blank">{title}</a></h5><div class="thumb medium-4"><img src="{teaserImageUrl}"></div><small>{date}</small><br/>{shortBody}... <br/><a href="{url}" target="_blank" class="readmore">read more ››</a></div>'
-    }),
-    $("#deip-feed").rss("http://deiprofundis.org/feed",
-    {
-      limit: 3,
-      dateFormat: 'D MMM, YYYY',
-      layoutTemplate: "{entries}",
-      entryTemplate:'<div class="feed-item column"><h5><a href="{url}" target="_blank">{title}</a></h5><small>{date}</small><br/>{shortBody}... <br/><a href="{url}" target="_blank" class="readmore">read more ››</a></div>'
-    })
-  })
-</script>
-<h4>Recent <a href="http://womenintheology.org" target="_blank">WIT</a> Posts</h4>
-<div id="wit-feed" class="row small-up-1 medium-large-up-2 large-up-3"></div>
-<h4>Recent <a href="http://deiprofundis.org" target="_blank">DeiProfundis</a> Posts</h4>
-<div id="deip-feed" class="row small-up-1 medium-large-up-2 large-up-3"></div>
+  <div class="row">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.8.4/moment.min.js"></script>
+    <script src="{{ page.base_url }}assets/js/jquery.rss.js"></script>
+      <script>
+      jQuery(function($) {
+        $("#wit-feed").rss("https://womenintheology.org/author/mariagwyn/feed",
+        {
+          limit: 6,
+          dateFormat: 'D MMM, YYYY',
+          layoutTemplate: "{entries}",
+          entryTemplate:'<div class="feed-item column"><h5><a href="{url}" target="_blank">{title}</a></h5><div class="thumb medium-4"><img src="{teaserImageUrl}"></div><small>{date}</small><br/>{shortBody}... <br/><a href="{url}" target="_blank" class="readmore">read more ››</a></div>'
+        }),
+        $("#deip-feed").rss("http://deiprofundis.org/feed",
+        {
+          limit: 3,
+          dateFormat: 'D MMM, YYYY',
+          layoutTemplate: "{entries}",
+          entryTemplate:'<div class="feed-item column"><h5><a href="{url}" target="_blank">{title}</a></h5><small>{date}</small><br/>{shortBody}... <br/><a href="{url}" target="_blank" class="readmore">read more ››</a></div>'
+        })
+      })
+    </script>
+    <h4 class="feed-title">Recent <a href="http://womenintheology.org" target="_blank">WIT</a> Posts</h4>
+    <div id="wit-feed" class="wit row small-up-1 medium-large-up-2 large-up-3"></div>
+    <h4 class="feed-title">Recent <a href="http://deiprofundis.org" target="_blank">DeiProfundis</a> Posts</h4>
+    <div id="deip-feed" class="deip row small-up-1 medium-large-up-2 large-up-3"></div>
+  </div>
 </div>
