@@ -1,3 +1,17 @@
+# Build Settings read by Jekyll.
+# Change paths, css/js includes, UnCSS settings, etc. here.
+
+# UnCSS will use these settings
+UNCSS_OPTIONS:
+  html:
+    - "index.html"
+    - "_includes/*.html"
+    - "_layouts/*.html"
+    - "http://mariagwyn.com"
+  ignore:
+    - !!js/regexp .foundation-mq
+    - !!js/regexp ^\.is-.*
+
 # Gulp will reference these paths when it copies files
 INCLUDE:
   # Paths to JavaScript libraries, which are combined into one file

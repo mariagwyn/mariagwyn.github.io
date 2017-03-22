@@ -1,19 +1,20 @@
 // Require all the things
 const gulp = require('gulp'),
   concat = require('gulp-concat'),
-  sass = require('gulp-sass'),
-  gutil = require('gulp-util'),
-  plumber = require('gulp-plumber'),
-  rename = require('gulp-rename'),
-  minifyCSS = require('gulp-clean-css'),
-  prefixer = require('gulp-autoprefixer'),
   connect = require('gulp-connect'),
   cp = require('child_process'),
+  fs = require('fs'),
+  gutil = require('gulp-util'),
+  imagemin = require('gulp-imagemin'),
+  minifyCSS = require('gulp-clean-css'),
+  plumber = require('gulp-plumber'),
+  prefixer = require('gulp-autoprefixer'),
+  rename = require('gulp-rename'),
+  sass = require('gulp-sass'),
   sassLint = require('gulp-sass-lint'),
   sourcemaps = require('gulp-sourcemaps'),
-  yaml = require('js-yaml'),
-  fs = require('fs'),
-  imagemin = require('gulp-imagemin');
+  uncss = require('gulp-uncss'),
+  yaml = require('js-yaml');
 
 // Set the path variables
 const base_path = './',
@@ -31,9 +32,9 @@ const base_path = './',
       };
 
 // Load settings from settings.yml
-const { INCLUDE } = loadConfig();
+const { INCLUDE, UNCSS_OPTIONS } = loadConfig();
 function loadConfig() {
-  let ymlFile = fs.readFileSync(src + '/includepaths.yml', 'utf8');
+  let ymlFile = fs.readFileSync(src + '/build_settings.yml', 'utf8');
   return yaml.load(ymlFile);
 }
 
@@ -58,6 +59,13 @@ gulp.task('compile-sass', () => {
     .pipe(minifyCSS())
     .pipe(rename({dirname: dist + '/css'}))
     .pipe(gulp.dest('./'));
+});
+
+// UnCSS.
+gulp.task('uncss', () => {
+    return gulp.src(dist + '/css/style.css')
+    .pipe(uncss(UNCSS_OPTIONS))
+    .pipe(gulp.dest(dist + '/css/'));
 });
 
 // Combine JavaScript into one file
@@ -93,10 +101,11 @@ gulp.task('server', () => {
 gulp.task('watch', () => {
   gulp.watch(paths.scss, ['sass-lint']);
   gulp.watch(paths.scss, ['compile-sass']);
+  gulp.watch(paths.scss, ['uncss']);
   gulp.watch(paths.js, ['combine-js']);
   gulp.watch(paths.imgs, ['optimize-images']);
   gulp.watch(paths.jekyll, ['build-jekyll']);
 });
 
 // Start Everything with the default task
-gulp.task('default', [ 'sass-lint', 'compile-sass', 'combine-js', 'optimize-images', 'build-jekyll', 'server', 'watch' ]);
+gulp.task('default', [ 'sass-lint', 'compile-sass', 'uncss', 'combine-js', 'optimize-images', 'build-jekyll', 'server', 'watch' ]);
