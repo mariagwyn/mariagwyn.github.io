@@ -1,0 +1,17 @@
+<ul class="no-bullet secondary-menu">
+{% assign tags_list = page.secondary-menu %}
+  {% if tags_list.first[0] == null %}
+    {% for tag in tags_list %}
+      <li>
+        <a href="{{page.permalink}}{{ tag }}">
+          {{ tag | capitalize }}
+        </a>
+      </li>
+    {% endfor %}
+  {% else %}
+    {% for tag in tags_list %}
+      <li><a href="#{{ tag[0] }}">{{ tag[0] | capitalize }} <span>{{ tag[1].size }}</span></a></li>
+    {% endfor %}
+  {% endif %}
+{% assign tags_list = nil %}
+</ul>

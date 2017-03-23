@@ -24,3 +24,9 @@ $ npm install
 ```npm install``` adds Gulp and its packages.
 
 Referenced files: ```package.json``` and ```gulpfile.js```.
+
+## Structure:
+For the most part, the site follows a typical Jekyll structure. However, the theme utilizes Zurb Foundation, and the builds are through Gulp rather than Jekyll. This allows for various optimizations, automated tasks, etc.
+
+### assets and assets/_dev
+The ```assets``` directory holds all the images, css, fonts, js and documents which will be included in the Jekyll build. Within ```assets```, the ```_dev``` folder holds all the unprocessed SCSS, JS, Foundation and image files. Running the install tasks above should build the required bower and node_modules folders.
