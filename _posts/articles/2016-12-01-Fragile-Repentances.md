@@ -24,6 +24,11 @@ description: "An invited essay on being LGBTQ and Orthodoxy."
   Full Text
 </a>
 <br />
+<a href="https://www.amazon.com/Am-Wonderfully-Made-Orthodoxy-Inclusion/dp/908883024X">
+  <i class="fa fa-amazon"></i>
+  Purchase the book at Amazon
+</a>
+<br />
 <a href="https://womenintheology.org/2013/11/19/fragile-repentances/">
   <i class="fa fa-file-text-o"></i>
   Originally published on Women in Theology.
