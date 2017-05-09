@@ -20,7 +20,7 @@ excerpt: "In the Risen Christ we see that even death does not have the last word
 <li><a href="http://bible.oremus.org/?ql=359983393">John 20:19-31</a></li>
 </ul>
 
-<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/319766310&amp;color=00cc11&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
+<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/321626981&amp;color=00cc11&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
 
 When I was in college, my Christian friends and I spent a lot of time examining our family or relationship issues. We were trying to fix them on the assumption that somehow divorce or abuse or loneliness broke you. We spent a lot of time examining real pain and loss, examining our issues as if they were scars on our psyche that we needed to heal, which often meant making them go away. I remember after a particular conversation with a friend about some of the problematic practices in our college campus fellowship that it suddenly occurred to me that perhaps my particular mix of struggles made me more aware, more able to see, more sensitive to when communities go awry. It occurred to me that I was who I was because of those scars, not in spite of them.
 
