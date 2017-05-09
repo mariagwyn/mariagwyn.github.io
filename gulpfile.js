@@ -62,11 +62,11 @@ gulp.task('compile-sass', () => {
 });
 
 // UnCSS.
-gulp.task('uncss', () => {
-    return gulp.src(dist + '/css/style.css')
-    .pipe(uncss(UNCSS_OPTIONS))
-    .pipe(gulp.dest(dist + '/css/'));
-});
+// gulp.task('uncss', () => {
+//     return gulp.src(dist + '/css/style.css')
+//     .pipe(uncss(UNCSS_OPTIONS))
+//     .pipe(gulp.dest(dist + '/css/'));
+// });
 
 // Combine JavaScript into one file
 gulp.task('combine-js', () => {
@@ -101,11 +101,11 @@ gulp.task('server', () => {
 gulp.task('watch', () => {
   gulp.watch(paths.scss, ['sass-lint']);
   gulp.watch(paths.scss, ['compile-sass']);
-  gulp.watch(paths.scss, ['uncss']);
+//  gulp.watch(paths.scss, ['uncss']);
   gulp.watch(paths.js, ['combine-js']);
   gulp.watch(paths.imgs, ['optimize-images']);
   gulp.watch(paths.jekyll, ['build-jekyll']);
 });
 
 // Start Everything with the default task
-gulp.task('default', [ 'sass-lint', 'compile-sass', 'uncss', 'combine-js', 'optimize-images', 'build-jekyll', 'server', 'watch' ]);
+gulp.task('default', [ 'sass-lint', 'compile-sass', 'combine-js', 'optimize-images', 'build-jekyll', 'server', 'watch' ]);

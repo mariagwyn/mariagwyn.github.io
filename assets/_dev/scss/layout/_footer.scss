@@ -11,3 +11,18 @@ footer {
 .site-footer {
   padding: 1em;
 }
+
+.social-media-list {
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: left;
+
+  .fa {
+    font-size: 1.8rem;
+    width: 2.8rem;
+  }
+
+  a {
+    color: $background;
+  }
+}
