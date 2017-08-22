@@ -84,7 +84,7 @@ gulp.task('optimize-images', () => {
 
 // Rebuild Jekyll
 gulp.task('build-jekyll', (code) => {
-  return cp.spawn('jekyll', ['build', '--incremental'], { stdio: 'inherit' }) // Adding incremental reduces build time.
+  return cp.spawn('jekyll', ['build', '--incremental', '--watch'], { stdio: 'inherit' }) // Adding incremental reduces build time.
     .on('error', (error) => gutil.log(gutil.colors.red(error.message)))
     .on('close', code);
 })

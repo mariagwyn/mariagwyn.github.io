@@ -48,6 +48,13 @@
     {% if page.special == 'home' %}
       <div class="highlight-1" id="db">
         <div class="row centered" data-equalizer="header" data-equalize-on="large" data-equalize-on-stack=false id="header-eq">
+          <div class="column small-12 large-4 cv">
+            <a href="/assets/documents/McDowell-Resume-Ekklesia_web.pdf" class="callout" data-equalizer-watch="header">
+              <div class="solid"></div>
+              <h2>Resume</h2>
+              <p>Church-related work.</p>
+            </a>
+          </div>
           <div class="column small-12 medium-6 large-4 ekklesia">
             <a href="/ekklesia" class="callout" data-equalizer-watch="header">
               <div class="solid"></div>
@@ -62,18 +69,12 @@
               <p>Academic (primarily) publications and presentations.</p>
             </a>
           </div>
-          <div class="column small-12 large-4 cv">
-            <a href="/cv" class="callout" data-equalizer-watch="header">
-              <div class="solid"></div>
-              <h2>Curriculum Vitae</h2>
-            </a>
-          </div>
         </div><!-- /row -->
       </div>
       <div class="highlight-2" id="y">
         <div class="row">
           <div class="column bio">
-            <p>Maria Gwyn McDowell is a scholar with a penchant for ministry, a theologian with an inclination for practice.  She is feminist, a student of liberation theology, a scholar of Ethics and Eastern Christianity. She is an active member of <a href="http://www.episcopalchurch.org/" target="_blank">The Episcopal Church</a>, and currently a Candidate for Ordination to Holy Orders in the Diocese of Oregon. She received her PhD in Theological Ethics from <a href="http://www.bc.edu/schools/cas/theology/" target="_blank">Boston College</a> and writes on <a href="https://bc.academia.edu/MariaMcDowell" target="_blank">gender, sexuality and women</a> in the church. She is an irregular lover of God and God's emerging creation, and a fervent heckler of all teams which oppose the <a href="http://www.timbers.com/thornsfc" target="_blank">Rose City Thorns</a>.</p>
+            {% include bio-short.html %}
           </div>
         </div><!-- /row -->
       </div>
