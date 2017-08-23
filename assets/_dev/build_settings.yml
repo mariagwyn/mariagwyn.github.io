@@ -31,7 +31,8 @@ INCLUDE:
     - "assets/_dev/bower_components/foundation-sites/js/foundation.responsiveToggle.js"
 
     # Paths to your own project code are here
-    - "assets/_dev/js/!(app).js"
     - "assets/_dev/js/app.js"
+    - "assets/_dev/js/timeline.js"
+    - "assets/_dev/js/wrong.js"
   sass:
     - "assets/_dev/scss/style.scss"

@@ -1,15 +1,14 @@
 ---
 layout: default
 title: Curriculum Vitae
-permalink: /cv2/
+permalink: /cv/
 excerpt: Curriculum Vitae for Maria Gwyn McDowell, MDiv, PhD
+content_class: cv
 ---
-<div id="cv">
 <p><a href="/assets/documents/McDowell-CV.pdf"><i class="fa fa-file-pdf-o fa-1x"></i>Download PDF</a></p>
-  <div class="cv-header">
-<h2>Education</h2>
-</div>
-<div class="cv-education">
+
+## Education
+
 <table>
 <tbody>
 <tr>
@@ -40,42 +39,24 @@ excerpt: Curriculum Vitae for Maria Gwyn McDowell, MDiv, PhD
 </tr>
 </tbody>
 </table>
-</div>
-<div class="cv-pubs">
 
 ## Publications
-
----
-
-<div class="cv-articles">
-
+***
 ### Major Articles
 
 "Seeing Gender: Orthodox Liturgy, Orthodox Personhood" in _Journal of the Society of Christian Ethics_, 343(2), Fall/Winter 2013.
 
 "[The Iconicity of Priesthood: Male Bodies or Embodied Virtue?](/academia/article/iconicity-of-priesthood-male-bodies-or-embodied-virtue)" in _Modes of Godly Being: Reflections on the Virtues From the Christian East_, eds. Aristotle Papanikolaou and Perry Hamalis. Special Issue of _Studies In Christian Ethics,_ 26(3), August 2013.
 
-</div>
-
-<div class="cv-editedvols">
-
 ### Edited Volumes
 
 _The Church has Left the Building_, eds. Michael Plekon, Maria Gwyn McDowell, Elizabeth Schroeder (Wipf & Stock, forthcoming, 2016).
-
-</div>
-
-<div class="cv-bookchaps">
 
 ### Book Chapters
 
 "The Home that Joy Built," in _The Church has Left the Building_, eds. Michael Plekon, Maria Gwyn McDowell, Elizabeth Schroeder (Wipf & Stock, forthcoming, 2016).
 
 "'The Hands of a Woman': Person, Image and Ordination," in _A Communion Lived in Faith and Love: Reflections on Elisabeth Behr-Sigel's Ecclesiology_, Doxa and Praxis, eds. Eleni Kasselouri and Sarah Wilson (WCC and Volos Academy, forthcoming, 2015). To be published in English, French (in _Contacts_), and Arabic.
-
-</div>
-
-<div class="cv-onlinepubs">
 
 ### Online Publications
 
@@ -87,35 +68,19 @@ _The Church has Left the Building_, eds. Michael Plekon, Maria Gwyn McDowell, El
 
 “[Defending Human Dignity: A Response to the Pre-Conciliar Document ‘The Mission of the Orthodox Church in Today’s World.’](http://mariagwyn.com/publication/2016/10/09/Defending-Human-Dignity/)” In _Public Orthodoxy_, edited by Nathaniel Wood. New York: Orthodox Christian Studies Center of Fordham University, 2016\. ([original link](https://publicorthodoxy.org/2016/06/15/defending-human-dignity/))
 
-</div>
-
-<div class="cv-bookrevs">
-
 ### Book Reviews
 
 Johannes Miroslav Oravecz, God as Love: The Concept and Spiritual Aspect of Agape in Modern Russian Religious Thought (Eerdmans, 2014), in Theological Studies (June 2015), p. 393-394.
 
 Olga Lossky, Toward the Endless Day: The Life of Elizabeth Behr-Sigel (Notre Dame Press, 2010), in Anglican Theological Review (Fall 2010), p. 863.
 
-</div>
-
-<div class="cv-encycl">
-
 ### Encyclopedia Entries
 
 Standard articles: "Sexual Ethics," "Deaconess," "Communion of the Saints"; Notations: "Virgins," "Widows," "Mystery," "Nicholas the Wonderworker"; Short notices: "Archdeacon," "Protodeacon," "Elder," "Catechumen," "Iconostasis," "Pantocrator Icon," "Pentecost," "Metanie," in _The Encyclopedia of Eastern Orthodox Christianity_, John McGuckin, ed. (Wiley-Blackwell, 2011).
 
-</div>
-
-<div class="cv-confproceed">
-
 ### Conference Proceedings
 
 "Embodied Virtue: Male and Female Priests," in _Women in the Eastern Christian Tradition_. Papers of the Sophia Institute (Academic Conference, New York, December 2, 2008), ed. J. Lasser (Edward Brothers, 2009): 158-167.
-
-</div>
-
-<div class="cv-otherrpubs">
 
 ### Other Publications
 
@@ -123,17 +88,9 @@ _Variations on a Theme by Mary Shelley_. Co-authored with Mark O"Connor, Directo
 
 "[The Newness of the Spirit: the Ordination of Men and Women](/ekklesia/article/newness-of-spirit)," _The Word: a publication of the Antiochian Orthodox Archdiocese_, May 2004, pp. 9-11\. (Not peer reviewed).
 
-</div>
-
-</div>
-
-<div class="cv-confparticipation">
-
 ## Conference Participation
 
-* * *
-
-<div class="cv-confpapers">
+***
 
 ### Papers Presented
 
@@ -159,10 +116,6 @@ _Variations on a Theme by Mary Shelley_. Co-authored with Mark O"Connor, Directo
 
 "Tradition, Change, and the Life of the Faithful in Fr. Dumitru Staniloae," Annual American Academy of Religion Meeting, Eastern Orthodox Studies Section, Philadelphia, PA, November 2005.
 
-</div>
-
-<div class="cv-confother">
-
 ### Other Addresses and Presentations
 
 "Praying our Visions: Story, Gender, and Icons of the Theotokos," Spiritual Formation Series, Trinity Cathedral, Portland, OR, Spring 2015; Advent Series, All Saints Church, Advent 2015.
@@ -175,21 +128,15 @@ _Variations on a Theme by Mary Shelley_. Co-authored with Mark O"Connor, Directo
 
 "[Ambiguity and Mystery: The 'More; of God](/ekklesia/lecture/2003/03/12/ambiguity-mystery/)," St. Mary Orthodox Church Lenten Lecture Series, Cambridge, MA, March, 2003.
 
-</div>
-
-</div>
-
-<div class="cv-therest">
-
 ## Research Interests
 
-* * *
+***
 
 Exploring communal and ritually shaped ethical formation, drawing connections between Eastern Christian theological trajectories and contemporary concerns regarding sex, gender, and theological ethics. I am particularly interested in the possible intersections of gender theory, liberation theologies and Easter Christian spirituality and sacramental theology in the formation of theories of justice, human rights and the common good.
 
 ## Awards and Fellowships
 
-* * *
+***
 
 University Fellowship, Boston College, 2002-2005
 
@@ -201,7 +148,7 @@ Katie Lawson Memorial Award, Pitzer College, 1993
 
 ## Professional Affiliations
 
-* * *
+***
 
 Society of Christian Ethics
 
@@ -209,10 +156,8 @@ American Academy of Religion
 
 ## Selected Service and Experience
 
-* * *
+***
 
 Secretary, Orthodox Theological Society in America, 2009-2011
 
 Editorial Board, _The St. Nina Quarterly_, 2007-2014
-
-</div>

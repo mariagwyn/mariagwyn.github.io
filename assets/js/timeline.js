@@ -13448,9 +13448,6 @@ Foundation.plugin(ResponsiveToggle, 'ResponsiveToggle');
 
 }(jQuery);
 
-// Init Foundation
-$(document).foundation();
-
 (function() {
 
   'use strict';
@@ -13484,3 +13481,6 @@ $(document).foundation();
   window.addEventListener("scroll", callbackFunc);
 
 })();
+
+// Init Foundation
+$(document).foundation();
