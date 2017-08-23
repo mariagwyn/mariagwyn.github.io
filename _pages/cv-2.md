@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Curriculum Vitae
-permalink: /cv/
+permalink: /cv2/
 excerpt: Curriculum Vitae for Maria Gwyn McDowell, MDiv, PhD
 ---
 <div id="cv">
