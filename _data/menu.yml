@@ -3,10 +3,10 @@ menu:
 
 - name: About
   url: /about/
-- name: Ekklesia
-  url:  /ekklesia/
 - name: Resume
   url: /resume/
+- name: Ekklesia
+  url:  /ekklesia/
 - name: Academia
   url: /academia/
 - name: 'Archive'

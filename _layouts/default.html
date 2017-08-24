@@ -1,23 +1,31 @@
 {% include head.html %}
 {% include header.html %}
   <div class="row page-body">
-    <div class="small-12 medium-8 medium-offset-3 column">
-      {% if page.pub-type %}<p class="pub-type"><strong>{{ page.pub-type }}</strong></p>{% endif %}
-      <h1>{{ page.title }}</h1>
-    </div>
-    <div class="small-12 medium-2 medium-offset-1 column infoblock">
-      {% if page.date %}<p>
-        <i class="fa fa-2x fa-calendar-o"></i>{{ page.date | date: "%-d %B %Y" }}</p>{% endif %}
-        {% if page.secondary-menu %}
-          {% include secondary-menu.html %}
+    {% if page.sidebar == false %}
+      <div class="small-12 medium-12 large-10 large-offset-2 column">
+    {% else %}
+      <div class="small-12 medium-10 medium-offset-2 large-8 large-offset-3 column">
+    {% endif %}
+        {% if page.pub-type %}<p class="pub-type"><strong>{{ page.pub-type }}</strong></p>{% endif %}
+        <h1>{{ page.title }}</h1>
+      </div>
+    {% if page.sidebar == false %}
+      <div class="small-12 medium-12 large-10 large-offset-2 end column">
+    {% else %}
+      <div class="small-12 medium-2 large-offset-1 column infoblock">
+        {% if page.date %}<p>
+          <i class="fa fa-2x fa-calendar-o"></i>{{ page.date | date: "%-d %B %Y" }}</p>{% endif %}
+          {% if page.secondary-menu %}
+            {% include secondary-menu.html %}
+          {% endif %}
+        {% if page.categories %}
+          {% include category-list.html %}
         {% endif %}
-      {% if page.categories %}
-        {% include category-list.html %}
-      {% endif %}
-      {% if page.academia %}<p class="academia">On <a href="https://www.academia.edu/{{ page.academia }}" target="_blank" >Academia.edu</a></p>{% endif %}
-      {% include socialmedia.html %}
-    </div>
-    <div class="small-12 medium-8 end column">
+        {% if page.academia %}<p class="academia">On <a href="https://www.academia.edu/{{ page.academia }}" target="_blank" >Academia.edu</a></p>{% endif %}
+        {% include socialmedia.html %}
+      </div>
+      <div class="small-12 medium-10 large-8 end column">
+    {% endif %}
     <div class="page-content {{page.content_class}}">
       {{ content }}
     </div>
