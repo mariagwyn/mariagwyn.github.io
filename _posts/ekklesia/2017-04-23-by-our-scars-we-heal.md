@@ -1,55 +1,54 @@
 ---
 layout: page
-title: "Shouting at Jesus: The Canaanite Woman"
-date: 2017-08-20
+title: "By Our Scars We Heal"
+date: 2017-04-23
 category:
 - ekklesia
 - sermon
 tags:
-- racism
+- easter
+- resurrection
 pub-type: Sermon
-pub-location: "St. Michael & All Angels, Portland, Oregon"
-pub-date: 20 August, 2017
-description: A Sermon given on a Sunday during Ordinary Time
-excerpt: "We will, at various times in our lives, stand either in the place of the woman or Jesus and his disciples. Sometimes, we will insist on being heard, we will refuse to be content with crumbs, we will persistently point out that the world is not what those with privilege and power say it is. We will speak out of abundance, and it will be hard. We may do it in our jobs, our families, among our friends. At other times, we will be on the receiving end of someone else's persistent cry for justice and mercy, and like the disciples, we will not really want to listen."
+pub-location: "Trinity Episcopal Cathedral, Portland, Oregon"
+pub-date: 23 April, 2017
+description: A Sermon given on Sunday, the 2nd week of Easter
+excerpt: "In the Risen Christ we see that even death does not have the last word. And so, instead of cowering in fear, we can, like Jesus, speak peace to one another and to our world. Each one of us will do so in different ways and different places, but our best moment of speaking peace will most likely arise from those places where we have been scarred the most, where we have suffered or caused to suffer. We are our bodies, we are our relationships, and every body and every relationship is where and how we love one another, how we join with Jesus Christ, who trampled down death by death so that we could become to one another what God is to us: the embodiment of justice, mercy, peace, hope and joy."
 ---
 **Scripture:**
 <ul>
-<li><a href="http://bible.oremus.org/?passage=Genesis+45:1-28&vnum=yes&version=nrsv">Genesis 45:1-28</a></li>
-<li><a href="http://bible.oremus.org/?passage=Romans+11:1-32&vnum=yes&version=nrsv">Romans 11:1-2a, 29-32</a></li>
-<li><a href="http://bible.oremus.org/?passage=Matthew+15:21-28&vnum=yes&version=nrsv">Matthew 15:21-28</a></li>
+<li><a href="http://bible.oremus.org/?ql=359983334">Acts 2:14-41</a></li>
+<li><a href="http://bible.oremus.org/?ql=359983362">1 Peter 1:3-9</a></li>
+<li><a href="http://bible.oremus.org/?ql=359983393">John 20:19-31</a></li>
 </ul>
 
-It is hard to know where to begin with this story. Is it a story of a woman whose great faith is something we are supposed to imitate? Is it a story of a woman who repeatedly beseeches Jesus for help, humbly accepting silence and insult with faithful trust? Does this story reveal a tone-deaf Jesus who insults a woman, or is she a teaching moment for his disciples who just don't get it? Who is learning in this story, the woman? The disciples? Jesus?
+<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/321626981&amp;color=00cc11&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
 
-I have to admit that I love this story, though not with a particularly happy love. A foreign woman, and outsider, approaches Jesus and asks for her daughter to be healed. She calls him all the right things, and he responds with silence. She continues shouting and Jesus' disciples ask him to send her away. Jesus comments that he has been sent not for her but for his people, and she still asks for his help. He says something obvious to all of us, something that sounds pretty mean in this context: you don't take food from your children and feed it to the dog. And again she comes back at him and says, but even the dogs get the leftovers.
+When I was in college, my Christian friends and I spent a lot of time examining our family or relationship issues. We were trying to fix them on the assumption that somehow divorce or abuse or loneliness broke you. We spent a lot of time examining real pain and loss, examining our issues as if they were scars on our psyche that we needed to heal, which often meant making them go away. I remember after a particular conversation with a friend about some of the problematic practices in our college campus fellowship that it suddenly occurred to me that perhaps my particular mix of struggles made me more aware, more able to see, more sensitive to when communities go awry. It occurred to me that I was who I was because of those scars, not in spite of them.
 
-This is one of those stories I resonate with in a way that makes me angry and sad all at once. I am sure that many of us know just how frustrating it is to have our demands met with silence. When I would argue for female priests in Eastern Orthodoxy, it wasn't the theologically poor arguments that made me despair. It was the resounding silence with which they were met by anyone in power, anyone with authority. You can respond to a bad argument, but silence is just a black hole from which nothing returns. I understand what it is like to get the crumbs precisely because I am a woman and like this woman, I have spent a lot of time in a world where women are expected to be content with less. I suspect there is not a woman in this room who doesn't know what it is like to be expected to settle for less, and be happy about it.
+I had this conversation over twenty years ago, but it came to mind as I thought about Thomas and his insistence that he would not believe the ridiculous claim of the women at the tomb that Jesus was not dead, or the that he had just missed a visit between Jesus and his friends. Thomas needs to see to believe, to touch a living body to believe that it is not dead.
 
-This story, or interpretations of this story, too easily blur the line between humility and humiliation, and often manage to imply that faith and humiliation ought to go hand in hand.
+What stands out to me though, is not Thomas's doubt, but Jesus' body. Not that Jesus has a resurrected body, though that is certainly one of the more incredible claims Christianity makes.  Or even what a resurrected body is like, though Jesus simply walking through closed doors introduces the possibility that resurrected bodies may behave a little differently than ours behave. Ask my sister what happened the day she thoroughly cleaned a sliding glass door which I then I attempted to run through thinking it was open. Children, please, don't run in the house.
 
-But really, think about it for a moment. This woman shouts at Jesus and his disciples. How many persistently shouting women are described as humble? How many civil, intelligent, articulate, but doggedly persistent women are considered paragons of humility? They get a lot of words thrown at them, but humble isn't ever one of them.
+What stands out to me in this story is that Jesus' body has scars.
 
-This woman shouts so much that Jesus' silent treatment annoys the disciples who want him to rebuke this woman and send her, a foreign woman, away. She is not one of them, and there is no reason that Jesus should be obliged to respond to her. Their world, like our own, is divided up by political, cultural and religious institutions that both help, and insist, that we all keep to our tribe, our people, our class.
+You see, on the one hand there is a strand of Christian interpretation that sees in the Resurrection a promise of future perfection where tears are wiped away, where suffering is no more, and all we need to do now is wait and endure. Our hope is in the promise of an end where all things are brought to a final, perhaps cataclysmic, conclusion by the divine Christ, who is the beginning and the end. In this vision, there are no scars left.
 
-Our news is full of the semi-shocked coverage of whites who violently insist that we should have our own homeland, memorialized by heroes pulled straight out of a book of revisionist history about "Lost Causes" and benevolent slave masters. We call these White Supremacists "evil" and disavow its horrific tenets. But White Supremacy is just one brutally honest name for racism in North America, and we have been warned about racism. Unfortunately, we have not been listening very well <a href="https://www.nypl.org/blog/2015/10/23/ta-nehisi-coates-reading-list">to the many voices that have prophetically called out North American whites</a> for the way racism permeates our culture, our social and legal structures, our policing, our educational institutions, our churches.
+On the other hand there is the narrative which sees in this pie-in-the-sky vision an encouragement of passivity. It rightly rejects the idea of passive endurance and focuses on the life and compassion of the human Jesus. In this story, there may be no resurrected body.
 
-We, that is, those of us with the privilege to walk through the world without worrying about being pulled over for driving while black or brown, just don't listen very well. We wanted it to all be settled with MLK, or perhaps Cesar Chavez and the grape boycott. We don't want to remember that part of the reason Portland has so few people of color is because <a href="http://gizmodo.com/oregon-was-founded-as-a-racist-utopia-1539567040">until 1926, blacks weren't allowed to live in the state</a>. Brown people were here to build and plant things and then leave when the season was done, or, if they were among those unfortunates who lived here before Manifest Destiny won the continent, we just expected that they would contently remain on their lovely Reservations. We don't talk about how whites can now legally sell marijuana, but people of color still disproportionally suffer from arrests and convictions for the very same actions.
+But Thomas's reaction to the risen Jesus, "My Lord and my God," challenges both of these narratives, because of the scars. The disciples are literally cowering behind closed doors because of those scars, terrified after a week of triumph that ended in horrible violence. Only the women, who have so little to lose, venture out to care for Jesus' body, and they return with a story so outrageous they are dismissed. The disciples have reason to be afraid, because they saw how those scars were given to Jesus. And they have reason to be ashamed, because as they saw the scars being given, they said nothing, did nothing. They allowed their friend to die, melting away in fear and silence.
 
-Our world is riven by a fear of not having enough, and so we fight tooth and nail to protect what we have. We firmly believe in a zero-sum game where safety and stability for one group often means, regretfully, insecurity for another. Maybe we are tolerant enough to try to figure out how to live together, but rarely do we do so in a way that respects that the "other," whoever that is, might have something to teach us, to offer us, to change us.
+Can you imagine what it must have been like to suddenly have Jesus standing next to you? To not believe it is him until you see the scars? It is by the scars that the disciples recognize that this person is indeed their friend.
 
-Yet this woman, this foreigner, this stranger with a disturbingly ill child, sees something in the preaching and teaching of this itinerant Jewish rabbi that even his disciples did not see: God is not just for "us." God is for everyone.
+Jesus didn't get those scars because he waited around for the coming of the reign of God. He got them because he embodied the reign of God when he brought good news to the poor, gave sight to the blind, freedom to the captives, and challenged economic, political and religious oppression and servitude.
 
-She hears this in the stories of God providing food not just for the Israelites, but for Egyptians through the brilliant administration of the slave Joseph who staved off a famine through some good long-term rationing. She understands that God sends rain on the land of the just and the unjust because it is the nature of God to provide for all the world, not just some of it. She sees a God who is abundant, extravagant, who has created enough for all.
+Thomas reaches out and touches the physical consequence of injustice, of state-sponsored violence, of the silence and desertion of friends. By those scars, Thomas comes to believe that this person really is the friend that he travelled with, the Jesus who loved and laughed (I hope), who wept with his friends, drank at weddings, who taught crowds and argued with lawyers. And Thomas's response is to see in this human person the God who is always and forever for us, with us, even to the point of being scarred by us.
 
-She understands that the whole idea of a zero-sum game, where feeding pets means taking food away from children, is false. She has no patience for the argument that first we just need to fix this problem over here and then we can get around to fixing your problem over there. She understands that scarcity is not the problem, but our fear of it. She takes the language of the culture that refuses to welcome her, and turns the story around: it isn't about who gets it first, it is about a God who is abundant now, generous now, overflowing with mercy, now. There is enough of God to go around.
+The scars are both our grief and our hope.
 
-And this is what I love about this woman: her faith is not a quiet, passive, accepting faith. It is an insistent, persistent faith that refuses to be silenced or to be sent away. She argues with Jesus. Let me say that again, she argues with Jesus. Anyone who knows me knows why I love this about her: there is nothing more interesting to me than a good, productive, theological argument.
+They are our grief because what we want is to not have scars, to not inflict scars. We don't want to have to learn from our 'issues,' we want suffering and loss to go away. We spend an enormous amount of time in our culture protecting ourselves from suffering and loss. We spend perhaps even more time refusing to believe that our lives as they currently exist require the suffering of people of color, of people without wealth, of our planet.
 
-And Jesus, he actually listens. He sees her, he hears her, he listens to her. He is not afraid of her persistence, he is not afraid of her challenge. He is not afraid of her story or her need. He sees in her a creation of God, who is to be loved and nourished as God loves and nourishes all of us. So he responds. He acts out of the abundance of God and gives her what she needs.
+The Christian message is not one of health and wealth, that is a lie which only serves the privileged and powerful. The Jesus movement was born from an eternal vision of just love that was met with rejection and violence. We cannot avoid suffering. We have scars. We will inflict scars.
 
-We will, at various times in our lives, stand either in the place of the woman or Jesus and his disciples. Sometimes, we will insist on being heard, we will refuse to be content with crumbs, we will persistently point out that the world is not what those with privilege and power say it is. We will speak out of abundance, and it will be hard. We may do it in our jobs, our families, among our friends.
+But in the Resurrection, scars do not have the last word. They can become our hope. We are who we are because of what we have been through, what we have done, good or bad, considerate or neglectful.
 
-At other times, we will be on the receiving end of someone else's persistent cry for justice and mercy, and like the disciples, we will not really want to listen.
-
-I hope that we can have the persistent faith of this woman, and that we can listen like Jesus.
+In the Risen Christ we see that even death does not have the last word. And so, instead of cowering in fear, we can, like Jesus, speak peace to one another and to our world. Each one of us will do so in different ways and different places, but our best moment of speaking peace will most likely arise from those places where we have been scarred the most, where we have suffered or caused to suffer. We are our bodies, we are our relationships, and every body and every relationship is where and how we love one another, how we join with Jesus Christ, who trampled down death by death so that we could become to one another what God is to us: the embodiment of justice, mercy, peace, hope and joy. AMEN.
