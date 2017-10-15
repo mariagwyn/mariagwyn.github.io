@@ -1,12 +1,13 @@
 ---
 layout: page
-title: "The Good King"
+title: "The Good King?"
 date: 2017-10-15
 category:
 - ekklesia
 - sermon
 tags:
 - violence
+- judgement
 pub-type: Sermon
 pub-location: "St. Michael & All Angels, Portland, Oregon"
 pub-date: 15 October, 2017
@@ -19,8 +20,9 @@ excerpt: "The violence we carry within us, the violence with which we respond to
 <li><a href="http://bible.oremus.org/?passage=Philippians+4:1-13&vnum=yes&version=nrsv">Philippians 4:1-13</a></li>
 <li><a href="http://bible.oremus.org/?passage=Matthew+22:1-14&vnum=yes&version=nrsv">Matthew 22:1-14</a></li>
 </ul>
-*Then the king said to the attendants, ‘Bind him hand and foot, and throw him into the outer darkness, where there will be weeping and gnashing of teeth.’*<sup id="a1"><a name="footnote1">1</a></sup>
- 
+>*Then the king said to the attendants, ‘Bind him hand and foot, and throw him into the outer darkness, where there will be weeping and gnashing of teeth.’* <sup><a href="#f1" name="r1">1</a></sup>
+
+
 Your phone pings, you open Facebook, and there it is, the invitation to that dread reunion you knew was just around the corner. Who is coming? The ones we like? Or the ones that don't like us? Maybe the food will make it worth it? Maybe people have changed, maybe we won't feel like outsiders anymore. Hey, open bar, free alcohol, what is the harm?
 
 Maybe we just ignore the conversation, we have moved on. Or we make some polite sounding excuse. Maybe we 'leave' the group someone added us to without asking if we actually cared enough to be a part of it, slightly worried that we are offending folk, but gambling that they just don't notice. But they keep adding us back to the invitation and our feed is cluttered with reminders for an event we don't care about, and people we don't actually want to see. And then, the day we see everyone gushing over the fact that the "favorite" is coming home from the big fancy city to grace us with her presence, we make a snarky comment about trivial popularity contests that only the shallow ever win, and start a little social media war that feels so good all these years later.
@@ -38,7 +40,7 @@ This uncomfortable question is drowned in assertions that God's justice is great
 
 But maybe we should listen to that niggling question that has plagued this story for its entire existence, and really ask, where is God in this story? What if this king is all wrong, and our discomfort with his violence is not meant to be ignored?
 
-In the Gospel of Matthew, rulers are bad news. They slaughter children (Matt 2:16), they behead prophets (Matt 14;3-11), they order the death of innocent men (Matt 27:15-26). Kings are to be resisted and avoided. The three Magi fail to follow the request of a king (Matt 1:12), Joseph hides his family from the same king (Matt 1:13-14), and John the Baptist loses his head denouncing another king (Matt 14:3). Violence is the tool of despotic rulers. In Matthew, blessed are the merciful and the peacemakers, (Matt 5:7-9). Disciples are those who love their enemies (Matt 5:44).
+In the Gospel of Matthew, rulers are bad news. They slaughter children (Matt 2:16), they behead prophets (Matt 14:3-11), they order the death of innocent men (Matt 27:15-26). Kings are to be resisted and avoided. The three Magi fail to follow the request of a king (Matt 1:12), Joseph hides his family from the same king (Matt 1:13-14), and John the Baptist loses his head denouncing another king (Matt 14:3). Violence is the tool of despotic rulers. In Matthew, blessed are the merciful and the peacemakers, (Matt 5:7-9). Disciples are those who love their enemies (Matt 5:44).
 
 The only person in this story who actually lives out the Sermon on the Mount, who refuses to worry about what he will wear, who trusts that God will provide (Matt 6:25-31), is also the one who stands speechless, perhaps not even allowed to respond in a culture where one is not actually allowed to talk back to kings, the one who is silent in the face of an unfair accusation. He is the one who is thrown out into the darkness.
 
@@ -63,4 +65,6 @@ Our hope lies not in a God who just does violence more fairly or justly or reaso
 
 God is not like king in this story. Our God would rather be silently cast out than comply with injustice. That is not an easy God to follow, because mercy and peace, gentleness and rejoicing are often very hard to actually do. But as Paul reminds us, it is by doing these things that the God who is peace, is with us, and through us, is with the world.
 
-<b id="f1">1</b>: I owe the bulk of this interpretation to the work of Marianne Blickenstaff. She summarizes her argument in "Matthew's Parable of the Wedding Feast (Matt 22:1-14)" in *Review and Expositor*, 109, Spring 2012.
+**Footnote:**
+
+<a href="#r1" name="f1">**1**</a>: I owe the bulk of this interpretation to the work of Marianne Blickenstaff. She summarizes her argument in "Matthew's Parable of the Wedding Feast (Matt 22:1-14)" in *Review and Expositor*, 109, Spring 2012. Her full argument can be found in <a href="https://www.amazon.com/While-Bridegroom-them-Marriage-Testament/dp/0567041123/ref=asap_bc?ie=UTF8">*'While the Bridegroom is with them': Marriage, Family, Gender and Violence in the Gospel of Matthew* (The Library of New Testament Studies)</a>.
