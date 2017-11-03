@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "The Good King?"
+title: "The Outer Darkness and The Good King?"
 date: 2017-10-15
 category:
 - ekklesia
@@ -24,6 +24,10 @@ excerpt: "The violence we carry within us, the violence with which we respond to
 
 
 Your phone pings, you open Facebook, and there it is, the invitation to that dread reunion you knew was just around the corner. Who is coming? The ones we like? Or the ones that don't like us? Maybe the food will make it worth it? Maybe people have changed, maybe we won't feel like outsiders anymore. Hey, open bar, free alcohol, what is the harm?
+
+<div class="flex-video">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/4kfDOAFTkdY" frameborder="0" allowfullscreen></iframe>
+</div>
 
 Maybe we just ignore the conversation, we have moved on. Or we make some polite sounding excuse. Maybe we 'leave' the group someone added us to without asking if we actually cared enough to be a part of it, slightly worried that we are offending folk, but gambling that they just don't notice. But they keep adding us back to the invitation and our feed is cluttered with reminders for an event we don't care about, and people we don't actually want to see. And then, the day we see everyone gushing over the fact that the "favorite" is coming home from the big fancy city to grace us with her presence, we make a snarky comment about trivial popularity contests that only the shallow ever win, and start a little social media war that feels so good all these years later.
 
