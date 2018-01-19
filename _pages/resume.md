@@ -14,6 +14,15 @@ This is a selected list of both church and secular work arranged in a timeline. 
 <ul>
 <li class="ekklesia"><div markdown="1">
 
+<time>10 June, 2017</time>
+#### Ordained
+*[St. Michael & All Angels](http://stmaa.org/), Portland, Oregon*
+
+Ordained to the Sacred Order of Priests in The Episcopal Church.
+
+</div></li>
+<li class="ekklesia"><div markdown="1">
+
 <time>June 2017 - Present</time>
 #### Deacon
 *[St. Michael & All Angels](http://stmaa.org), Portland, Oregon*
