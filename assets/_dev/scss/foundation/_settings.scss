@@ -51,8 +51,7 @@ $grid-column-gutter: (
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
 @import url('https://fonts.googleapis.com/css?family=Forum');
 $sans-serif: 'Open Sans', 'Lucida Grande', Myriad, sans-serif;
-$serif: Baskerville, 'Sorts Mill Goudy', Georgia, serif;
-//$serif: 'Merriweather', Georgia, serif;
+$serif: 'Merriweather', Georgia, serif;
 $body-font-family: $sans-serif !default;
 $body-font-color: $primary-text;
 $body-background: map-get($foundation-palette, light);
@@ -79,10 +78,10 @@ $header-sizes: (
   medium-large: (
     'h1': 36,
     'h2': 30,
-    'h3': 28,
-    'h4': 24,
-    'h5': 20,
-    'h6': 16,
+    'h3': 24,
+    'h4': 20,
+    'h5': 16,
+    'h6': 14,
   ),
 );
 $subheader-color: $primary-color-light;

@@ -1,0 +1,24 @@
+---
+layout: default
+title: "Courses"
+permalink: /courses/
+description: Course listing and syllabi.
+---
+<div class="courses">
+  <p>Courses taught and available syllabi.</p>
+  <hr>
+  {% for post in site.categories.courses %}
+  <div class="post-short">
+    <div class="pub-info">
+      {% if post.pub-type %}<p class="pub-type"><strong>{{ post.pub-type }}</strong></p>{% endif %}
+      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+      {% if post.pub-link %}
+        <a href="{{ page.pub-link }}" target="_blank">{{ post.pub-location }}</a>{% endif %}
+      <br />
+      {% if post.pub-date %}{{ post.pub-date }}{% endif %}{% if post.pp %}, pp. {{ post.pp}}{% endif %}</p>
+      <p>{{ post.description }}</p>
+    </div>
+    <hr />
+  </div>
+  {% endfor %}
+</div>

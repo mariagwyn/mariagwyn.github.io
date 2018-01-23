@@ -7,6 +7,8 @@ menu:
   url: /resume/
 - name: Ekklesia
   url:  /ekklesia/
+- name: Courses
+  url:  /courses/
 - name: Academia
   url: /academia/
 - name: 'Archive'
