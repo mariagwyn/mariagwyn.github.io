@@ -67,6 +67,18 @@ Project Options:
 * Which of the three approaches to &#39;being fully human&#39; resonates with you?
 * Do the three approaches stand alone? How might they support or detract from one another?
 
+#### Further (Optional) Reading:
+On Kant:
+* Johnson, Robert and Cureton, Adam, "Kant's Moral Philosophy", The Stanford Encyclopedia of Philosophy (Fall 2017 Edition), Edward N. Zalta (ed.), URL = <https://plato.stanford.edu/archives/fall2017/entries/kant-moral/>.
+* Immanuel Kant, *The Groundwork of the Metaphysics of Morals*
+* Immanuel Kant, *The Fundamental Principlies of the Metaphysics of Ethics*
+On Mill:
+* Macleod, Christopher, "John Stuart Mill", The Stanford Encyclopedia of Philosophy (Spring 2017 Edition), Edward N. Zalta (ed.), URL = <https://plato.stanford.edu/archives/spr2017/entries/mill/>.
+* John Stuart Mill, *Utilitarianism*
+* John Stuart Mill, *On Liberty*
+* John Stuart Mill, *The Subjection of Women*
+* John Stuart Mill, "The Negro Question"
+
 ***
 ### Everything below is subject to change (as of Jan 23)...
 
@@ -75,10 +87,10 @@ Project Options:
 ## Week 2 (10 March): Baptized into Virtue
 
 #### Required Reading:
+* Mattison, William C., "[Why Virtue? The Moral Life as More than Actions](https://www.dropbox.com/s/yb5vgy6q0ezzib9/Mattis_WhyVirtue-IntroducingMoralTheology-Ch3.pdf?dl=0)" from *Introducting Moral Theology*, 2008.
 * Austin, *Christian Ethics*, Ch 4: "[How to Succeed as a Human Being](https://www.dropbox.com/s/bdkj88o6epfl7d0/Austin_ChristianEthics-Chapter4.pdf?dl=0)""
 * Sedgwick, Timothy F. 2012. "[The Anglican exemplary tradition](https://www.dropbox.com/s/29rzd3j68jv6hki/Sedgwick_ATR94-2_AnglicanExemplaryTradition.pdf?dl=0)." *Anglican Theological Review* 94, no. 2: 207-231.
 * Greenman, Jeffrey P. “[Anglican Evangelicals on Personal and Social Ethics](https://www.dropbox.com/s/0odwsnci6ao311m/Greenman-ATR94-2_Anglican-Evangelical-Ethics.pdf?dl=0).” *Anglican Theological Review* 94, no. 2 (2012): 179–205.
-* Mattis, What is Virtue?
 
 ## Week 3 (14 April): Whose Liberation?
 #### Required Reading:
