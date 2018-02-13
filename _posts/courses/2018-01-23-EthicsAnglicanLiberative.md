@@ -36,11 +36,16 @@ This course introduces the field of Christian ethics by (1) studying major theor
 Texts marked with an asterick will be made available online via PDF. Purchasing the book is worthwhile, but not required. Other books should be purchased or checked out of a library.
 
 ### Grading
-Students will be given the choice to receive a letter grade or a pass/fail grade.
+Each assignment will be graded according to the following criteria:
+1. __Writing Quality__: Write as if your work will be made available to parishioners with whom you will work, whether printed in a church newsletter or as a part of adult formation. These are essays intended to help you communicate clearly. Use professional grammar, spelling, and punctuation.
+2. __Focus__: Make a _single_ argument. Answer a specific question, wrestle with a particular text, method, or issue. Stay focused. The goal is not necessarily to address all related issues, but pick something and think about it well.
+3. __Content__: Ensure your work engages with the content of the class. Pick an ethical method or framework discussed in class or addressed in the reading. Your essays should not simply state _what_ you believe, but _why_, and how your reasoning fits within or is challenged by and ethical framework.
+
+All written material should be in 12pt, Times New Roman, double spaced. Papers that go over the required length will be graded down a half a grade for every portion of page over the required length. There will be no exceptions to the length requirement.
 
 ### Assignments:
 #### Critical Engagement Responses:
-Each session, a 2 page critical engagement paper is due. This paper can address any aspect of the reading, and engagement questions are suggested for each session. These papers are short for a reason: no parishioner wants a 5 page answer to a question. They want a concise, thoughtful response that helps them continue thinking through a dilemma. The point is not to cover every aspect of the readings, but focus on an element that stood out to you for its insight, interest, inadequacy, or controversy so you understand how a particular author or method helps you think through ethical questions.
+Each session, a __2 page critical engagement__ paper is due. This paper can address any aspect of the reading, and engagement questions are suggested for each session. These papers are short for a reason: no parishioner wants a 5 page answer to a question. They want a concise, thoughtful response that helps them continue thinking through a dilemma. The point is not to cover every aspect of the readings, but focus on an element that stood out to you for its insight, interest, inadequacy, or controversy so you understand how a particular author or method helps you think through ethical questions.
 This critical engagement is evidenced by asking questions of the text itself, discovering or inferring an author’s assumptions and assessing them, considering the strengths and weaknesses of an author’s argument, and considering the text’s relevance to our developing understanding of ethics in your ministry context.
 These papers will be read and discussed by fellow students as a part of discussion sessions and so are a crucial part of the success of each session.
 #### Final project:
@@ -50,7 +55,7 @@ Participants taking the course for credit will propose a final project from amon
 Project Options:
 * Option 1: write a 10‐12 page paper on an ethical issue of your choice. The paper should summarize the key ethical dilemmas, and then make a case for a particular ethical response based on the thoughtful engagement with scripture, tradition, reason, and experience.
 * Option 2: design a 12‐week Christian education course on Christian ethics, which might be taught at your home church. Write session titles and descriptions, what readings or media you might draw from for each session, and give an idea in 4‐5 sentences of what each session would hope to cover.
-* Option 3: write a series of 3 sermons on a particular ethical topic. As in any sermon, these should be prepared with worship in mind (in other words, they are not primarily academic). Each of the three sermons should focus on a different scripture passage, but each should in some way illuminate some facet of the ethical issue you are preaching on. It may be useful to choose lectionary texts to focus on in these sermons.
+* Option 3: write a series of 3 sermons on a particular ethical topic. As in any sermon, these should be prepared with worship in mind (in other words, they are not primarily academic). Each of the three sermons should focus on a different scripture passage, but each should in some way illuminate some facet of the ethical issue you are preaching on. It may be useful to choose lectionary texts to focus on in these sermons. Your sermons should be no more than about 1800 words.
 * Option 4: propose your own final project! If none of the three options named above strikes you as helpful, propose another project.
 
 ## Week 1 (10 February): Human Flourishing
@@ -68,10 +73,13 @@ Project Options:
 * Do the three approaches stand alone? How might they support or detract from one another?
 
 #### Further (Optional) Reading:
+On Ethics:
+Beverly Wildung Harrison, *Making the Connections: Essays in Feminist Social Ethics*
 On Kant:
 * Johnson, Robert and Cureton, Adam, "Kant's Moral Philosophy", The Stanford Encyclopedia of Philosophy (Fall 2017 Edition), Edward N. Zalta (ed.), URL = <https://plato.stanford.edu/archives/fall2017/entries/kant-moral/>.
 * Immanuel Kant, *The Groundwork of the Metaphysics of Morals*
 * Immanuel Kant, *The Fundamental Principlies of the Metaphysics of Ethics*
+
 On Mill:
 * Macleod, Christopher, "John Stuart Mill", The Stanford Encyclopedia of Philosophy (Spring 2017 Edition), Edward N. Zalta (ed.), URL = <https://plato.stanford.edu/archives/spr2017/entries/mill/>.
 * John Stuart Mill, *Utilitarianism*
