@@ -47,7 +47,9 @@ All written material should be in 12pt, Times New Roman, double spaced. Papers t
 #### Critical Engagement Responses:
 Each session, a __2 page critical engagement__ paper is due. This paper can address any aspect of the reading, and engagement questions are suggested for each session. These papers are short for a reason: no parishioner wants a 5 page answer to a question. They want a concise, thoughtful response that helps them continue thinking through a dilemma. The point is not to cover every aspect of the readings, but focus on an element that stood out to you for its insight, interest, inadequacy, or controversy so you understand how a particular author or method helps you think through ethical questions.
 This critical engagement is evidenced by asking questions of the text itself, discovering or inferring an author’s assumptions and assessing them, considering the strengths and weaknesses of an author’s argument, and considering the text’s relevance to our developing understanding of ethics in your ministry context.
-These papers will be read and discussed by fellow students as a part of discussion sessions and so are a crucial part of the success of each session.
+Please email the __whole class__ at least four days before each session. Please send an email to all member with a subject that includes __your name__, the __class name__, and the __session day__. Please DO NOT reply to someone else's email as a way of sharing your paper.
+Please __read the paper of your colleagues before you come to class!__ These papers will discussed by fellow students as a part of discussion sessions and so are a crucial part of the success of each session.
+
 #### Final project:
 Participants taking the course for credit will propose a final project from among the choices below. Your choice should be informed by which will be most useful to your ongoing educational development.
 * __Projects proposals due: May 19th__. A 1-page description of project summarizing topic, approach, and format. These will be discussed and reviewed in class.
@@ -87,11 +89,6 @@ On Mill:
 * John Stuart Mill, *The Subjection of Women*
 * John Stuart Mill, "The Negro Question"
 
-***
-### Everything below is subject to change (as of Jan 23)...
-
-***
-
 ## Week 2 (10 March): Baptized into Virtue
 
 #### Required Reading:
@@ -99,6 +96,11 @@ On Mill:
 * Austin, *Christian Ethics*, Ch 4: "[How to Succeed as a Human Being](https://www.dropbox.com/s/bdkj88o6epfl7d0/Austin_ChristianEthics-Chapter4.pdf?dl=0)""
 * Sedgwick, Timothy F. 2012. "[The Anglican exemplary tradition](https://www.dropbox.com/s/29rzd3j68jv6hki/Sedgwick_ATR94-2_AnglicanExemplaryTradition.pdf?dl=0)." *Anglican Theological Review* 94, no. 2: 207-231.
 * Greenman, Jeffrey P. “[Anglican Evangelicals on Personal and Social Ethics](https://www.dropbox.com/s/0odwsnci6ao311m/Greenman-ATR94-2_Anglican-Evangelical-Ethics.pdf?dl=0).” *Anglican Theological Review* 94, no. 2 (2012): 179–205.
+
+***
+### Everything below is subject to change (as of Feb 12)...
+
+***
 
 ## Week 3 (14 April): Whose Liberation?
 #### Required Reading:
