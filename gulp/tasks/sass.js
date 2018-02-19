@@ -18,7 +18,7 @@ gulp.task('sass', function() {
     .pipe(autoprefixer(config.compatibility))
     .pipe($.if(!isProduction, $.sourcemaps.write()))
     // Write the file to source dir and build dir
-    .pipe(cleancss())
+    // .pipe(cleancss())
     .pipe(gulp.dest(config.dest.jekyllRoot))
     .pipe(gulp.dest(config.dest.buildDir))
     // Auto-inject styles into browsers
