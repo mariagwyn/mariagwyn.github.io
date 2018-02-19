@@ -79,7 +79,11 @@ exclude:
   - yarn.lock
   - SiteNotes.md
 
-gems:
-  - jekyll-sitemap
-  - jekyll-redirect-from
+plugins:
+   - jekyll-mentions
+   - jemoji
+   - jekyll-redirect-from
+   - jekyll-sitemap
+   - jekyll-feed
+   
 include: ["_pages"]

@@ -14,7 +14,7 @@ pub-location: "Academy for Formation and Ministry, Diocese of Oregon"
 pub-link: https://www.diocese-oregon.org/ministries/formation-ministry/academy-for-formation-and-mission/
 pub-date: 23 January, 2018
 description: "Course on Ethics in the Anglican and Liberative Tradition. Taught during the Spring session at the Academy for Formation and Ministry, Diocese of Oregon."
-excerpt: ""
+excerpt: "This course introduces the field of Christian ethics by (1) studying major theoretical approaches focusing upon Anglican conceptions, and (2) exploring liberative ethics as critique and expansion of ‘traditional’ conceptions. The course aims to advance students' theoretical knowledge in a way that provides resources for contemporary moral and liberative decision-making and pastoral leadership."
 ---
 Instructor: The Rev'd Maria Gwyn McDowell, PhD
 Spring 2018
