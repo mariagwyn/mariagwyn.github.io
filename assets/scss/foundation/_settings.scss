@@ -1,0 +1,136 @@
+//
+// Foundation-Jekyll - Override variables.
+// Add variables you want to use within Foundation settings to base/variables.
+//
+
+// Because I am tired of stupid contrast warnings.
+$contrast-warnings: false;
+
+// We use these as default colors throughout
+$foundation-palette: (
+  primary: #4a7bad,
+  secondary: #77931a,
+  tertiary: #7d1e19,
+  background: #fff,
+  success: #4a7bad,
+  warning: #f6b241,
+  alert: #ec5840,
+);
+$primary-text: #301b11;
+$primary-text-something: lighten($primary-text, 70%);
+$primary-text-light: #c5b9a9;
+$primary-color-light: lighten(map-get($foundation-palette, primary), 20%);
+$primary-color-dark: darken(map-get($foundation-palette, primary), 25%);
+$tertiary: map-get($foundation-palette, tertiary);
+$background: map-get($foundation-palette, background);
+
+$global-radius: 1rem;
+
+// 2. Breakpoints
+// --------------
+
+$breakpoints: (
+  small: 0,
+  medium: 640px,
+  medium-large: 800px,
+  large: 1024px,
+  xlarge: 1200px,
+  xxlarge: 1440px,
+);
+$breakpoint-classes: (small medium medium-large large);
+
+// 3. The Grid
+// -----------
+
+$grid-column-gutter: (
+  small: 20px,
+  medium: 60px,
+);
+
+// Base Typography
+// ------------------
+
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400,400italic,700');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+@import url('https://fonts.googleapis.com/css?family=Forum');
+$sans-serif: 'Open Sans', 'Lucida Grande', Myriad, sans-serif;
+$serif: 'Merriweather', Georgia, serif;
+$body-font-family: $sans-serif !default;
+$body-font-color: $primary-text;
+$body-background: map-get($foundation-palette, light);
+
+$header-font-family: $serif !default;
+$header-lineheight: 1.1;
+$header-sizes: (
+  small: (
+    'h1': 24,
+    'h2': 20,
+    'h3': 19,
+    'h4': 18,
+    'h5': 17,
+    'h6': 16,
+  ),
+  medium: (
+    'h1': 30,
+    'h2': 28,
+    'h3': 24,
+    'h4': 20,
+    'h5': 16,
+    'h6': 14,
+  ),
+  medium-large: (
+    'h1': 36,
+    'h2': 30,
+    'h3': 24,
+    'h4': 20,
+    'h5': 16,
+    'h6': 14,
+  ),
+);
+$subheader-color: $primary-color-light;
+$blockquote-color: $primary-color-dark;
+$blockquote-border: 1px solid $primary-color-dark;
+$header-small-font-color: $primary-text-light;
+
+// Breadcrumb Variable Overrides:
+$crumb-bg: $body-background;
+//Top bar
+$topbar-background: map-get($foundation-palette, background);
+$topbar-link-color: map-get($foundation-palette, secondary);
+
+// 13. Callout
+// -----------
+
+$callout-background-fade: 85%;
+$callout-border: none;
+$callout-margin: 0 0 1rem 0;
+$callout-padding: 1rem;
+$callout-link-tint: 30%;
+$callout-font-color: $background;
+$callout-font-color-alt: $body-background;
+// 22. Menu
+// --------
+
+$menu-margin: 0;
+$menu-margin-nested: 1rem;
+$menu-item-padding: .7rem 1rem;
+$menu-item-color-active: darken(map-get($foundation-palette, secondary), 9%);
+$menu-item-background-active: none;
+$menu-icon-spacing: .25rem;
+
+// 34. Title Bar
+// -------------
+$titlebar-background: map-get($foundation-palette, secondary);
+
+// 36. Top Bar
+// -----------
+$topbar-unstack-breakpoint: medium;
+
+
+$color-icon: map-get($foundation-palette, background);
+$color-link: map-get($foundation-palette, secondary);
+$color-active: map-get($foundation-palette, alert);
+$color-icon-active: map-get($foundation-palette, warning);
+$bg-hover: map-get($foundation-palette, warning);
+// ChiRo background
+$background-image: url('../images/chi.jpg');

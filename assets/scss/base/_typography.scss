@@ -1,0 +1,32 @@
+
+
+// Google fonts
+//@import url(https://fonts.googleapis.com/css?family=Muli:400,300,300italic);
+@import '../../../node_modules/font-awesome/scss/font-awesome';
+
+h1,
+h2 {
+  letter-spacing: -1px;
+}
+h2,
+h3 {color:$tertiary;}
+.small {
+  font-size: 1.6rem;
+}
+
+h4 {
+  &.feed-title {
+    margin: 2rem 0 1rem;
+  }
+}
+
+// Icons
+
+.fa {
+  display: inline-block;
+  width: 2rem;
+}
+
+.fa-stack {font-size: 1.2em;}
+
+.fa-stack-1x {font-size: 1.2em;}

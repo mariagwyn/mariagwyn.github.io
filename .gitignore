@@ -1,7 +1,11 @@
 /* Exclude Jekyll Build */
 public*
+.jekyll-metadata
 
+/* Mac OSX */
 .DS_Store
+Icon
+*.swp~
 
 /* Local Testing */
 test*
@@ -9,7 +13,12 @@ test*
 /* Don't commit Dev packages */
 assets/_dev/bower_components
 node_modules
+npm-debug.log
 
 /* Exclude Caching */
-.sass-cache
-.jekyll-metadata
+.sass-cache/
+*.sassc
+*.scssc
+
+# Ruby
+Gemfile.lock

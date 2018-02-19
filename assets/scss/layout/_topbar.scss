@@ -1,0 +1,46 @@
+.top-bar {
+  padding-top: 0;
+  a {color: $topbar-link-color;}
+  h1 {font-size: 160%; }
+
+  .top-bar-right {
+    flex: 1 1 0;
+  }
+
+  @include breakpoint(small only) {
+    ul {
+      background: $secondary-color;
+    }
+
+    li {
+      &:hover {
+        background: $background;
+
+        a {color: $primary-color;}
+      }
+    }
+
+    a {
+      color: $background;
+    }
+  }
+}
+
+#top-bar-nav {
+  float: right;
+}
+
+
+// Prevents FOUC on top-bar
+.no-js {
+  @include breakpoint(small only) {
+    .top-bar {
+      display: none;
+    }
+  }
+  @include breakpoint(medium) {
+    .title-bar {
+      display: none;
+    }
+  }
+}

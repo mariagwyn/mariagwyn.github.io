@@ -1,0 +1,26 @@
+//
+// Foundation-Jekyll - Custom Theme Styles
+//
+img {
+  padding: $global-radius;
+}
+.left {
+  float: left;
+}
+.border {border-bottom: 1px solid $primary-color-light;}
+
+// Common Classes
+.centered {
+  text-align: center;
+}
+
+.callout {
+  border-radius: $global-radius;
+}
+
+.solid {
+  border-top-left-radius: $global-radius;
+  border-top-right-radius: $global-radius;
+  height: 2em;
+  margin: -1em -1em 1em;
+}

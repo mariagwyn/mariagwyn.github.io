@@ -64,15 +64,19 @@ url:                http://mariagwyn.com
 
 # exclude this stuff when building the static site
 exclude:
+  - assets/_dev
+  - bower.json
   - Gemfile
   - Gemfile.lock
-  - LICENSE
-  - README.md
-  - CNAME
-  - assets/_dev
+  - /gulp/
   - gulpfile.js
+  - LICENSE
+  - CNAME
   - node_modules
+  - npm-debug.log
   - package.json
+  - README.md
+  - yarn.lock
   - SiteNotes.md
 
 gems:
