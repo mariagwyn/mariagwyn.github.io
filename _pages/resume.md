@@ -4,6 +4,7 @@ title: Resume
 permalink: /resume/
 sidebar: false
 excerpt: Resume for Maria Gwyn McDowell, MDiv, PhD
+uniquejs: timeline.js
 ---
 
 This is a selected list of both church and secular work arranged in a timeline. For a printable, two-page resume emphasizing skills, please download:

@@ -34,10 +34,12 @@
     {% endif %}
     <!-- /404 Redirect -->
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }}" href="{{ site.url }}/feed.xml | prepend: site.baseurl | prepend: site.url }}">
-    <link rel="stylesheet" href="{{ page.base_url }}assets/css/style.css" />
-    {% if page.stylesheet %}
-      <link rel="stylesheet" type="text/css" href="{{ page.base_url }}assets/stylesheets/individual/{{ page.stylesheet }}.css">
-    {% endif %}
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    {% for uniquecss in page.css %}
+      <link rel="stylesheet" type="text/css" href="/assets/uniquecss/{{ uniquecss }}">
+    {% endfor %}
+
+
     <!-- Foundation Favicons -->
     {% for favicon in site.theme_settings.favicons %}
       {% assign size = favicon | split: '-' | last | split: '.' | first %}

@@ -1,6 +1,6 @@
 var $             = require('gulp-load-plugins')();
 var browserSync   = require('browser-sync');
-var config        = require('../util/loadConfig').sass;
+var config        = require('../util/loadConfig').lint;
 var gulp          = require('gulp');
 var isProduction  = require('../util/isProduction');
 var sassLint = require('gulp-sass-lint');

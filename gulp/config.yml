@@ -102,6 +102,11 @@ sass:
   notification: "Running Sass"
   src: "assets/scss/*.scss"
 
+lint:
+  src:
+    - assets/scss/*.*
+    - assets/scss/*/*.*
+
 images:
   dest:
     jekyllRoot: "assets/images/"
@@ -117,7 +122,7 @@ watch:
   media:
     - "assets/img/**/*"
     - "assets/video/**/*"
-  javascript: "assets/js/app.js"
+  javascript: "assets/js/all.js"
   sass: "assets/scss/**/*.scss"
   pages:
     - "*.{md,html,yml,xml}"

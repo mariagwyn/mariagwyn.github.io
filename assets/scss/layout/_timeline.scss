@@ -6,8 +6,7 @@
   padding: 0;
 }
 
-/* TIMELINE
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
+/* Timeline */
 .timeline {
   background: $background-image;
   border-radius: $global-radius;
@@ -22,10 +21,10 @@
   }
 
   ul {
-    margin-left: 0;
-    padding: 2rem 0;
     background-color: rgba($background, .8);
     border-radius: $global-radius;
+    margin-left: 0;
+    padding: 2rem 0;
   }
 
   li {
@@ -36,15 +35,25 @@
     position: relative;
     width: 4px;
 
+    &.life {
+      &::after {
+        border: 2px solid $primary-text-light;
+      }
+
+      div {
+        border-color: $primary-text-light;
+      }
+    }
+
     &::after {
-      content: '';
       background: inherit;
-      border-radius: 50%;
       border: 2px solid $background;
-      top: 2rem;
+      border-radius: 50%;
+      content: '';
       height: 30px;
       left: 50%;
       position: absolute;
+      top: 2rem;
       transform: translateX(-50%);
       width: 30px;
     }
@@ -59,11 +68,11 @@
       width: 400px;
 
       &::before {
-        content: '';
         border-style: solid;
-        top: 7px;
+        content: '';
         height: 0;
         position: absolute;
+        top: 7px;
         width: 0;
       }
     }
@@ -96,19 +105,17 @@
 
 time {
   display: block;
-  font-size: .8rem;
-  font-weight: bold;
+  font-size: 1.4rem;
   left: -490px;
   margin-bottom: .25rem;
   position: absolute;
   text-align: right;
-  top: .3rem;
+  top: 0;
   width: 400px;
 }
 
 
-/* EFFECTS
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
+/* Effects */
 
 .timeline ul li::after {
   transition: background .5s ease-in-out;
@@ -181,6 +188,7 @@ time {
     }
   }
 }
+
 .timeline ul li:nth-child(odd).work div::before {
   border-color: transparent $primary-color transparent transparent;
 }
@@ -194,25 +202,15 @@ time {
     }
   }
 }
-.timeline {
-  li {
-    &.life {
-      &::after {
-        border: 2px solid $primary-text-light;
-      }
 
-      div {
-        border-color: $primary-text-light;
-      }
-    }
-  }
-}
 .timeline ul li:nth-child(odd).life div::before {
   border-color: transparent $primary-text-light transparent transparent;
 }
+
 .timeline ul li:nth-child(even).life div::before {
   border-color: transparent transparent transparent $primary-text-light;
 }
+
 .timeline ul li.in-view {
   &.life {
     &::after {
@@ -247,13 +245,16 @@ time {
     text-align: left;
     width: inherit;
   }
+
   .timeline {
     ul li div {
       width: calc(100vw - 91px);
     }
+
     li {
     margin-left: 20px;
     }
+
     ul li:nth-child(even) div {
       left: 45px;
 
