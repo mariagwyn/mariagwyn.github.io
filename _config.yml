@@ -10,14 +10,21 @@ description :  Theology | Ethics | Practice
 copyright:     Copyright (c) 2018 | Maria Gwyn McDowell | All rights reserved
 url:           http://mariagwyn.com
 email:         mariagwyn@gmail.com
-github:           mariagwyn
-twitter:          mariagwyn
-facebook:         mariagwyn
-youtube:          mariagwyn
-soundcloud:       mariagwyn
-linkedin:   maria-mcdowell-29593218
 resume-link: /assets/documents/McDowell-Resume-Ekklesia_web.pdf
 cv-link: /assets/documents/McDowell-Resume-CV.pdf
+
+# Feeds
+url: http://mariagwyn.com
+twitter_rss: /twitter
+
+# Social Media
+github:           mariagwyn
+facebook:         mariagwyn
+linkedin:   maria-mcdowell-29593218
+soundcloud:       mariagwyn
+twitter:          mariagwyn
+youtube:          mariagwyn
+
 #site_phone:         (555) 555-1234
 ga_id:             UA-1526149-1
 
@@ -60,7 +67,6 @@ source:             ./
 destination:        ./public
 baseurl: ""
 port:               9002
-url:                http://mariagwyn.com
 
 # exclude this stuff when building the static site
 exclude:
@@ -85,5 +91,6 @@ plugins:
    - jekyll-redirect-from
    - jekyll-sitemap
    - jekyll-feed
-   
+   - github-pages
+
 include: ["_pages"]
