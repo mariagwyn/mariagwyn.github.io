@@ -33,7 +33,11 @@
       <meta http-equiv="refresh" content="5; url=/">
     {% endif %}
     <!-- /404 Redirect -->
+    <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ site.rss }}" />
+    <link rel="alternate" title="{{ site.title }}" type="application/json" href="{{ "/feed/index.json" | absolute_url }}" />
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }}" href="{{ site.url }}/feed.xml | prepend: site.baseurl | prepend: site.url }}">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+
     <link rel="stylesheet" href="/assets/css/style.css" />
     {% for uniquecss in page.css %}
       <link rel="stylesheet" type="text/css" href="/assets/uniquecss/{{ uniquecss }}">

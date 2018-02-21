@@ -7,23 +7,21 @@
 
 ## Installation:
 
-**Requirements:**
-* np
+### Required
+[Git](https://git-scm.com)  
+[Ruby and Ruby Gems](https://rvm.io/rvm/install)  
+[Jekyll](http://jekyllrb.com/) - `gem install jekyll`  
+[Bundler](http://bundler.io/) - `gem install bundler` (mac users may need sudo)  
 
-**Install Bower Packages:**
-```sh
-$ bower install
-$ npm install
-```
+[NodeJS](http://nodejs.org) - use the installer.  
+[Yarn](https://yarnpkg.com/en/docs/install) - follow installation instructions  
+[GulpJS](https://github.com/gulpjs/gulp) - `npm install -g gulp` (mac users may need sudo) 
 
-```bower install``` adds:
-* Zurb Foundation
-* Font Awesome
-* Referenced files: ```bower.json``` and ```.bowerrc```.
+### Local Installation
 
-```npm install``` adds Gulp and its packages.
-
-Referenced files: ```package.json``` and ```gulpfile.js```.
+Git clone this repository, or download it into a directory of your choice. Inside the directory run   
+1. `yarn` (reference: package.json)  
+2. `bundle install` (reference: Gemfile and Gemfile.lock)  
 
 ## Structure:
 For the most part, the site follows a typical Jekyll structure. However, the theme utilizes Zurb Foundation, and the builds are through Gulp rather than Jekyll. This allows for various optimizations, automated tasks, etc.

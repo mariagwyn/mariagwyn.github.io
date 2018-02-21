@@ -1,0 +1,39 @@
+---
+layout: null
+permalink: /feed/index.json
+---
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "{{ site.title | xml_escape }}",
+    "home_page_url": "{{ "/" | absolute_url }}",
+    "feed_url": "{{ "/feed/index.json" | absolute_url }}",
+    "description": {{ site.description | jsonify }},
+    "icon": "{{ "/images/favicon/favicon-228.png" | absolute_url }}",
+    "favicon": "{{ "/favicon.ico" | absolute_url }}",
+    "expired": false,
+    "items": [
+    {% for post in site.posts limit: 15 %}
+      {% unless post.draft %}
+        {% capture spacer %} src="{{ '/images/site/spacer.gif' | absolute_url }}"{% endcapture %}
+        {% capture link_title %}{{ post.title }} →{% endcapture %}
+        {% capture content_text %}{{ post.content | replace: 'data-echo', 'src' | replace: spacer, '' | strip_html | strip_newlines }}{% endcapture %}
+        {% if post.link %}{% capture reference %}<p><a href="{{ post.url | absolute_url }}">※</a></p>{% endcapture %}{% endif %}
+        {% capture content_html %}{{ post.content | replace: 'data-echo', 'src' | replace: spacer, '' | markdownify | strip_newlines }}{% if post.link %}{{ reference }}{% endif %}{% endcapture %}
+        {
+            "id": "{{ post.url | absolute_url | sha1 }}",
+            {% if post.categories contains 'blog' %}"title": {{ post.title | jsonify }},{% endif %}
+            {% if post.link %}"title": {{ link_title | jsonify }},{% endif %}
+            "content_text": {{ content_text | jsonify }},
+            "content_html": {{ content_html | jsonify }},
+            "url": "{{ post.url | absolute_url}}",
+            {% if post.photo.size > 1 %}"image": "{{ post.photo | absolute_url }}",{% endif %}
+            {% if post.link %}"external_url": "{{ post.link }}",{% endif %}
+            "date_published": "{{ post.date | date_to_xmlschema }}",
+            "date_modified": "{{ post.date | date_to_xmlschema }}",
+            "author": {
+                "name": "{{ site.title }}"
+            }
+        }{% if forloop.last == false %},{% endif %}{% endunless %}
+    {% endfor %}
+    ]
+}

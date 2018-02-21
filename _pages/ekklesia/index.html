@@ -10,14 +10,7 @@ secondary-menu:
 ---
 <div class="ekklesia">
   <p>Sermons, church-related articles, educational materials and projects.</p>
-  <div class="row cvresume">
-    <div class="resume column small-12 medium-large-6">
-      <h4><a href="/resume"><i class="fa fa-file-pdf-o fa-1x"></i>Online Resume</a></h4>
-    </div>
-    <div class="resume column small-12 medium-large-6">
-      <h4><a href="{{ site.resume-link }}"><i class="fa fa-file-pdf-o fa-1x"></i>PDF Resume</a></h4>
-    </div>
-  </div>
+  {% include resumes-twocol.html %}
   <hr>
   {% for post in site.categories.ekklesia %}
   <div class="post-short">

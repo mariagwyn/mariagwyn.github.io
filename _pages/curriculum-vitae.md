@@ -5,7 +5,7 @@ permalink: /cv/
 excerpt: Curriculum Vitae for Maria Gwyn McDowell, MDiv, PhD
 content_class: cv
 ---
-<p><a href="/assets/documents/McDowell-CV.pdf"><i class="fa fa-file-pdf-o fa-1x"></i>Download PDF</a></p>
+<p><a href="/assets/documents/McDowell-CV.pdf"><i class="far fa-file-pdf fa-1x"></i>Download PDF</a></p>
 
 ## Education
 

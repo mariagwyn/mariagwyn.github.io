@@ -9,7 +9,7 @@ uniquejs: timeline.js
 
 This is a selected list of both church and secular work arranged in a timeline. For a printable, two-page resume emphasizing skills, please download:
 
-<a href="{{ site.resume-link }}"><i class="fa fa-file-pdf-o fa-1x"></i>PDF Resume</a>.
+<a href="{{ site.resume-link }}"><i class="far fa-file-pdf fa-lg"></i> PDF Resume</a>.
 
 <section class="timeline">
 <ul>
