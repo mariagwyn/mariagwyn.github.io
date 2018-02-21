@@ -11,6 +11,11 @@ layout:
     <atom:link href="{{ "/feed/twitter.xml" | absolute_url }}" rel="self" type="application/rss+xml"/>
     <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
     <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
+    <image>
+      <url>{{ site.picture }}</url>
+      <title>{{ site.title | xml_escape }}</title>
+      <link>{{ site.url }}{{ site.baseurl }}/</link>
+    </image>
     <generator>Jekyll v{{ jekyll.version }}</generator>
     {% for post in site.tags.twitter %}
       {% unless post.draft %}
