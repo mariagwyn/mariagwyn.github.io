@@ -12,4 +12,5 @@ group :jekyll_plugins do
 	gem 'jekyll-redirect-from'
 	gem 'github-pages'
 	gem 'jekyll-feed'
+	gem "html-proofer"
 end
