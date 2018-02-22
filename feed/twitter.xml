@@ -22,11 +22,6 @@ layout:
       {% capture content %}{% if post.link %}{{ post.title | xml_escape }}: {% endif %}{{ post.content | strip_html | xml_escape }}{% endcapture %}
       {% assign size = content | size %}
         <item>
-          <image>
-            <url>{{ site.picture }}</url>
-            <title>{{ site.title | xml_escape }}</title>
-            <link>{{ site.url }}{{ site.baseurl }}/</link>
-          </image>
           {% if size > 280 %}
             <description>
               {{ content | truncate: 255, '…' }} {{ post.url | absolute_url }}
