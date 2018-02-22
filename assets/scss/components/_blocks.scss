@@ -103,6 +103,18 @@ ul {
   }
 }
 
+.block-categories {
+  font-size: .9rem;
+}
+
+.block-pubtext {
+  font-size: .9rem;
+
+  li {
+    padding-left: 1em;
+    text-indent: -1em;
+  }
+}
 // Archive Pages
 .archive {
   .column {

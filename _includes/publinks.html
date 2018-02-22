@@ -1,0 +1,22 @@
+<div class="block-pubtext">
+  <h4 class="block-title">Reading Options:</h4>
+  <ul class="no-bullet pubtext">
+    {% if page.pubtext-pdf %}
+        <li>
+          <a href="{{ page.pubtext-pdf }}" target="_blank"><i class="far fa-file-pdf"></i>
+            Full Text PDF
+          </a>
+        </li>
+    {% endif %}
+    {% if page.pubtext-online %}
+        <li>
+          <a href="{{ page.pubtext-onlinelink }}" target="_blank"><i class="fas fa-globe"></i>Read at {{ page.pubtext-online }}</a>
+        </li>
+    {% endif %}
+    {% if page.pubbook-amazon %}
+        <li>
+          <a href="{{ page.pubbook-amazon }}" target="_blank"><i class="fab fa-amazon"></i>Purchase on Amazon</a>
+        </li>
+    {% endif %}
+  </ul>
+</div>

@@ -28,10 +28,13 @@
         {% include secondary-menu.html %}
       {% endif %}
       {% if page.scripture %}
-        {% include scripture.html %}
+        {% include block-scripture.html %}
+      {% endif %}
+      {% if page.pubtext-pdf %}
+        {% include publinks.html %}
       {% endif %}
     {% if page.categories %}
-      {% include category-list.html %}
+      {% include block-categories.html %}
     {% endif %}
     {% if page.academia %}<p class="academia">On <a href="https://www.academia.edu/{{ page.academia }}" target="_blank" >Academia.edu</a></p>{% endif %}
     {% include socialmedia.html %}

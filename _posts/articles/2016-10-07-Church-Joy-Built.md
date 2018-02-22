@@ -17,7 +17,7 @@ pub-link: http://wipfandstock.com/the-church-has-left-the-building.html
 pub-location: "Eugene, Oregon"
 pub-date: 2016
 pp: 34-44
-image-primary: /assets/images/pubs/bookcover_clb2016.jpg
+image-primary: /assets/images/pubs/bookcover_2016_clb.jpg
 description: "An autobiographical essay on growing up a woman with a call to the ordained ministry in a church that does not ordain women."
 ---
 <a href="/assets/documents/McDowell_2016_Essay_HomeJoyBuilt_CLB4.pdf">

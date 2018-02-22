@@ -19,7 +19,8 @@ layout: default
 </div>
 {% if page.image-primary %}
 <div class="post-image">
-  <img src="{{ page.image-primary}} " alt="{{ page.image-caption }}">
+  <img src="{{ page.image-primary}}" alt="
+    {% if page.image-caption %}{{ page.image-caption }}{% else %}Book Cover{% endif %}">
   {% if page.image-primary %}
     <p>{{ page.image-caption }}</p>
   {% endif %}

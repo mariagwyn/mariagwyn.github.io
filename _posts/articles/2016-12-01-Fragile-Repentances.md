@@ -13,28 +13,16 @@ pub-source: "‘For I Am Wonderfully Made’: Texts on Eastern Orthodoxy and LGB
 editor: "Misha Cherniak, Olga Gerassimenko, Michael Brinkscr&ouml;der."
 editor-prefix: "Eds."
 publisher: "European Forum of Lesbian, Gay, Bisexual and Transgender Christian Groups"
-pub-link: http://www.euroforumlgbtchristians.eu/index.php/en/
+pub-link: https://www.euroforumlgbtchristians.eu/index.php
 pub-date: 2016
+pubtext-pdf: https://www.dropbox.com/s/6apk6hp1o9o1a3p/McDowell_2016_Fragile-Repentances_Wonderfully-Made.pdf?dl=0
+pubtext-online: Women in Theology
+pubtext-onlinelink: https://womenintheology.org/2013/11/19/fragile-repentances/
+pubbook-amazon: https://www.amazon.com/Am-Wonderfully-Made-Orthodoxy-Inclusion/dp/908883024X
 pp: 236-243
 image-primary: /assets/images/pubs/bookcover_2016_wonderfullymade.png
 description: "An invited essay on being LGBTQ and Orthodoxy."
 ---
-<a href="/assets/documents/McDowell_2016_Fragile-Repentances_Wonderfully-Made.pdf">
-  <i class="fa fa-file-pdf-o"></i>
-  Full Text
-</a>
-<br />
-<a href="https://www.amazon.com/Am-Wonderfully-Made-Orthodoxy-Inclusion/dp/908883024X">
-  <i class="fa fa-amazon"></i>
-  Purchase the book at Amazon
-</a>
-<br />
-<a href="https://womenintheology.org/2013/11/19/fragile-repentances/">
-  <i class="fa fa-file-text-o"></i>
-  Originally published on Women in Theology.
-</a>
-<br />
-
 ### Essay
 
 Every Orthodox person who loves someone of the same sex risks hearing the following:

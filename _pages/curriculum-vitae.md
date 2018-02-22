@@ -44,9 +44,9 @@ content_class: cv
 ***
 ### Major Articles
 
-"Seeing Gender: Orthodox Liturgy, Orthodox Personhood" in _Journal of the Society of Christian Ethics_, 343(2), Fall/Winter 2013.
+"[Seeing Gender: Orthodox Liturgy, Orthodox Personhood](https://www.dropbox.com/s/k8p4fhffc5cygiz/McDowell_2013_Article_Seeing-Gender_JSCE-v33n2-FallWinter.pdf?dl=0)" in _Journal of the Society of Christian Ethics_, 343(2), Fall/Winter 2013.
 
-"[The Iconicity of Priesthood: Male Bodies or Embodied Virtue?](/academia/article/iconicity-of-priesthood-male-bodies-or-embodied-virtue)" in _Modes of Godly Being: Reflections on the Virtues From the Christian East_, eds. Aristotle Papanikolaou and Perry Hamalis. Special Issue of _Studies In Christian Ethics,_ 26(3), August 2013.
+"[The Iconicity of Priesthood: Male Bodies or Embodied Virtue?](https://www.dropbox.com/s/765vpwc9l1ieqzj/McDowell_201308_Article_Iconicity-Priesthood_SCE.pdf?dl=0)" in _Modes of Godly Being: Reflections on the Virtues From the Christian East_, eds. Aristotle Papanikolaou and Perry Hamalis. Special Issue of _Studies In Christian Ethics,_ 26(3), August 2013.
 
 ### Edited Volumes
 
@@ -54,19 +54,19 @@ _The Church has Left the Building_, eds. Michael Plekon, Maria Gwyn McDowell, El
 
 ### Book Chapters
 
-"The Home that Joy Built," in _The Church has Left the Building_, eds. Michael Plekon, Maria Gwyn McDowell, Elizabeth Schroeder (Wipf & Stock, forthcoming, 2016).
+"[The Home that Joy Built](https://www.dropbox.com/s/4490rap9x1e7kx5/McDowell_2016_Essay_HomeJoyBuilt_CLB4.pdf?dl=0)," in _The Church has Left the Building_, eds. Michael Plekon, Maria Gwyn McDowell, Elizabeth Schroeder (Wipf & Stock, forthcoming, 2016).
 
 "'The Hands of a Woman': Person, Image and Ordination," in _A Communion Lived in Faith and Love: Reflections on Elisabeth Behr-Sigel's Ecclesiology_, Doxa and Praxis, eds. Eleni Kasselouri and Sarah Wilson (WCC and Volos Academy, forthcoming, 2015). To be published in English, French (in _Contacts_), and Arabic.
 
 ### Online Publications
 
-“[Life Bearing Love: A Too Risky Vision.](http://mariagwyn.com/publication/2016/10/09/Life-Bearing-Love/)” In _Public Orthodoxy_, edited by Nathaniel Wood. New York: Orthodox Christian Studies Center of Fordham University, 2016\. ([original link](https://publicorthodoxy.org/2016/05/03/life-bearing-love-a-too-risky-vision/))
+“[Life Bearing Love: A Too Risky Vision.](http://mariagwyn.com/academia/2016/10/09/Life-Bearing-Love/)” In _Public Orthodoxy_, edited by Nathaniel Wood. New York: Orthodox Christian Studies Center of Fordham University, 2016\. ([original link](https://publicorthodoxy.org/2016/05/03/life-bearing-love-a-too-risky-vision/))
 
-“[Response to the Pre-Conciliar Document ‘On Marriage and its Impediments.’](http://mariagwyn.com/publication/2016/10/09/Response-Marriage-Impediments/)” In _Public Orthodoxy_, edited by Nathaniel Wood. New York: Orthodox Christian Studies Center of Fordham University, 2016\. ([original link](https://publicorthodoxy.org/2016/05/06/response-to-the-pre-conciliar-document-on-marriage-and-its-impediments/))
+“[Response to the Pre-Conciliar Document ‘On Marriage and its Impediments.’](http://mariagwyn.com/academia/2016/10/09/Response-Marriage-Impediments/)” In _Public Orthodoxy_, edited by Nathaniel Wood. New York: Orthodox Christian Studies Center of Fordham University, 2016\. ([original link](https://publicorthodoxy.org/2016/05/06/response-to-the-pre-conciliar-document-on-marriage-and-its-impediments/))
 
-“[Marriage, Family, and Scripture.](http://mariagwyn.com/publication/2016/10/09/Marriage-Family-Scripture/)" In _Public Orthodoxy_, edited by Nathaniel Wood. New York: Orthodox Christian Studies Center of Fordham University, 2016\. ([original link](https://publicorthodoxy.org/2016/05/06/marriage-family-and-scripture/))
+“[Marriage, Family, and Scripture.](http://mariagwyn.com/academia/2016/10/09/Marriage-Family-Scripture/)" In _Public Orthodoxy_, edited by Nathaniel Wood. New York: Orthodox Christian Studies Center of Fordham University, 2016\. ([original link](https://publicorthodoxy.org/2016/05/06/marriage-family-and-scripture/))
 
-“[Defending Human Dignity: A Response to the Pre-Conciliar Document ‘The Mission of the Orthodox Church in Today’s World.’](http://mariagwyn.com/publication/2016/10/09/Defending-Human-Dignity/)” In _Public Orthodoxy_, edited by Nathaniel Wood. New York: Orthodox Christian Studies Center of Fordham University, 2016\. ([original link](https://publicorthodoxy.org/2016/06/15/defending-human-dignity/))
+“[Defending Human Dignity: A Response to the Pre-Conciliar Document ‘The Mission of the Orthodox Church in Today’s World.’](http://mariagwyn.com/academia/2016/10/09/Defending-Human-Dignity//)” In _Public Orthodoxy_, edited by Nathaniel Wood. New York: Orthodox Christian Studies Center of Fordham University, 2016\. ([original link](https://publicorthodoxy.org/2016/06/15/defending-human-dignity/))
 
 ### Book Reviews
 
@@ -86,7 +86,7 @@ Standard articles: "Sexual Ethics," "Deaconess," "Communion of the Saints"; Nota
 
 _Variations on a Theme by Mary Shelley_. Co-authored with Mark O"Connor, Director of the Honors Program, Boston College, 2007.
 
-"[The Newness of the Spirit: the Ordination of Men and Women](/ekklesia/article/newness-of-spirit)," _The Word: a publication of the Antiochian Orthodox Archdiocese_, May 2004, pp. 9-11\. (Not peer reviewed).
+"[The Newness of the Spirit: the Ordination of Men and Women](https://www.dropbox.com/s/j5vo1m4s8ofa2t5/McDowell_200404_TheWord_Newness_of_Spirit.pdf?dl=0)," _The Word: a publication of the Antiochian Orthodox Archdiocese_, May 2004, pp. 9-11\. (Not peer reviewed).
 
 ## Conference Participation
 

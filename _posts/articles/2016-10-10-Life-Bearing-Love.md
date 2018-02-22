@@ -31,7 +31,7 @@ description: "An essay in a series sponsored by the Orthodox Theological Society
 
 ### Description
 
-An independent, invited essay. First published online at <a href="https://publicorthodoxy.org">Public Orthodoxy</a> in a series sponsored by the <a href="http://www.otsamerica.net/">Orthodox Theological Society in America’s</a> <a href="https://publicorthodoxy.org/archives/otsa-special-project-on-the-great-and-holy-council/Special">Project on the Holy and Great Council</a>.
+An independent, invited essay. First published online at <a href="https://publicorthodoxy.org">Public Orthodoxy</a> in a series sponsored by the <a href="http://www.otsamerica.net/">Orthodox Theological Society in America’s</a> <a href="https://publicorthodoxy.org/archives/otsa-special-project-on-the-great-and-holy-council">Project on the Holy and Great Council</a>.
 
 ### Essay
 

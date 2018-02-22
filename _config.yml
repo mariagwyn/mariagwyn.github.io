@@ -11,7 +11,7 @@ copyright:     Copyright (c) 2018 | Maria Gwyn McDowell | All rights reserved
 url:           http://mariagwyn.com
 email:         mariagwyn@gmail.com
 resume-link: /assets/documents/McDowell-Resume-Ekklesia_web.pdf
-cv-link: /assets/documents/McDowell-Resume-CV.pdf
+cv-link: /assets/documents/McDowell-CV.pdf
 
 author: Maria Gwyn McDowell
 picture: /assets/images/Maria_McDowell-2017.jpg
@@ -62,7 +62,7 @@ defaults:
 
 theme_settings:
   favicons:
-    #- /assets/2014/04/21/favicon-152.png
+    /assets/images/favicon.ico
 
 # Serving
 source:             ./
