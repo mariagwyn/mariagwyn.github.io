@@ -6,6 +6,18 @@ footer {
       list-style: none;
     }
   }
+  .footer-boxes .cell {
+    @include xy-gutters($gutter-position: left right);
+    // Use a column count (33%);
+    @include xy-cell(4);
+  }
+  .footer-boxes .social-media-list  {
+    &.cell {
+      @include xy-cell(100);
+      margin-right: 0;
+      margin-left: 0;
+    }
+  }
 }
 
 .site-footer {

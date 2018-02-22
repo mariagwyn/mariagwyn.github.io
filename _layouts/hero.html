@@ -3,12 +3,12 @@
   {% include header.html %}
   {% if page.image-primary %}
   <section class="hero" style="background-image:url('{{ page.image-primary }}');">
-    <div class="row intro">
-      <div class="small-12 medium-6 columns">
+    <div class="grid-x intro">
+      <div class="cell small-12 medium-6">
         <h1>{{ page.title }}</h1>
         <p>{{ page.description }}</p>
       </div>
-      <div class="small-12 medium-6 columns">
+      <div class="cell small-12 medium-6">
         <div class="focus-img" style="background-image:url('{{ page.image-primary }}');"></div>
       </div>
     </div>
@@ -16,8 +16,8 @@
 
   {% endif %}
 
-  <div class="row page-body">
-    <div class="small-12 medium-8 medium-offset-2 large-offset-2 end columns">
+  <div class="grid-x grid-padding-x page-body">
+    <div class="cell small-12 medium-8 medium-offset-2 large-offset-2 end">
     <div class="page-content">
       {% if page.image-primary %}
       <div class="post-image">

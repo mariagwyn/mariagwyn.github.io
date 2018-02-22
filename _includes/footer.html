@@ -1,6 +1,11 @@
-<footer class="site-footer dumbotron">
-  <div class="row" data-equalizer="footer" data-equalize-on-stack="false" id="footer-eq">
-      <div class="column small-12 medium-4 contacts">
+{% if page.heroimage %}
+<footer class="dumbotron site-footer" style="background-image: url({{ page.heroimage }});">
+{% else %}
+<footer class="dumbotron site-footer">
+{% endif %}
+  <div class="grid-container">
+    <div class="grid-x footer-boxes align-spaced">
+      <div class="cell small-12 medium-4 contacts">
         <div class="callout" data-equalizer-watch="footer">
           <ul class="contact-list">
             <li>{{ site.title }}</li>
@@ -9,9 +14,9 @@
           </ul>
         </div>
       </div>
-      <div class="column small-12 medium-4 socialmedia">
-        <div class="callout row" data-equalizer-watch="footer">
-          <ul class="social-media-list column small-12 medium-6">
+      <div class="cell small-12 medium-4 socialmedia">
+        <div class="callout grid-x" data-equalizer-watch="footer">
+          <ul class="cell social-media-list small-12 medium-6">
             {% if site.facebook %}
             <li>
               <a href="https://facebook.com/{{ site.facebook }}">
@@ -37,7 +42,7 @@
             </li>
             {% endif %}
           </ul>
-          <ul class="social-media-list column small-12 medium-6">
+          <ul class="cell social-media-list small-12 medium-6">
             {% if site.soundcloud %}
             <li>
               <a href="https://soundcloud.com/{{ site.soundcloud }}">
@@ -64,11 +69,12 @@
         </div>
       </div>
 
-      <div class="column small-12 medium-4 colophon">
+      <div class="cell small-12 medium-4 colophon">
         <div class="callout" data-equalizer-watch="footer">
           <p class="text">This site is built with <a href="https://github.com/jekyll/jekyll">Jekyll</a> and <a href="https://pages.github.com/">hosted on github</a>.</p>
         </div>
       </div>
-      <p class="copy column small-12">{{ site.copyright }}</p>
+      <p class="copy cell small-12">{{ site.copyright }}</p>
     </div>
+  </div>
 </footer>

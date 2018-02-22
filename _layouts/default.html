@@ -1,35 +1,41 @@
 {% include head.html %}
 {% include header.html %}
-  <div class="row page-body">
-    {% if page.sidebar == false %}
-      <div class="small-12 medium-12 large-10 large-offset-2 column">
-    {% else %}
-      <div class="small-12 medium-10 medium-offset-2 large-8 large-offset-3 column">
+<div class="grid-container">
+<div class="grid-x grid-padding-x content-title">
+  <div class="cell small-12 medium-12 large-9 large-offset-3">
+    {% if page.pub-type %}
+    <p class="pub-type"><strong>{{ page.pub-type }}</strong></p>
     {% endif %}
-        {% if page.pub-type %}<p class="pub-type"><strong>{{ page.pub-type }}</strong></p>{% endif %}
-        <h1>{{ page.title }}</h1>
-      </div>
-    {% if page.sidebar == false %}
-      <div class="small-12 medium-12 large-10 large-offset-2 end column">
-    {% else %}
-      <div class="small-12 medium-2 large-offset-1 column infoblock">
-        {% if page.date %}<p>
-          <i class="fas fa-2x fa-calendar"></i>{{ page.date | date: "%-d %B %Y" }}</p>{% endif %}
-          {% if page.secondary-menu %}
-            {% include secondary-menu.html %}
-          {% endif %}
-        {% if page.categories %}
-          {% include category-list.html %}
-        {% endif %}
-        {% if page.academia %}<p class="academia">On <a href="https://www.academia.edu/{{ page.academia }}" target="_blank" >Academia.edu</a></p>{% endif %}
-        {% include socialmedia.html %}
-      </div>
-      <div class="small-12 medium-10 large-8 end column">
-    {% endif %}
+    <h1>{{ page.title }}</h1>
+  </div>
+</div>
+
+<div class="grid-x grid-padding-x">
+  {% if page.sidebar == false %}
+  <div class="cell small-12 medium-10 large-10 large-offset-2">
+  {% else %}
+  <div class="cell small-12 medium-10 large-8 large-order-2">
+  {% endif %}
     <div class="page-content {{page.content_class}}">
-      {{ content }}
+    {{ content }}
     </div>
   </div>
+  {% if page.sidebar == true %}
+  <div class="cell small-12 medium-2 large-2 large-offset-1 large-order-1">
+    {% if page.date %}<p>
+      <i class="far fa-calendar"></i>{{ page.date | date: "%-d %B %Y" }}</p>{% endif %}
+      {% if page.secondary-menu %}
+        {% include secondary-menu.html %}
+      {% endif %}
+    {% if page.categories %}
+      {% include category-list.html %}
+    {% endif %}
+    {% if page.academia %}<p class="academia">On <a href="https://www.academia.edu/{{ page.academia }}" target="_blank" >Academia.edu</a></p>{% endif %}
+    {% include socialmedia.html %}
   </div>
+  {% endif %}
+  </div>
+</div><!-- /grid-container -->
+
 {% include footer.html %}
 {% include foot.html %}

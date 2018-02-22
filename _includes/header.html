@@ -32,53 +32,56 @@
     </div>
 </div>
 </div>
-
 <header class="site-header">
-  <div class="row">
-    <div class="small-8 small-offset-4 large-offset-3 column header-primary"><h1><a href="/"><small>Rev'd </small>Maria Gwyn McDowell<small>, PhD</small></a></h1></div>
+  <div class="grid-container grid-x">
+    <div class="cell small-8 small-offset-4 large-offset-3 header-primary"><h1><a href="/"><small>Rev'd </small>Maria Gwyn McDowell<small>, PhD</small></a></h1></div>
   </div>
+  {% if page.heroimage %}
+  <div class="dumbotron header-secondary" style="background-image: url({{ page.heroimage }});">
+  {% else %}
   <div class="dumbotron header-secondary">
-    <div class="row">
-      <div class="small-3 small-offset-1 large-2 column header-picture-container">
+  {% endif %}
+    <div class="grid-x grid-padding-x">
+      <div class="cell small-3 small-offset-1 large-2 header-picture-container">
         <div class="header-picture">
           <a href="/"><img src="/assets/images/Maria_McDowell-2017.jpg"></a>
         </div>
       </div>
     </div>
     {% if page.special == 'home' %}
-      <div class="highlight-1" id="db">
-        <div class="row centered" data-equalizer="header" data-equalize-on="large" data-equalize-on-stack=false id="header-eq">
-          <div class="column small-12 large-4 cv">
+    <div class="grid-container">
+      <div class="grid-x highlight-1 align-spaced centered" id="db">
+          <div class="cell small-12 large-4 cv">
             <a href="/resume" class="callout" data-equalizer-watch="header">
               <div class="solid"></div>
               <h2>Resume</h2>
               <p>Labor in the church and the world.</p>
             </a>
           </div>
-          <div class="column small-12 medium-6 large-4 ekklesia">
-            <a href="/ekklesia" class="callout" data-equalizer-watch="header">
+          <div class="cell small-12 medium-6 large-4 ekklesia">
+            <a href="/ekklesia" class="callout" data-equalizers-watch="header">
               <div class="solid"></div>
               <h2>Ekklesia</h2>
               <p>Sermons, church-related articles, educational materials and projects.</p>
             </a>
           </div>
-          <div class="column small-12 medium-6 large-4 academia">
+          <div class="cell medium-6 large-4 academia">
             <a href="/academia" class="callout" data-equalizer-watch="header">
               <div class="solid"></div>
               <h2>Academia</h2>
               <p>Academic (primarily) publications and presentations.</p>
             </a>
           </div>
-        </div><!-- /row -->
       </div>
-      <div class="highlight-2" id="y">
-        <div class="row">
-          <div class="column bio">
-            {% include bio-short.html %}
-            <p><a href="/about"><small>read more »</small></a></p>
-          </div>
-        </div><!-- /row -->
-      </div>
+    </div>
+    <div class="highlight-2" id="y">
+      <div class="grid-container grid-padding-x grid-x">
+        <div class="cell bio">
+          {% include bio-short.html %}
+          <p><a href="/about"><small>read more »</small></a></p>
+        </div>
+      </div><!-- /row -->
+    </div>
     {% endif %}
   </div>
 

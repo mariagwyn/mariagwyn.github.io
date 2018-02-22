@@ -13,6 +13,7 @@ pub-location: "St. Michael & All Angels, Portland, Oregon"
 pub-date: 15 October, 2017
 description: A Sermon given on the 19th Sunday after Pentecost
 excerpt: "The violence we carry within us, the violence with which we respond to those around us, the violence on which our nation and world is built, all is judged in this story. Our hope lies not in a God who just does violence more fairly or justly or reasonably than we do it. Our hope rests in a God who calls us to refuse to participate in the injustice and cruelty, who stands with us as we suffer violence, who calls us to be a people of peace precisely because we follow a God of peace."
+sidebar: true
 ---
 **Scripture:**
 <ul>

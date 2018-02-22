@@ -1,4 +1,6 @@
 // Picture and text in .header-primary
+header {
+
 .header-picture-container {
   padding-left: 0;
 }
@@ -29,5 +31,17 @@
     border-radius: 50%;
     margin-bottom: 1px;
     padding: 0;
+  }
+
+  a {
+    display: block;
+    height: 100%;
+    width: 100%;
+  }
+}
+  .highlight-1 .cell {
+    @include xy-gutters($gutter-position: left right);
+    // Use a column count (33%);
+    @include xy-cell(4);
   }
 }

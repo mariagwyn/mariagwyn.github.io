@@ -12,13 +12,9 @@ url:           http://mariagwyn.com
 email:         mariagwyn@gmail.com
 resume-link: /assets/documents/McDowell-Resume-Ekklesia_web.pdf
 cv-link: /assets/documents/McDowell-Resume-CV.pdf
+
+author: Maria Gwyn McDowell
 picture: /assets/images/Maria_McDowell-2017.jpg
-
-
-# Feeds
-url: http://mariagwyn.com
-twitter_rss: /twitter
-
 # Social Media
 github:           mariagwyn
 facebook:         mariagwyn
@@ -27,6 +23,10 @@ soundcloud:       mariagwyn
 twitter:          mariagwyn
 youtube:          mariagwyn
 
+# Feeds
+url: http://mariagwyn.com
+twitter_rss: /twitter
+
 #site_phone:         (555) 555-1234
 ga_id:             UA-1526149-1
 
@@ -34,7 +34,6 @@ ga_id:             UA-1526149-1
 permalink:          pretty
 
 # Dependencies
-markdown:           kramdown
 #Syntax Highlighter
 #highlighter:        pygments
 
@@ -56,18 +55,18 @@ defaults:
     scope:
       path: ""
     values:
-      layout: "default"
+      layout: "page"
       author: "Maria Gwyn McDowell"
       base_url: "/"
+      sidebar: true
 
 theme_settings:
   favicons:
     #- /assets/2014/04/21/favicon-152.png
 
-# Server
+# Serving
 source:             ./
 destination:        ./public
-baseurl: ""
 port:               9002
 
 # exclude this stuff when building the static site
