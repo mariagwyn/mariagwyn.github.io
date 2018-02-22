@@ -7,18 +7,19 @@ category:
 - sermon
 tags:
 - pentecost
+- twitter
 pub-type: Sermon
 pub-location: "St. Paul's Episcopal Church, Oregon City, Oregon"
 pub-date: 04 September, 2016
 description: A Sermon given on Sunday, the 16th week of Pentecost, 2016
 excerpt: "Maybe this is why Kaepernick's actions and people's reaction stood out to me so much this week: protesting the death and violence with which people of color live in the United States earns condemnation because it makes us uncomfortable. I think many of us in the United States are much more ready to hear that we are supposed to hate our family (some of whom we are probably perfectly happy to hate because they are so very difficult) than that we should hate our country."
+scripture:
+- Luke 14:25-33
+- Philemon
+- Deuteronomy 30:15-20
+liturgicalseason:
+- Ordinary Time
 ---
-**Scripture:**
-<ul>
-	<li><a href="http://bible.oremus.org/?passage=Luke+14:25-33&amp;vnum=yes&amp;version=nrsv" target="_blank">Luke 14:25-33</a></li>
-	<li><a href="http://bible.oremus.org/?passage=Philemon&amp;vnum=yes&amp;version=nrsv">Philemon</a></li>
-	<li><a href="http://bible.oremus.org/?passage=Deuteronomy+30:15-20&amp;vnum=yes&amp;version=nrsv">Deuteronomy 30:15-20</a></li>
-</ul>
 Periodically, I am reminded that God has a sense of humor. For example, this weekend my parents are visiting, and I get to preach on a gospel passage that starts with Jesus' warning, “Whoever comes to me and does not hate father and mother, wife and children, brothers and sisters, yes, and even life itself, cannot be my disciple" (Luke 14:26). It is not exactly the most welcoming, family-friendly message.
 
 Jesus isn't trying to be family-friendly, or particularly friendly at all. Jesus is making his way to Jerusalem where we know he will be confronted by both state and religious authorities. At this moment, it almost seems as if Jesus is impatient with the growing number of people trailing him into the city, and his words are calculated to check their perhaps naive enthusiasm. He shocks them into listening by challenging the very social safety net that ensured their survival, participation in their family. Unlike today, where many of us have moved away from our families, or may have no significant contact with them, to not be in a family in Palestine was to have no food, shelter, income or support. Jesus wants people to stop, sit, and think about what it means to follow him, and so he says something shocking, something uncomfortable.

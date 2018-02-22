@@ -7,19 +7,19 @@ category:
 - sermon
 tags:
 - racism
+- twitter
 pub-type: Sermon
 pub-location: "St. Michael & All Angels, Portland, Oregon"
 pub-date: 20 August, 2017
 description: A Sermon given on the 11th Sunday after Pentecost
 excerpt: "We will, at various times in our lives, stand either in the place of the woman or Jesus and his disciples. Sometimes, we will insist on being heard, we will refuse to be content with crumbs, we will persistently point out that the world is not what those with privilege and power say it is. We will speak out of abundance, and it will be hard. We may do it in our jobs, our families, among our friends. At other times, we will be on the receiving end of someone else's persistent cry for justice and mercy, and like the disciples, we will not really want to listen."
+scripture:
+- Genesis 45:1-28
+- Romans 11:1-2a, 29-32
+- Matthew 15:21-28
+liturgicalseason:
+- Ordinary Time
 ---
-**Scripture:**
-<ul>
-<li><a href="http://bible.oremus.org/?passage=Genesis+45:1-28&vnum=yes&version=nrsv">Genesis 45:1-28</a></li>
-<li><a href="http://bible.oremus.org/?passage=Romans+11:1-32&vnum=yes&version=nrsv">Romans 11:1-2a, 29-32</a></li>
-<li><a href="http://bible.oremus.org/?passage=Matthew+15:21-28&vnum=yes&version=nrsv">Matthew 15:21-28</a></li>
-</ul>
-
 It is hard to know where to begin with this story. Is it a story of a woman whose great faith is something we are supposed to imitate? Is it a story of a woman who repeatedly beseeches Jesus for help, humbly accepting silence and insult with faithful trust? Does this story reveal a tone-deaf Jesus who insults a woman, or is she a teaching moment for his disciples who just don't get it? Who is learning in this story, the woman? The disciples? Jesus?
 
 <div class="flex-video">

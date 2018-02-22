@@ -27,6 +27,9 @@
       {% if page.secondary-menu %}
         {% include secondary-menu.html %}
       {% endif %}
+      {% if page.scripture %}
+        {% include scripture.html %}
+      {% endif %}
     {% if page.categories %}
       {% include category-list.html %}
     {% endif %}

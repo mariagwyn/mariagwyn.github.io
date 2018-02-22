@@ -8,6 +8,7 @@ category:
 tags:
 - image of God
 - theology
+- twitter
 pub-type: Catechesis
 pub-location: "St. Michael & All Angels, Portland, Oregon"
 pub-date: 19 February, 2017

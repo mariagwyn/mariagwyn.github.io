@@ -7,18 +7,19 @@ category:
 - sermon
 tags:
 - epiphany
+- twitter
 pub-type: Sermon
 pub-location: "St. Michael & All Angels, Portland, Oregon"
 pub-date: 12 February, 2017
 description: A Sermon given on Sunday, the 6th week after Epiphany, 2017
 excerpt: "We are arrows in the quiver of God, shot forth to arc towards justice, mercy, peace, and love. The arc of the universe does not bend itself towards justice. We bend it. We are the universe into which God in Christ enters, and it is our lives, our choice to persistently love one another, to make the beloved community present every day and in every place, that bends the arc of the universe towards justice."
+scripture:
+- Deuteronomy 30:15-20
+- 1 Corinthians 3:1-9
+- Matthew 5:21-37
+liturgicalseason:
+- Epiphany
 ---
-**Scripture:**
-<ul>
-<li><a href="http://bible.oremus.org/?ql=354015084">Deuteronomy 30:15-20</a></li>
-<li><a href="http://bible.oremus.org/?ql=354015108">1 Corinthians 3:1-9</a></li>
-<li><a href="http://bible.oremus.org/?ql=354015128">Matthew 5:21-37</a></li>
-</ul>
 <p>We are arrows in the quiver of God, shot forth to arc towards justice, mercy, peace, and love. The arc of the universe does not bend itself towards justice. We bend it. We are the universe into which God in Christ enters, and it is our lives, our choice to persistently love one another, to make the beloved community present every day and in every place, that bends the arc of the universe towards justice.</p>
 <div class="flex-video">
   <iframe width="560" height="315" src="https://www.youtube.com/embed/B_8_a2lztlA" frameborder="0" allowfullscreen></iframe>

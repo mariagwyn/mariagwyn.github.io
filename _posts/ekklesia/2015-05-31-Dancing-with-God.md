@@ -8,6 +8,7 @@ category:
 tags:
 - theology
 - trinity
+- twitter
 pub-type: Sermon
 pub-location: "All Saints Episcopal Church, Portland, Oregon"
 pub-date: 31 May, 2015
@@ -16,6 +17,8 @@ image-primary: /assets/images/ekklesia/holytrinity-ns-96px.jpg
 image-caption: "'Holy Trinity' ('The Hospitality of Abraham') written by a Nun of New Skete."
 description: A Sermon given on Trinity Sunday, 2015
 excerpt: "We are made in the image of this God, who dances, births, knits, remakes, restores, who burns and blows where she will, all in order that we might be saved, that we might live as we are made to live. Salvation here is not *from* a wrathful God, but an invitation *into* being like God, to enter into a life of constant, joyful, dynamic hospitality. Being like God is to take God’s hospitality, and to be God’s hospitality."
+liturgicalseason:
+- Trinity Sunday
 ---
 
 This icon is traditionally entitled “The Hospitality of Abraham.” It depicts the visit of three angels to Abraham and Sarah. Abraham was resting in the heat of the day, likely recovering from his recent covenant with God which resulted in the circumcision of all male members of his household. Upon the arrival of “The Lord,” says the text, Abraham and Sarah immediately welcome their three guests, wash their feet, and provide them with fresh bread, meat, curds and milk. These mysterious guests confirm the covenantal promise that Sarah will bear a son, their descendants will be as numerous as the stars.

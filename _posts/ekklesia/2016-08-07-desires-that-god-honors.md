@@ -7,18 +7,19 @@ category:
 - sermon
 tags:
 - pentecost
+- twitter
 pub-type: Sermon
 pub-location: "St. Paul's Episcopal Church, Oregon City, Oregon"
 pub-date: 08 August, 2016
 description: A Sermon given on Sunday, the 7th week of Pentecost, 2016
 excerpt: "The giving of the kingdom that so delights God is the very kindness, generosity and justice that Jesus repeatedly ask that we give to one another. Jesus teaches us to pray by asking that this reign of God come, and then tells us over and over again that the reign of God is not a future event but a reality we make present by being God's presence to one another. The treasure in which we are asked to invest our hearts are those things that allow us to be like God, to be like the one who delights in serving us, eating with us, caring for us."
+scripture:
+- Genesis 15:1-18
+- Hebrews 11:1-16
+- Luke 12:32-48
+liturgicalseason:
+- Ordinary Time
 ---
-**Scripture:**
-
-- [Genesis 15:1-18](http://bible.oremus.org/?ql=338021192)
-- [Hebrews 11:1-16](http://bible.oremus.org/?ql=338021163)
-- [Luke 12:32-48](http://bible.oremus.org/?ql=338021137)
-
 A number of years ago now, I walked into an Episcopal Church, somewhat against my will. Entering the Episcopal church was, according to the religious rhetoric of my birth, deserting good theology for agreeable practice. So when, during liturgy, we sang a creed with a phrase that is indeed theologically questionable, I actually broke into tears. My wise wife suggested that I speak to a clergy person, and with great reluctance, I approached a deacon and asked in the most diplomatic way I could, "where did this creedal statement come from? Was anyone else concerned with the phrase that distressed me?" It took about 3 minutes for her to figure out that I had more than a passing interest and expertise in theology. She burst out, "you know, you should teach a class here!" A suggestion that seemed abrupt and absurd given that she didn't know me and I wasn't even an Episcopalian. A week later I received an email from a priest inviting me to discuss co-teaching a class over coffee. I read the email repeatedly, literally stunned. I made my wife read the email to confirm that it really said what I thought it said. I was shocked to be confronted with exactly what the church is supposed to be, a place, in Martin Luther's words, of "conversation and consolation of the faithful." In my case, the consolation was finally, unabashedly, being invited into a conversation that I love. Someone said to me, "you have a passion, a love, a gift, a joy, and we want you to use it for the benefit of all of us." My desire met the needs of this church, and it was exhilarating.
 
 Perhaps it seems strange to address this gospel passage by talking about the fulfillment of desire. After all, this week and last week confronts us with a message difficult to hear: do not waste time and energy saving up for the future while ignoring the present. Sell what you have, give away the proceeds. Selling possessions, redistributing our goods in any form, is not a message good Americans receive well. Our entire society is geared around successful ownership and the acquisition of things, where more is always better, often no matter what the cost is to those with less. The rich get richer, the poor get poorer, and we eat up the rhetoric that a good business investment or a lucky lottery ticket will give us the opportunity to join the ranks of the rich, or at least close-to-rich.

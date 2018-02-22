@@ -7,20 +7,21 @@ category:
 - sermon
 tags:
 - easter
+- twitter
 pub-type: Sermon
 pub-location: "St. Paul Episcopal Church, Oregon City, Oregon"
 pub-date: 08 May, 2016
-image-primary: https://upload.wikimedia.org/wikipedia/commons/f/f9/Mosaic_in_the_Octagonal_Basilica%2C_Philippi_%287272832610%29.jpg
+image-primary: "https://upload.wikimedia.org/wikipedia/commons/f/f9/Mosaic_in_the_Octagonal_Basilica%2C_Philippi_%287272832610%29.jpg"
 image-caption: "Mosaic in the Octagonal Basilica, Philippi"
 description: A Sermon given on Sunday, the 7th week of Easter, 2016
 excerpt: "In Paul's response, we recognize how incomplete our efforts to love others are. We live in a world where sometimes there seems to be no perfectly good choice. In the slave girl, we recognize what it is like to be at the receiving end of perhaps thoughtless good intentions, the receiving end of someone else's help that may be true, but isn't enough, or just isn't what you need. Today we come together bracketed by a leave-taking and a promise, standing exactly where that slave-girl stood two millennia ago. We hope for the completion of what God has started, we wait, we are thirsty (Rev 22:17)."
+scripture:
+- Acts 16:16-34
+- Revelation 22:12-14, 16-17, 20-21
+- John 17:20-26
+liturgicalseason:
+- Easter
 ---
-**Scripture:**
-
-- <a href="http://bible.oremus.org/?passage=Acts+16:16-34&amp;vnum=yes&amp;version=nrsv" target="_blank">Acts 16:16-34</a>
-- <a href="http://bible.oremus.org/?passage=Revelation+22:12-21&amp;vnum=yes&amp;version=nrsv" target="_blank">Revelation 22:12-14, 16-17, 20-21</a>
-- <a href="http://bible.oremus.org/?passage=John+17:20-26&amp;vnum=yes&amp;version=nrsv" target="_blank">John 17:20-26</a>
-
 Today, we stand in between two major feasts of the church, Ascension three days ago, and Pentecost next Sunday. We stand between the final leave-taking of Jesus and the promised arrival of the Holy Spirit. For forty days, the resurrected Jesus walked, talked, and ate with his friends. Friends who, with one exception, broke their promises and left Jesus to face his accusers alone. For forty days, Jesus patiently and kindly restored them to themselves, calling them to love one another to the best of their limited abilities. He did so knowing that even such partial love is the only path to a love that fully enables each person to glorify God as Jesus has glorified God, by doing the work set before them. Forty days of conversation where all the strange stories and allusions Jesus had been making for three years were suddenly given new meaning, greater dimension, in light of crucifixion and resurrection.
 <p class="p2">And then, Jesus left them. Again. Ascending to be with the Father, leaving <i>them</i> to show God to the world through their love. And again, the disciples waited, though certainly with more joy this time than the last. They waited at the border between a leave-taking and a promised arrival.</p>
 <p class="p2">Into this waiting space which we share with the apostles, we are offered a story whose focus is Paul, Silas, and the dramatic conversion story of the first fully Roman, that is, completely pagan, convert to Jesus. Only days before, Lydia, a "God-fearer," a gentile who worshipped the "Most High God" of the Jews, had eagerly listened to Paul and Silas, welcomed them into her home, and was baptized along with her whole family. Lydia and the jailer, named Stephen according to some commentators, are the seed of the church at Philippi, the first church established in a truly Roman city, not a Jewish city occupied by Romans. They are model converts who immediately engage in paradigmatic Christian behavior: they share their home and their food with strangers. Paul remains ever grateful to them as they alone of the churches in the "early days of the gospel" financially supported his work for the many years that followed (<a href="http://bible.oremus.org/?passage=Phil+4&amp;vnum=yes&amp;version=nrsv" target="_blank">Phil 4.15</a>). As free citizens of the Roman empire, they used their stature and wealth to ensure the spread of the good news.</p>

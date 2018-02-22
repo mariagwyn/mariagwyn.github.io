@@ -7,18 +7,19 @@ category:
 - sermon
 tags:
 - pentecost
+- twitter
 pub-type: Sermon
 pub-location: "St. Paul's Episcopal Church, Oregon City, Oregon"
 pub-date: 12 June, 2016
 description: A Sermon given on Sunday, the 4th week of Pentecost, 2016
 excerpt: "What the woman offers Jesus is the equivalent of offering a guest something to drink when they arrive, a place to wash their hands before sitting to dinner, a chair to rest on after their trip over. It is the bottle of lotion next to the soap to moisturize your hands after washing. Bread and wine, like scented ointment in a world of chronic smelly feet and dry skin, are the stuff of normal, everyday life. Bread and wine are not exceptional foods, they are (at least for Palestinian Jews) a normal, mundane meal."
+scripture:
+- 2 Samuel 11:26-12:15
+- Galatians 2:11-21
+- Luke 7:36-8:3
+liturgicalseason:
+- Pentecost
 ---
-**Scripture:**
-
-- [2 Samuel 11:26 - 12:15](http://bible.oremus.org/?ql=338019252)
-- [Galatians 2:11-21](http://bible.oremus.org/?ql=338019274)
-- [Luke 7:36 - 8:3](http://bible.oremus.org/?ql=338019295)
-
 Someone close to me is currently in one of those horrible situations where no matter what she does or says, she will be told she is failing, constantly being accused of ill intention. I suspect we have all been there, whether at work, or in our family, with a teacher or a friend, in some relationship where you feel constantly criticized, judged, and dismissed. One of those no-win relationships where the other person always sees the worst in you, thinks the worst of you, no matter how hard you try to meet their expectations.
 
 When I know I am going to need to interact with that person in my life, I begin to mentally gear myself up, thinking about how I will respond, what I will say, how I will defend myself. If you are like me, your stomach knots up just thinking about that person.

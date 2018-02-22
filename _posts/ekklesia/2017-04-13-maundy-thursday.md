@@ -7,11 +7,15 @@ category:
 - sermon
 tags:
 - easter
+- twitter
 pub-type: Sermon
 pub-location: "St. Michael & All Angels, Portland, Oregon"
 pub-date: 13 April, 2017
 description: A Sermon given on Maundy Thursday, 2017
 excerpt: "In this meal, and in this time of washing feet together, where we wash one another's feet, we are doing what we are called to do all the time, every day,  whether it's here among those who are our friends who mostly love us. Whether it is to strangers we do not know at all. Tonight is the night when we do the thing, not simply remember, but do that thing that makes us who it is that we are called to be as a community, as lovers of God, as lovers of our creation, as lovers of our neighbor."
+liturgicalseason:
+- Holy Week
+- Maundy Thursday
 ---
 I got into my truck this morning, I turned on the radio, and the first thing I heard was that we dropped the second largest bomb that we have dropped since the atomic bomb. It has stuck with me all day. We had the effrontery to give it a nickname: MOAB, mother of all bombs, as if somehow that makes this display of power and and violence okay, it makes it better.
 

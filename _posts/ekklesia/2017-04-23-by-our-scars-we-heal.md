@@ -8,19 +8,19 @@ category:
 tags:
 - easter
 - resurrection
+- twitter
 pub-type: Sermon
 pub-location: "Trinity Episcopal Cathedral, Portland, Oregon"
 pub-date: 23 April, 2017
 description: A Sermon given on Sunday, the 2nd week of Easter
+scripture:
+- Acts 2:14-41
+- 1 Peter 1:3-9
+- John 20:19-31
+liturgicalseason:
+- Easter
 excerpt: "In the Risen Christ we see that even death does not have the last word. And so, instead of cowering in fear, we can, like Jesus, speak peace to one another and to our world. Each one of us will do so in different ways and different places, but our best moment of speaking peace will most likely arise from those places where we have been scarred the most, where we have suffered or caused to suffer. We are our bodies, we are our relationships, and every body and every relationship is where and how we love one another, how we join with Jesus Christ, who trampled down death by death so that we could become to one another what God is to us: the embodiment of justice, mercy, peace, hope and joy."
 ---
-**Scripture:**
-<ul>
-<li><a href="http://bible.oremus.org/?ql=359983334">Acts 2:14-41</a></li>
-<li><a href="http://bible.oremus.org/?ql=359983362">1 Peter 1:3-9</a></li>
-<li><a href="http://bible.oremus.org/?ql=359983393">John 20:19-31</a></li>
-</ul>
-
 <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/321626981&amp;color=00cc11&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
 
 When I was in college, my Christian friends and I spent a lot of time examining our family or relationship issues. We were trying to fix them on the assumption that somehow divorce or abuse or loneliness broke you. We spent a lot of time examining real pain and loss, examining our issues as if they were scars on our psyche that we needed to heal, which often meant making them go away. I remember after a particular conversation with a friend about some of the problematic practices in our college campus fellowship that it suddenly occurred to me that perhaps my particular mix of struggles made me more aware, more able to see, more sensitive to when communities go awry. It occurred to me that I was who I was because of those scars, not in spite of them.

@@ -1,0 +1,22 @@
+<div class="block-scripture">
+  <h4 class="block-title">Scripture:</h4>
+  <ul class="no-bullet scripture">
+  {% assign tags_list = page.scripture %}
+  {% assign oremusbible = "http://bible.oremus.org/?version=NRSV&passage=" %}
+  {% assign oremusbibleprefs = "&vnum=NO&fnote=NO" %}
+    {% if tags_list.first[0] == null %}
+      {% for tag in tags_list %}
+        <li>
+          <a href="{{oremusbible}}{{ tag | cgi_escape }}{{oremusbibleprefs}}">
+            {{ tag | capitalize }}
+          </a>
+        </li>
+      {% endfor %}
+    {% else %}
+      {% for tag in tags_list %}
+        <li><a href="#{{ tag[0] }}">{{ tag[0] | capitalize }} <span>{{ tag[1].size }}</span></a></li>
+      {% endfor %}
+    {% endif %}
+  {% assign tags_list = nil %}
+  </ul>
+</div>
