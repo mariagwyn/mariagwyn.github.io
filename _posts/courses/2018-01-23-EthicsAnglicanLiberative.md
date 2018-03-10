@@ -97,22 +97,18 @@ On Mill:
 * Sedgwick, Timothy F. 2012. "[The Anglican exemplary tradition](https://www.dropbox.com/s/29rzd3j68jv6hki/Sedgwick_ATR94-2_AnglicanExemplaryTradition.pdf?dl=0)." *Anglican Theological Review* 94, no. 2: 207-231.
 * Greenman, Jeffrey P. “[Anglican Evangelicals on Personal and Social Ethics](https://www.dropbox.com/s/0odwsnci6ao311m/Greenman-ATR94-2_Anglican-Evangelical-Ethics.pdf?dl=0).” *Anglican Theological Review* 94, no. 2 (2012): 179–205.
 
-***
-### Everything below is subject to change (as of Feb 12)...
-
-***
-
 ## Week 3 (14 April): Whose Liberation?
 #### Required Reading:
-* West, Introduction, Chs. 3-4
-* De La Torre, Chs. 1-3
-* Gibson, Elizabeth McGovern. 2012. "Ethics from the other side: postcolonial, lay, and feminist contributions to Anglican ethics." *Anglican Theological Review* 94, no. 4: 639-663. 
+* De La Torre, Miguel: [Doing Ethics from the Margins, Chs. 1-3](https://www.dropbox.com/s/oxcl46pbzuw9i8t/DeLaTorre-Doing-Christian-Ethics-from%20the-Margins_1-3.pdf?dl=0).
+* West, Tracy: [Policy: The Bible and Welfare Reform](https://www.dropbox.com/s/myilcy7z9ranur3/West_Ch3-Policy.pdf?dl=0) from *Distruptive Christian Ethics*.
+* Boff, Leonardo and Clodovis Boff: [Key Themes of Liberation Theology](https://www.dropbox.com/s/euebduezs4fyl6b/Boff_IntroductionLiberationTheology_chp4.pdf?dl=0) from *Introducing Liberation Theology*.
+* [Gibson, Elizabeth McGovern. 2012. "Ethics from the other side: postcolonial, lay, and feminist contributions to Anglican ethics."](https://www.dropbox.com/s/us6s0efvt30dsc3/Gibson_ATR94-4_postcolonial-feminist-anglican-contributions.pdf?dl=0) *Anglican Theological Review* 94, no. 4: 639-663. 
 
 ## Week 4 (12 May): White Supremacy and Black Bodies
 #### Required Reading:
-* Douglas, Stand Your Ground
-* Fisher-Stewart, Gayle. 2017. "To Serve and Protect: The Police, Race, and the Episcopal Church in the Black Lives Matter Era." *Anglican Theological Review* 99, no. 3: 439-459.
+* Douglas, *Stand Your Ground*
+* Fisher-Stewart, Gayle. 2017. "[To Serve and Protect: The Police, Race, and the Episcopal Church in the Black Lives Matter Era](https://www.dropbox.com/s/d2u42yp390beh64/Fisher-Stewart_ATR99-3_ServeProtect.pdf?dl=0)." *Anglican Theological Review* 99, no. 3: 439-459.
 
 ## Week 5 (9 June): Immigration and Citizenship
 #### Required Reading:
-* Rajendra, Migrants and Citizens
+* Rajendra, *Migrants and Citizens*
