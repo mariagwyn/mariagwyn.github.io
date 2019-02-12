@@ -1,7 +1,7 @@
 browsersync:
   notify: true
   open:   false
-  port:   3000
+  port:   9002
   server:
     basedir: "public/"
   xip:    true

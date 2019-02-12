@@ -6,10 +6,7 @@
     {% for tag in tags_list %}
       <li>
         <a href="{{ tag | absolute_url }}">
-          <span class="fa-layers">
-            <i class="fas fa-circle"></i>
-            <i class="fas fa-tag fa-inverse fa-rotate-90" data-fa-transform="shrink-4"></i>
-          </span>
+          {% include fa-taglist.html %}
           {{ tag | capitalize }}
         </a>
       </li>

@@ -103,7 +103,7 @@
   right: -16px;
 }
 
-time {
+.timeline time {
   display: block;
   font-size: 1.4rem;
   left: -490px;
@@ -229,7 +229,7 @@ time {
     left: -339px;
     /*250+45-6*/
   }
-  time {
+  .timeline time {
     left: 384px;
     position: relative;
     text-align: left;
@@ -238,7 +238,7 @@ time {
 
 }
 @include breakpoint(small only) {
-  time {
+  .timeline time {
     left: 0;
     margin-bottom: .5rem;
     position: relative;

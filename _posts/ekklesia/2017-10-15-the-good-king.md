@@ -9,9 +9,15 @@ tags:
 - violence
 - judgement
 - twitter
+- podcast
 pub-type: Sermon
 pub-location: "St. Michael & All Angels, Portland, Oregon"
 pub-date: 15 October, 2017
+file-audio: Sermon_20171015_Proper20A-STMAA-TheGoodKing.mp3
+file-video: Sermon_20171015_Proper20A-STMAA-TheGoodKing.mp4
+podcast_file_size: 24.1 MiB
+podcast_duration: 13 min 9 s
+podcast_length: 51208
 description: A Sermon given on the 19th Sunday after Pentecost
 excerpt: "The violence we carry within us, the violence with which we respond to those around us, the violence on which our nation and world is built, all is judged in this story. Our hope lies not in a God who just does violence more fairly or justly or reasonably than we do it. Our hope rests in a God who calls us to refuse to participate in the injustice and cruelty, who stands with us as we suffer violence, who calls us to be a people of peace precisely because we follow a God of peace."
 scripture:
@@ -21,20 +27,9 @@ scripture:
 liturgicalseason:
 - Ordinary Time
 ---
-**Scripture:**
-<ul>
-<li><a href="http://bible.oremus.org/?passage=Exodus+32:1-14&vnum=yes&version=nrsv">Exodus 32:1-14</a></li>
-<li><a href="http://bible.oremus.org/?passage=Philippians+4:1-13&vnum=yes&version=nrsv">Philippians 4:1-13</a></li>
-<li><a href="http://bible.oremus.org/?passage=Matthew+22:1-14&vnum=yes&version=nrsv">Matthew 22:1-14</a></li>
-</ul>
->*Then the king said to the attendants, ‘Bind him hand and foot, and throw him into the outer darkness, where there will be weeping and gnashing of teeth.’* <sup><a href="#f1" name="r1">1</a></sup>
-
+*Then the king said to the attendants, ‘Bind him hand and foot, and throw him into the outer darkness, where there will be weeping and gnashing of teeth.’* <sup><a href="#f1" name="r1">1</a></sup>
 
 Your phone pings, you open Facebook, and there it is, the invitation to that dread reunion you knew was just around the corner. Who is coming? The ones we like? Or the ones that don't like us? Maybe the food will make it worth it? Maybe people have changed, maybe we won't feel like outsiders anymore. Hey, open bar, free alcohol, what is the harm?
-
-<div class="flex-video">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/4kfDOAFTkdY" frameborder="0" allowfullscreen></iframe>
-</div>
 
 Maybe we just ignore the conversation, we have moved on. Or we make some polite sounding excuse. Maybe we 'leave' the group someone added us to without asking if we actually cared enough to be a part of it, slightly worried that we are offending folk, but gambling that they just don't notice. But they keep adding us back to the invitation and our feed is cluttered with reminders for an event we don't care about, and people we don't actually want to see. And then, the day we see everyone gushing over the fact that the "favorite" is coming home from the big fancy city to grace us with her presence, we make a snarky comment about trivial popularity contests that only the shallow ever win, and start a little social media war that feels so good all these years later.
 

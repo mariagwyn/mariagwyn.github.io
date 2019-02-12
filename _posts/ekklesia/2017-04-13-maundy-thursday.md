@@ -6,11 +6,15 @@ category:
 - ekklesia
 - sermon
 tags:
-- easter
 - twitter
+- podcast
 pub-type: Sermon
 pub-location: "St. Michael & All Angels, Portland, Oregon"
 pub-date: 13 April, 2017
+file-audio: Sermon_20170414-MaundyThursday.m4a
+podcast_file_size: 18.2 MiB
+podcast_duration: 12 min 53 s
+podcast_length: 37320
 description: A Sermon given on Maundy Thursday, 2017
 excerpt: "In this meal, and in this time of washing feet together, where we wash one another's feet, we are doing what we are called to do all the time, every day,  whether it's here among those who are our friends who mostly love us. Whether it is to strangers we do not know at all. Tonight is the night when we do the thing, not simply remember, but do that thing that makes us who it is that we are called to be as a community, as lovers of God, as lovers of our creation, as lovers of our neighbor."
 liturgicalseason:

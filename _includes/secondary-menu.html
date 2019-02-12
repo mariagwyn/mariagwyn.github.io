@@ -1,9 +1,10 @@
+<h4><a href="{{ page.primary-menu }}"></h4>
 <ul class="no-bullet secondary-menu">
 {% assign tags_list = page.secondary-menu %}
   {% if tags_list.first[0] == null %}
     {% for tag in tags_list %}
       <li>
-        <a href="{{page.permalink}}{{ tag }}">
+        <a href="{{ page.primary-menu }}{{ tag }}">
           {{ tag | capitalize }}
         </a>
       </li>

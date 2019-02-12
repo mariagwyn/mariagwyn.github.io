@@ -1,0 +1,1 @@
+<div class="meta-item">{{ include.article.date | date: "%b %-d, %Y" }}</div>{% if include.author %}<div class="meta-item">{{ include.author.name }}</div>{% endif %}{% if include.article.tags %}{% for tag in include.article.tags %}<div class="meta-item"><a class="meta-tag" href="/tag/{{ tag }}">{{ tag }}</a><div class="meta-tag-arrow"></div></div>{% endfor %}{% endif %}

@@ -1,0 +1,32 @@
+{% if page.file-audio %}
+<h3>Audio</h3>
+<audio id="player-audio" controls>
+  <source src="{{ site.audio_basurl }}{{ page.file-audio }}" type="audio/mp3">audio
+</audio>
+<script type="text/javascript">
+  const playeraudio = new Plyr('#player-audio');
+</script>
+{% endif %}
+
+{% if page.file-video %}
+<h3>Video</h3>
+<video id="player-video" playsinline controls>
+  <source src="{{ site.video_basurl }}{{ page.file-video }}" type="video/mp4">
+</video>
+<script type="text/javascript">
+  const playervideo = new Plyr('#player-video');
+</script>
+{% endif %}
+
+{% if page.vimeo %}
+<h3>Video</h3>
+<div class="plyr__video-embed" id="player">
+    <iframe src="https://player.vimeo.com/video/{{ page.vimeo }}?loop=false&amp;byline=false&amp;portrait=false&amp;title=false&amp;speed=true&amp;transparent=0&amp;gesture=media" allowfullscreen allowtransparency allow="autoplay"></iframe>
+</div>
+{% endif %}
+{% if page.youtube %}
+<h3>Video</h3>
+<div class="plyr__video-embed" id="player">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/{{ page.youtube }}?loop=false&amp;&amp;portrait=false&amp;title=true&amp;speed=true&amp;transparent=0&amp;gesture=media" allowfullscreen allowtransparency allow="autoplay"></iframe>
+</div>
+{% endif %}

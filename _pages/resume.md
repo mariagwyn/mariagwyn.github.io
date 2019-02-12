@@ -14,32 +14,47 @@ This is a selected list of both church and secular work arranged in a timeline. 
 <section class="timeline">
 <ul>
 <li class="ekklesia"><div markdown="1">
-
-<time>10 June, 2017</time>
+<time>December 2018 - Present</time>
+#### Rector
+*[St. Philip the Deacon Episcopal Church](http://stphilipthedeacon.org), Portland, Oregon*
+</div></li>
+<li class="ekklesia"><div markdown="1">
+<time>March 2018 - November 2018</time>
+#### Priest-in-Charge
+*[St. Philip the Deacon Episcopal Church](http://stphilipthedeacon.org), Portland, Oregon*
+</div></li>
+<li class="work"><div markdown="1">
+<time>March 2018 - Present</time>
+#### Senior Support Engineer, Special Projects
+*[Acquia](http://acquia.com), Portland, Oregon*
+Proposed and managed the project development of tools and processes across company departments, including resource investment decisions.
+</div></li>
+<li class="ekklesia"><div markdown="1">
+<time>13 January, 2018</time>
 #### Ordained
 *[St. Michael & All Angels](http://stmaa.org/), Portland, Oregon*
 
 Ordained to the Sacred Order of Priests in The Episcopal Church.
 
 </div></li>
-<li class="ekklesia"><div markdown="1">
-
-<time>June 2017 - Present</time>
-#### Deacon
-*[St. Michael & All Angels](http://stmaa.org), Portland, Oregon*
-
-Liturgical service at English and Spanish services. Assisted in developing a congregation-wide system of pastoral care groups with a pastoral leadership team. Served as member of parish vision team, the 'Dreamweavers'. Facilitated parish-wide development exercise using material from the [College of Congregational Development](http://www.cdcollege.org/).
-
-</div></li>
 <li class="work"><div markdown="1">
-
-<time>2011 - Present</time>
+<time>2011 - March 2018</time>
 #### Remote Administration Manager
 *[Acquia](http://acquia.com), Portland, Oregon*
 
 Managed an internationally-distributed team for a web support company engaged in direct client support. Proposed and managed the development of tools and processes across company departments, including resource investment decisions. HR duties included developing team positions, interviewing potential staff and supervising performance.
 
 </div></li>
+<li class="ekklesia"><div markdown="1">
+
+<time>June 2017 - January 2018</time>
+#### Deacon
+*[St. Michael & All Angels](http://stmaa.org), Portland, Oregon*
+
+Liturgical service at English and Spanish services. Assisted in developing a congregation-wide system of pastoral care groups with a pastoral leadership team. Served as member of parish vision team, the 'Dreamweavers'. Facilitated parish-wide development exercise using material from the [College of Congregational Development](http://www.cdcollege.org/).
+
+</div></li>
+
 <li class="ekklesia"><div markdown="1">
 
 <time>10 June, 2017</time>
@@ -51,20 +66,20 @@ Ordained to the Sacred Order of Deacons in The Episcopal Church.
 </div></li>
 <li class="ekklesia"><div markdown="1">
 
-<time>March 2016 - Aug 2016</time>
-#### Field Education Intern
-*[St. Paul Episcopal Church](http://www.stpaulsoregoncity.org/), Oregon City, Oregon*
-
-Worked with youth group, assisted in liturgical service, and taught a Rector Forum series on the Nicene Creed.
-
-</div></li>
-<li class="ekklesia"><div markdown="1">
-
 <time>Sep 2016 - June 2017</time>
 #### Field Education Intern
 *[St. Michael & All Angels](http://stmaa.org), Portland, Oregon*
 
 Assisted in liturgical service and attended a wide-range of administrative meetings. Collaborated with Associate Rector on a very well-attended "Back to Basics" adult forum.
+
+</div></li>
+<li class="ekklesia"><div markdown="1">
+
+<time>March 2016 - Aug 2016</time>
+#### Field Education Intern
+*[St. Paul Episcopal Church](http://www.stpaulsoregoncity.org/), Oregon City, Oregon*
+
+Worked with youth group, assisted in liturgical service, and taught a Rector Forum series on the Nicene Creed.
 
 </div></li>
 <li class="ekklesia"><div markdown="1">

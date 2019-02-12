@@ -40,8 +40,8 @@ header {
   }
 }
   .highlight-1 .cell {
-    @include xy-gutters($gutter-position: left right);
+    //@include xy-gutters($gutter-position: left right);
     // Use a column count (33%);
-    @include xy-cell(4);
+    //@include xy-cell(4);
   }
 }

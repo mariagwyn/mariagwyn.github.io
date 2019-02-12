@@ -4,7 +4,7 @@ layout: default
 
 <div class="page">
 <div class="pub-info">
-  {% if page.pub-link %}
+  <p>{% if page.pub-link %}
     <em><a href="{{ page.pub-link }}" target="_blank">{{ page.pub-source }}</a></em>{% if page.editor-prefix %}{{ page.editor-prefix }} {% endif %}{% if page.editor %}{{ page.editor }}. {% endif %}{% if page.pub-volume %}, {{ page.pub-volume }}{% endif %}
   {% else %}<em>{{ page.pub-source }}</em>{% endif %}{% if page.pub-volume %}{{ page.pub-volume }}{% endif %}
   <br />
@@ -16,5 +16,11 @@ layout: default
     <p>{{ page.image-caption }}</p>
 </div>
 {% endif %}
+<p>{{ page.description }}</p>
+
+{% if page.file-audio or page.file-video or page.vimeo or page.youtube %}
+  {% include mediaembed.html %}
+{% endif %}
+
 {{ content }}
 </div>

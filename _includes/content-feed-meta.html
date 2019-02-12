@@ -1,0 +1,20 @@
+
+{% if include.article.tags contains 'blog'%}
+<div class="meta-item">{{ include.article.date | date: "%b %-d, %Y" }}</div>{% if include.author %}<div class="meta-item">{{ include.author.name }}</div>{% endif %}<div class="meta-item">{{ include.article.content | reading_time }}</div>{% if include.article.tags %}{% for tag in include.article.tags %}<div class="meta-item"><a class="meta-tag" href="/tag/{{ tag }}">{{ tag }}</a><div class="meta-tag-arrow"></div></div>{% endfor %}{% endif %}
+{% elsif include.article.tags contains 'podcast'%}
+<p class="meta-item">{{ include.article.date | date: "%b %-d, %Y" }}<br />
+{% if include.author %}<span class="meta-item">{{ include.author.name }}</span>{% endif %}
+<span class="meta-item">{{ include.article.podcast_duration }}</span>
+</p>
+{% if include.article.categories %}
+  <ul class="no-bullet pub-categories">
+    {% for category in include.article.categories %}
+    <li class="meta-item">
+      {% include fa-taglist.html %}
+      <a class="meta-tag" href="/tag/{{ tag }}">{{ category }}</a></li>
+    {% endfor %}
+  </ul>
+{% endif %}
+{% elsif include.article.tags contains 'video'%}
+<div class="meta-item">{{ include.article.date | date: "%b %-d, %Y" }}</div>{% if include.author %}<div class="meta-item">{{ include.author.name }}</div>{% endif %}<div class="meta-item">{{ include.article.video_duration }}</div>{% if include.article.tags %}{% for tag in include.article.tags %}<div class="meta-item"><a class="meta-tag"  href="/tag/{{ tag }}">{{ tag }}</a><div class="meta-tag-arrow"></div></div>{% endfor %}{% endif %}
+{% endif %}

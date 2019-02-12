@@ -8,9 +8,15 @@ category:
 tags:
 - racism
 - twitter
+- podcast
 pub-type: Sermon
 pub-location: "St. Michael & All Angels, Portland, Oregon"
 pub-date: 20 August, 2017
+file-audio: Sermon_20170820_ShoutingatJesus_STMAA.mp3
+file-video: Sermon_20170820_ShoutingatJesus_STMAA.mp4
+podcast_file_size: 20.5 MiB
+podcast_duration: 11 min 11 s
+podcast_length: 43016
 description: A Sermon given on the 11th Sunday after Pentecost
 excerpt: "We will, at various times in our lives, stand either in the place of the woman or Jesus and his disciples. Sometimes, we will insist on being heard, we will refuse to be content with crumbs, we will persistently point out that the world is not what those with privilege and power say it is. We will speak out of abundance, and it will be hard. We may do it in our jobs, our families, among our friends. At other times, we will be on the receiving end of someone else's persistent cry for justice and mercy, and like the disciples, we will not really want to listen."
 scripture:
@@ -22,9 +28,6 @@ liturgicalseason:
 ---
 It is hard to know where to begin with this story. Is it a story of a woman whose great faith is something we are supposed to imitate? Is it a story of a woman who repeatedly beseeches Jesus for help, humbly accepting silence and insult with faithful trust? Does this story reveal a tone-deaf Jesus who insults a woman, or is she a teaching moment for his disciples who just don't get it? Who is learning in this story, the woman? The disciples? Jesus?
 
-<div class="flex-video">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/hBBIq-UhckY" frameborder="0" allowfullscreen></iframe>
-</div>
 I have to admit that I love this story, though not with a particularly happy love. A foreign woman, and outsider, approaches Jesus and asks for her daughter to be healed. She calls him all the right things, and he responds with silence. She continues shouting and Jesus' disciples ask him to send her away. Jesus comments that he has been sent not for her but for his people, and she still asks for his help. He says something obvious to all of us, something that sounds pretty mean in this context: you don't take food from your children and feed it to the dog. And again she comes back at him and says, but even the dogs get the leftovers.
 
 This is one of those stories I resonate with in a way that makes me angry and sad all at once. I am sure that many of us know just how frustrating it is to have our demands met with silence. When I would argue for female priests in Eastern Orthodoxy, it wasn't the theologically poor arguments that made me despair. It was the resounding silence with which they were met by anyone in power, anyone with authority. You can respond to a bad argument, but silence is just a black hole from which nothing returns. I understand what it is like to get the crumbs precisely because I am a woman and like this woman, I have spent a lot of time in a world where women are expected to be content with less. I suspect there is not a woman in this room who doesn't know what it is like to be expected to settle for less, and be happy about it.

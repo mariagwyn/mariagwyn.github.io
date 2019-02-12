@@ -1,0 +1,18 @@
+{% assign author = site.data.authors[post.author] %}
+<div class="feed-item grid-x">
+	<div class="feed-meta small-3">
+		{% include content-feed-meta.html article=post author=author %}
+	</div>
+	<div class="feed-content-wrapper small-9">
+		<div class="feed-content">
+			<a href="{{ post.url }}"><h3><i class="feed-icon fas fa-podcast"></i>{{ post.title }}</h3></a>
+			<div class="feed-excerpt">{{ post.description }}</div>
+			{% if post.file-audio %}
+			<audio id="player-audio-{{ post.date | date: "%Y-%m-%d" }}" class="js-player" controls>
+			  <source src="{{ site.audio_basurl }}{{ post.file-audio }}" type="audio/mp3">audio
+			</audio>
+		 {% endif %}
+		</div>
+	</div>
+</div>
+<hr />

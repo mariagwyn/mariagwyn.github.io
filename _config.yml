@@ -1,20 +1,18 @@
 # Site settings
 title: Maria Gwyn McDowell
 
-# Versioning
-current_version: 1.0.0
-foundation_version: 6.0.0
-
 name:          Maria Gwyn McDowell
-description :  Theology | Ethics | Practice
-copyright:     Copyright (c) 2018 | Maria Gwyn McDowell | All rights reserved
+description :   > # this means to ignore newlines until "baseurl:"
+  Theology | Ethics | Practice
+author: Maria Gwyn McDowell
+copyright:     Copyright (c) 2019 | Maria Gwyn McDowell | All rights reserved
+baseurl: ""
 url:           http://mariagwyn.com
 email:         mariagwyn@gmail.com
 resume-link: /assets/documents/McDowell-Resume-Ekklesia_web.pdf
 cv-link: /assets/documents/McDowell-CV.pdf
-
-author: Maria Gwyn McDowell
 picture: /assets/images/Maria_McDowell-2017.jpg
+
 # Social Media
 github:           mariagwyn
 facebook:         mariagwyn
@@ -23,12 +21,41 @@ soundcloud:       mariagwyn
 twitter:          mariagwyn
 youtube:          mariagwyn
 
-# Feeds
-url: http://mariagwyn.com
-twitter_rss: /twitter
-
 #site_phone:         (555) 555-1234
 ga_id:             UA-1526149-1
+
+# Versioning
+current_version: 1.0.0
+foundation_version: 6.0.0
+
+# ------------------------------------------------------------------------
+# RSS Settings
+
+rss_path: /feed
+rss_name: index.xml
+rss_post_limit: 10
+twitter_rss: /twitter
+
+# Podcast General Settings
+# ------------------------------------------------------------------------
+
+# The homepage of your podcast
+podcast_url: http://www.mariagwyn.com/vocedeiprofundis
+podcast_album_art: /assets/images/Maria_McDowell-2017.jpg
+podcast_title: Voce DeiProfundis
+podcast_owner: Maria Gwyn McDowell
+podcast_email: mariagwyn@gmail.com
+podcast_category: Religion
+podcast_subcategory_one: Christianity
+podcast_subcategory_two: Ethics
+podcast_explicit: "no"
+podcast_author: Maria Gwyn McDowell
+podcast_description: Sermons, lectures, and conversations on Theology, Ethics, and Practice. Presented by Maria Gwyn McDowell.
+podcast_summary: Sermons, lectures, and conversations on Theology, Ethics, and Practice. Presented by Maria Gwyn McDowell.
+podcast_subtitle: Sermons, lectures, and conversations on Theology, Ethics, and Practice. Presented by Maria Gwyn McDowell.
+podcast_album_art: /assets/images/Maria_McDowell-2017.jpg
+audio_basurl: https://s3-us-west-2.amazonaws.com/mariagwyn-sermons/sermonaudio/
+video_basurl: https://s3-us-west-2.amazonaws.com/mariagwyn-sermons/sermonvideo/
 
 # Permalinks
 permalink:          pretty
@@ -77,12 +104,15 @@ exclude:
   - Gemfile.lock
   - /gulp/
   - gulpfile.js
+  - gulpfile-old.js
   - LICENSE
   - CNAME
   - node_modules
   - npm-debug.log
   - package.json
+  - package-lock.json
   - README.md
+  - /script/
   - yarn.lock
   - SiteNotes.md
 
