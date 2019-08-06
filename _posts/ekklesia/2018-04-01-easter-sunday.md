@@ -9,7 +9,7 @@ tags:
 - divinization
 - twitter
 - podcast
-author: Revd Maria McDowell
+author: Maria McDowell
 pub-type: Sermon
 pub-location: "St. Philip the Deacon, Portland, Oregon"
 pub-date: 1 April, 2018
