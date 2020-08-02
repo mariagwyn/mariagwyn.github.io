@@ -25,9 +25,9 @@ This is a selected list of both church and secular work arranged in a timeline. 
 </div></li>
 <li class="work"><div markdown="1">
 <time>March 2018 - Present</time>
-#### Senior Support Engineer, Special Projects
+#### Project Pioneer for the Vice President of Support
 *[Acquia](http://acquia.com), Portland, Oregon*
-Proposed and managed the project development of tools and processes across company departments, including resource investment decisions.
+Propose and manage the project development of tools and processes across company departments, including resource investment decisions.
 </div></li>
 <li class="ekklesia"><div markdown="1">
 <time>13 January, 2018</time>
@@ -38,7 +38,7 @@ Ordained to the Sacred Order of Priests in The Episcopal Church.
 
 </div></li>
 <li class="work"><div markdown="1">
-<time>2011 - March 2018</time>
+<time>December 2011 - March 2018</time>
 #### Remote Administration Manager
 *[Acquia](http://acquia.com), Portland, Oregon*
 

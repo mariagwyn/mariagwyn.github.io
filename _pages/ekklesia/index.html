@@ -29,7 +29,18 @@ secondary-menu:
       {% if post.pub-location %}{{ post.pub-location }}{% endif %}</p>
       {{ post.excerpt }}
       {% if post.academia %}<div class="academia">On <a href="https://www.academia.edu/{{ post.academia }}" target="_blank" >Academia.edu</a></div>{% endif %}
-    </div>
+      {% if post.file-audio %}
+        {% include audio.html %}
+		  {% endif %}
+      <script type="text/javascript">
+      	const players = Plyr.setup('audio', {captions: {active: true}});
+      	window.players = players;
+      </script>
+
+{% if post.file-audio or post.file-video or post.vimeo or post.youtube %}
+        {% include mediaembed.html %}
+      {% endif %}
+</div>
     <hr />
   </div>
   {% endfor %}
