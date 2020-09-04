@@ -50,7 +50,7 @@
   },
   "private": true,
   "dependencies": {
-    "node-sass": "^4.7.2",
+    "node-sass": "^4.13.1",
     "plyr": "^3.4.8"
   }
 }
