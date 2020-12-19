@@ -24,7 +24,7 @@ This is a selected list of both church and secular work arranged in a timeline. 
 *[St. Philip the Deacon Episcopal Church](http://stphilipthedeacon.org), Portland, Oregon*
 </div></li>
 <li class="work"><div markdown="1">
-<time>March 2018 - Present</time>
+<time>March 2018 - 2020</time>
 #### Project Pioneer for the Vice President of Support
 *[Acquia](http://acquia.com), Portland, Oregon*
 Propose and manage the project development of tools and processes across company departments, including resource investment decisions.

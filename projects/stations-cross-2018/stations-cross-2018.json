@@ -1,0 +1,281 @@
+{
+    "title": {
+        "text": {
+          "headline": "The Stations",
+          "text": "Stations of the Cross from Emily Scott, with contributions from Betsy Canno and Jacob Slichter. See: http://www.emilymdscott.com/blog/2018/3/9/good-friday-stations"
+        },
+        "background": {
+          "url": "images/Rylands_Nicene_Creed_papyrus.jpg"
+        }
+    },
+    "events": [
+      {
+        "text": {
+          "headline": "'Then Pilate took Jesus and had him flogged.'",
+          "text": "<h3 class='question'>Pray for those who are victims of violence at the hands of the powerful.</h3>",
+          "autolink": "true"
+        },
+        "start_date": {
+          "year": "0"
+        },
+        "end_date":{
+          "year": "33"
+        },
+        "display_date": "",
+        "group": "Reception",
+        "background": {
+          "url": "images/150427_SLATEST_BMore-08.jpg.CROP_.original-original.jpg"
+        }
+      },
+      {
+        "text": {
+          "headline": "House Churches",
+          "text": "<p>Christians gathered in homes, listened to traveling preachers like Paul, Barnabas, Timothy, Thekla, Priscilla, and ate a common meal together.</p>",
+          "autolink": "true"
+        },
+        "start_date": {
+          "year": "33"
+        },
+        "end_date":{
+          "year": "180"
+        },
+        "display_date": "",
+        "group": "Reception",
+        "media": {
+          "url": "images/dura-europos-church.jpg"
+        }
+      },
+      {
+        "text": {
+          "headline": "Who are we?",
+          "text": "<p><strong>Acts 15: The Council of Jerusalem</strong></p><p><sup class='ww'>1</sup>Then certain individuals came down from Judea and were teaching the brothers, 'Unless you are circumcised according to the custom of Moses, you cannot be saved.' <sup class='ww'>2</sup>And after Paul and Barnabas had no small dissension and debate with them, Paul and Barnabas and some of the others were appointed to go up to Jerusalem to discuss this question with the apostles and the elders. <sup class='ww'>3</sup>So they were sent on their way by the church, and as they passed through both Phoenicia and Samaria, they reported the conversion of the Gentiles, and brought great joy to all the believers. <sup class='ww'>4</sup>When they came to Jerusalem, they were welcomed by the church and the apostles and the elders, and they reported all that God had done with them. <sup class='ww'>5</sup>But some believers who belonged to the sect of the Pharisees stood up and said, 'It is necessary for them to be circumcised and ordered to keep the law of Moses.';</p><p><sup class='ww'>6</sup>The apostles and the elders met together to consider this matter...</p>"
+        },
+        "start_date": {
+          "year": "34"
+        },
+        "end_date":{
+          "year": "100"
+        },
+        "display_date": "",
+        "group": "Question",
+        "background": {
+          "url": ""
+        }
+      },
+      {
+        "text": {
+          "headline": "Who are we becoming?",
+          "text": "<p><strong>2 Peter 1:4</strong>: Thus he has given us, through these things, his precious and very great promises, so that through them you may ... become participants in the divine nature.</p><p><strong>Irenaeus</strong>, Bishop of Lyons (c. 130–202): God 'became what we are in order to make us what he is himself.' <em>Against Heresies</em>, Bk 5., preface.</p><p><strong>Clement of Alexandria</strong> (c. 150–215): 'the Word of God became a human so that you might learn from a human how to become a god.' <em>Exortation to the Greeks, 1</em></p><p><strong>Athanasius</strong>, Bishop of Alexandria (c. 296–373): 'For the Son of God became human so that we might become God [gods].' <em>On the Incarnation</em>, 54, 3.</p>"
+        },
+        "start_date": {
+          "year": "200"
+        },
+        "end_date":{
+          "year": "250"
+        },
+        "display_date": "Experiencing 'salvation'",
+        "group": "Question",
+        "media": {
+          "url": "<blockquote><p>'That which He has not assumed, He has not healed.'</p><cite><strong>Gregory of Nazianzus</strong>: <em>Epistle 101</em></p><p>This 'Logic of Salvation':</p><p> '...instinctively explains all the mysteries of Christology and the incarnate economy by reverting to the fundamentals: that the mission of the Son of God on earth was for no other reason than the same compassion God the Father had for the cosmos.''<cite>John McGuckin</cite></p></blockquote>"
+        }
+      },
+      {
+        "text": {
+          "headline": "Who is our God?",
+          "text": "<cite>1st Ecumenical Council</cite><p><ul><li><em><strong>pistis</strong></em>: <em>We</em> believe; denotes confidence and trust, to give/offer in context of a relationship.</li><li><em><strong>ena theon</strong></em>: One God.</li><li><em><strong>poiytyn ... pantwn</strong></em>: Maker of all things<ul><li>Matter does not pre-exist (contra Plato)</li><li>Order out of Chaos (Genesis)</li><li><em>ex nihilo</em>: out of nothing</li></ul></li></ul></p>"
+        },
+        "start_date": {
+          "year": "100"
+        },
+        "end_date": {
+          "year": "150"
+        },
+        "display_date": "God from ages unto ages",
+        "group": "Question",
+        "media": {
+          "url": "<blockquote>We believe in One God, the Father Almighty, maker of heaven and earth, of all that is, seen and unseen.</blockquote>"
+        },
+        "background": {
+          "url": "https://www.flickr.com/photos/91217357@N00/10580521913"
+        }
+      },
+      {
+        "text": {
+          "headline": "Who is Jesus Christ?",
+          "text": "<p>The Issues:<ul><li><strong>Time</strong>: Is Jesus Christ really and truly God from before time?</li><li><strong>Creation</strong>: Jesus a creature, or creator? Is creation <strong>worthy</strong> of divinity?</li><li><strong>Is Jesus Divine?</strong>: </li><ul><li>Does Jesus merely 'appear' human? Did he only appear to suffer and die?</li><li>Jesus 'from above'.</li><li>Docetism/Sabellianism/modalistic-monarchianism</li></ul></li><li><strong>Is Jesus human?</strong>: </li><ul><li>Was Jesus simply a specially endowed human?</li><li>Jesus 'from below'.</li><li>Ebionism/dynamic monarchianism/Adoptionism</li></ul></li></ul><p><strong>What does the experience of God in Jesus becoming human say about us and our salvation?</strong></p>"
+        },
+        "start_date": {
+          "year": "150"
+        },
+        "end_date": {
+          "year": "200"
+        },
+        "display_date": "",
+        "group": "Question",
+        "media": {
+          "url": "images/jesus-shepherd-lucina-2ndc.jpg",
+          "caption": "Jesus the Good Shepherd, Crypt of Lucina (2nd c.)"
+        },
+          "background": {
+          "url": ""
+        }
+      },
+      {
+        "text": {
+          "headline": "Receiving Jesus",
+          "text": "<p>The Players: <ul><li>Arius (c. 256–336): a priest of Alexandria: <strong>'There was when he was not.'</strong></li><li>Alexander, Archbishop of Alexandria: <strong>'There was not when he was not.'</strong></li><li>Eusebius (d. 341), another bishop, and cousin to the Emperor Constantine.</li><li>Constantine, Emperor, ambivalent peacemaker.</li></ul></p>"
+        },
+        "start_date": {
+          "year": "230"
+        },
+        "end_date": {
+          "year": "324"
+        },
+        "display_date": "Time and time again...",
+        "group": "Reception",
+        "media": {
+          "url": "images/Constantine_burning_Arian_books.jpg",
+          "caption" : "Constantine I burning Arian books.",
+          "credit" : "From MS CLXV, Biblioteca Capitolare, Vercelli, a compendium of canon law produced in northern Italy ca. 825."
+        }
+      },
+      {
+        "text": {
+          "headline": "1st Council of Nicea",
+          "text": "<cite>1st Ecumenical Council</cite><p><ul><li><em><strong>yennythenta</strong></em>: <em>Begotten</em> not made, that is, not a created being (contra Arius).</li><li><em><strong>homoousios</strong></em>: One in being, essence.<ul><li><em>homoousios</em> (same) vs.<em>homo<strong>i</strong>ousios</em> (similar).</li><li>The only NON-scriptural concept in the Creed.</li><li>longstanding tradition of worshipping Christ as God and of experiencing that worship as divinizing</li></ul></li><li><em><strong>enanthropisanta</strong></em>: (participle) humanizing, became human </li><li><strong>For Our Salvation</strong>: completes our humanity and lead the human race to its ultimate fulfillment</li></ul></p>"
+        },
+        "start_date": {
+          "year": "325",
+          "month": "5"
+        },
+        "group": "Reception",
+        "media": {
+          "url": "<blockquote><p>And in one Lord Jesus Christ, the Son of God, begotten of the Father, the only- begotten; that is, of the essence of the Father, God of God, Light of Light, very God of very God, begotten, not made, being of one substance with the Father;</p><p>who for us, and for our salvation, came down and was incarnate and was made human;</p><p>he suffered, and the third day he rose again, ascended into heaven; from thence he shall come to judge the quick and the dead.</p><p>And in the Holy Ghost.</p></blockquote>"
+        }
+      },
+      {
+        "text": {
+          "headline": "Receiving Nicea",
+          "text": "<p>The Issues:<ul><li>Apollinarianism: emphasizes the unity of Jesus the detriment of the divine. Christ had a human body but divine mind. Effectively undercuts any claim that Jesus could freely act.</li><li>Pneumatomachianism/Macedonians: Denied the divinity of the Holy Spirit</li></ul><p>The Players:<ul><li>Constantius II, Emperor, Son of Constantine I and an Arian sympathizer.</li><li>Arius and Eusebius, welcomed back by Constantius II.</li><li>Apollinarius, Bishop of Laodicea (d. 390): Arian opponent who went to the other extreme. who so eleveated the unity of the person of Jesus that claimed Christ had a human body but divine mind, undercutting any claim that Jesus could freely act.<li>Athanasius, Archbishop of Alexandria (successor of Alexander), exiled.</li></ul></p>"
+        },
+        "start_date": {
+          "year": "326"
+        },
+        "end_date": {
+          "year": "380"
+        },
+        "display_date": "",
+        "group": "Reception",
+        "background": {
+          "url": ""
+        }
+      },
+      {
+        "text": {
+          "headline": "1st Council of Constantinople",
+          "text": "<cite>2nd Ecumenical Council</cite><p><ul><li><em><strong>Pneuma to Agion</strong></em>: Proclaims the divinity of the Spirit</li><li><strong>Proceeds from the Father</strong>: a declaration of direct connection between God the Father and the spirit.<ul><li>The <em>filioque</em> ('and the Son'): added in response to a local (Spanish) Arian controversy.</li><li>Theologically, runs the danger of subordinating the Spirit to the Son as well as the Father.</li><li>Ecclesiologically, inserted without conciliar consensus.</li></ul></li><li><em><strong>kath olos</strong></em>: 'according to the whole.' </li></ul></p>"
+        },
+        "start_date": {
+          "year": "381"
+        },
+        "display_date": "",
+        "group": "Reception",
+        "media": {
+          "url": "<blockquote><p>We believe in the Holy Spirit, the Lord, the giver of life, who proceeds from the Father,</p><p>who with the Father and the Son is worshipped and glorified,</p><p>who has spoken through the prophets.</p><p>We believe in one holy catholic and apostolic Church.</p><p>We acknowledge one baptism for the forgiveness of sins.</p><p>We look for the resurrection of the dead, and the life of the world to come.</p></blockquote>"
+        },
+        "background": {
+          "url": ""
+        }
+      },
+      {
+        "text": {
+          "headline": "Revising Nicea",
+          "text": "<p>The Player:<ul><li>Apollinarius, Bishop of Laodicea (~390 AD): 'Jesus does not have a human soul, spirit, or mind.'</li></ul></p><p>The Issues:<ul><li>Personal unity of the divine and humen in Jesus</li><li>Human freedom in Jesus' life</li><li>A hierarchy of natures?</li></ul>"
+        },
+        "start_date": {
+          "year": "382"
+        },
+        "display_date": "Revising Nicea",
+        "group": "Reception",
+        "media": {
+          "url": "<blockquote><p>We believe in one Lord, Jesus Christ , the <strong>only-begotten</strong> Son of God, <strong>eternally [aeons]</strong> begotten of the Father, God from God, Light from Light, true God from true God, begotten, not made, of one Being with the Father; through him all things were made.</p><p>For us and for our salvation, he came down <strong>from heaven</strong>, was incarnate <strong>of the Holy Spirit and the Virgin Mary</strong>, and became truly human.</p><p>For our sake he <strong>was crucified for us under Pontius Pilate; he</strong> suffered <strong>death and was buried</strong>. On the third day he rose again, <strong>according to the Scriptures</strong>; he ascended into heaven, <strong>and is seated at the right hand of the Father</strong>; He will come <strong>again in glory</strong> to judge the living and the dead, <strong>and his kingdom will have no end</strong>.</p></blockquote>"
+        }
+      },
+      {
+        "text": {
+          "headline": "Receiving Constantinople",
+          "text": "<p>The Issues:<ul><li>How many natures, wills, substances, persons?</li><li>Is Mary the 'bearer of God' (<em>Theotokos</em>) or the 'bearer of Christ' (<em>Christokos</em>)?</li></ul><p>The Players:<ul><li>Nestorius (386–450), Patriarch of Constantinople: continued Apollinarianism by referring to Mary as <em>Christokos</em>.</li><li>Antiochene School: emphasized distinction of two natures at the expense of articulating unity. They begin with the Jesus of the synoptic gospels.</li><li>Alexandrian School: emphasizes divinity at the expense of either Jesus' human nature/soul (Arius, Apollinarius) or its salvific significance (Athanasius). They begin with the Jesus of the prologue of John, 'The Word was ...'</li></ul></p>"
+        },
+        "start_date": {
+          "year": "383"
+        },
+        "end_date": {
+          "year": "430"
+        },
+        "display_date": "",
+        "group": "Reception",
+        "background": {
+          "url": ""
+        }
+      },
+      {
+        "text": {
+          "headline": "Council of Ephesus",
+          "text": "<cite>3rd Ecumenical Council</cite><p>The Players: <ul><li>Nestorius, Patriarch of Constantinople.</li><li>Cyril (c. 376 – 444), Patriarch of Alexandria</li><li>Pope Celestine I, (d. 26 July 432)</li><li>Theodosius II.</li></ul></p>"
+        },
+        "start_date": {
+          "year": "431",
+          "month": "6"
+        },
+        "display_date": "",
+        "group": "Reception",
+        "background": {
+          "url": ""
+        }
+      },
+      {
+        "text": {
+          "headline": "2nd Council of Ephesus",
+          "text": "<cite>The Robber Council of Ephesus</cite><ul><li>Monophysitism: Chris has a single 'nature', either divine, or a synthesis of divine and human.</li><li>Eutyches of Constantinople (c. 380 – c. 456): Opposed Nestorias refusal to refert to Mary as <em>Theotokos</em> by asserting that Christ's nature was a fusion of divine and human elements.</li><li> Pope Dioscorus I of Alexandria</li><li>Pope Celestine I, (d. 26 July 432)</li><li>Theodosius II. Seriously.</li></ul></p>"
+        },
+        "start_date": {
+          "year": "449",
+          "month": "10"
+        },
+        "display_date": "",
+        "group": "Reception",
+        "background": {
+          "url": ""
+        }
+      } ,
+      {
+        "text": {
+          "headline": "Council of Chalcedon",
+          "text": "<cite>4th Ecumenical Council</cite><p><ul><li>Explicitly rejects the Second Council of Ephesus</li><li>Monophysitism: Chris has a single 'nature', either divine, or a synthesis of divine and human.</li><li>May rest almost entirely on how the word 'nature' or <em>physis</em> is understood.</li></ul></p><p>Christ is the eternal Son of God, made known in two natures without confusion [i.e. mixture], without change, without division, without separation, the difference of the natures being by no means removed because of the union, but the property of each nature being preserved and coalescing in one <em>prosopon</em> [person] and one <em>hupostasis</em> [subsistence]--not parted or divided into two <em>prosopa</em> [persons], but one and the same Son, only-begotten, divine Word, the Lord Jesus Christ.</p>"
+        },
+        "start_date": {
+          "year": "451",
+          "month": "10"
+        },
+        "display_date": "",
+        "group": "Reception",
+        "background": {
+          "url": ""
+        }
+      },
+      {
+      "text": {
+        "headline": "Creed as Worship",
+        "text": ""
+      },
+      "start_date": {
+        "year": "500"
+      },
+      "display_date": "",
+      "group": "Reception",
+      "background": {
+        "url": ""
+      }
+    }
+    ]
+}

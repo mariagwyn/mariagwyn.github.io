@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Christian Ethics in the Anglican and Liberative Tradition"
+title: "Christian Ethics in the Anglican and Liberative Tradition (2018)"
 date: 2018-01-23
 categories:
 - courses

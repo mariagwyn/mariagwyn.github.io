@@ -5,7 +5,7 @@ name:          Maria Gwyn McDowell
 description :   > # this means to ignore newlines until "baseurl:"
   Theology | Ethics | Practice
 author: Maria Gwyn McDowell
-copyright:     Copyright (c) 2019 | Maria Gwyn McDowell | All rights reserved
+copyright:     Copyright (c) 2020 | Maria Gwyn McDowell | All rights reserved
 baseurl: ""
 url:           http://mariagwyn.com
 email:         mariagwyn@gmail.com
@@ -99,6 +99,7 @@ port:               9002
 # exclude this stuff when building the static site
 exclude:
   - assets/_dev
+  - _dev
   - bower.json
   - Gemfile
   - Gemfile.lock

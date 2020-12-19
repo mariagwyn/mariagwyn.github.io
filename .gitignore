@@ -13,6 +13,7 @@ test*
 /* Don't commit Dev packages */
 assets/_dev/bower_components
 node_modules
+_dev
 npm-debug.log
 
 /* Exclude Caching */
