@@ -75,7 +75,7 @@ Project Options:
 * Option 4: propose your own final project! If none of the three options named above strikes you as helpful, propose another project.
 
 ## Week 1 (9 January): A Crash Course in Ethical Frameworks
-<i class="fas fa-upload large"></i> [Upload Critical Engagement](https://www.dropbox.com/request/nC6YTYCqsjbb0MmW1W5p) paper.<br /><i class="fas fa-book-reader"></i>[Read the work](https://www.dropbox.com/sh/ehrjd4kwqn4rgz8/AADNipStCoZZeWlSTDtfgVeja?dl=0) of your colleagues.
+<i class="fas fa-upload large"></i> [Upload Critical Engagement](https://www.dropbox.com/request/nC6YTYCqsjbb0MmW1W5p) paper.<br /><i class="fas fa-book-reader"></i>[Read the work](https://www.dropbox.com/sh/ehrjd4kwqn4rgz8/AADNipStCoZZeWlSTDtfgVeja?dl=0) of your colleagues.<br /><i class="fas fa-clipboard"></i>[Lecture Slides](https://docs.google.com/presentation/d/10M7-xEdG9JRgQtH-zFOTTv552PL2U2dApnEqMqCHaQw/edit?usp=sharing).
 
 #### Required Reading:
 * Harrison, Beverly Wildung [&quot;Doing Christian Ethics&quot;](https://www.dropbox.com/s/m12wy2ylph6ma5a/Harrison_DoingChristianEthics_JusticeinMaking.pdf?dl=0) in _Justice in the Making: Feminist Social Ethics_. Louisville: Westminster John Knox, 2004.
