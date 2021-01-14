@@ -78,7 +78,7 @@ Project Options:
 <i class="fas fa-upload large"></i> [Upload Critical Engagement](https://www.dropbox.com/request/nC6YTYCqsjbb0MmW1W5p) paper.<br /><i class="fas fa-book-reader"></i>[Read the work](https://www.dropbox.com/sh/ehrjd4kwqn4rgz8/AADNipStCoZZeWlSTDtfgVeja?dl=0) of your colleagues.<br /><i class="fas fa-clipboard"></i>[Lecture Slides](https://docs.google.com/presentation/d/10M7-xEdG9JRgQtH-zFOTTv552PL2U2dApnEqMqCHaQw/edit?usp=sharing).
 
 #### Required Reading:
-* Harrison, Beverly Wildung [&quot;Doing Christian Ethics&quot;](https://www.dropbox.com/s/m12wy2ylph6ma5a/Harrison_DoingChristianEthics_JusticeinMaking.pdf?dl=0) in _Justice in the Making: Feminist Social Ethics_. Louisville: Westminster John Knox, 2004.
+* Harrison, Beverly Wildung [&quot;Doing Christian Ethics&quot;](https://www.dropbox.com/s/7bztopfsm8uxc0v/Harrison_DoingChristianEthics_JusticeinMaking.pdf?dl=0) in _Justice in the Making: Feminist Social Ethics_. Louisville: Westminster John Knox, 2004.
 * Wells, Samuel, Ben Quash, and Rebekah Eklund. *Introducing Christian Ethics*, Second Edition. 2nd ed. Wiley-Blackwell, 2017.
   * [Universal Ethics](https://www.dropbox.com/s/ouf3ev50h875bup/Introducing-Christian-Ethics_05-Universal-Ethics.pdf?dl=0), ch. 5
   * [Subversive Ethics](https://www.dropbox.com/s/fn731qa0kskceha/Introducing-Christian-Ethics_06-Subversive-Ethics.pdf?dl=0), ch. 6
@@ -86,6 +86,9 @@ Project Options:
 
 #### Further (Optional) Reading:
 Beverly Wildung Harrison, *Making the Connections: Essays in Feminist Social Ethics*
+* Austin, *Christian Ethics*, Ch Intor, 1 and 2:
+  * "[Intro and Ch1:](https://www.dropbox.com/s/yasyb81tr611iuf/Austin_ChristianEthics-Intro-Chapter1.pdf?dl=0)"
+  * "[Ch. 2: What is Christian about Christian Ethics](https://www.dropbox.com/s/unryradsoeg0y79/Austin_ChristianEthics-Chapter2.pdf?dl=0)"
 
 ## Week 2 (6 February): Baptized into Virtue
 <i class="fas fa-upload large"></i> [Upload Critical Engagement](https://www.dropbox.com/request/RD4xAWqZCgp4BQKbJOSB) paper.<br /><i class="fas fa-book-reader"></i>[Read the work](https://www.dropbox.com/sh/fxcf06bn9c8lt3l/AAC5MdMd-Mq-m2yeJW08JFpGa?dl=0) of your colleagues.
