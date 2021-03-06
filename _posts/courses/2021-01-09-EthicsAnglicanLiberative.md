@@ -91,7 +91,7 @@ Beverly Wildung Harrison, *Making the Connections: Essays in Feminist Social Eth
   * "[Ch. 2: What is Christian about Christian Ethics](https://www.dropbox.com/s/unryradsoeg0y79/Austin_ChristianEthics-Chapter2.pdf?dl=0)"
 
 ## Week 2 (6 February): Baptized into Virtue
-<i class="fas fa-upload large"></i> [Upload Critical Engagement](https://www.dropbox.com/request/RD4xAWqZCgp4BQKbJOSB) paper.<br /><i class="fas fa-book-reader"></i>[Read the work](https://www.dropbox.com/sh/fxcf06bn9c8lt3l/AAC5MdMd-Mq-m2yeJW08JFpGa?dl=0) of your colleagues.
+<i class="fas fa-upload large"></i> [Upload Critical Engagement](https://www.dropbox.com/request/RD4xAWqZCgp4BQKbJOSB) paper.<br /><i class="fas fa-book-reader"></i>[Read the work](https://www.dropbox.com/sh/fxcf06bn9c8lt3l/AAC5MdMd-Mq-m2yeJW08JFpGa?dl=0) of your colleagues.<br /><i class="fas fa-clipboard"></i>[Lecture Slides](https://docs.google.com/presentation/d/1hHHy_D1uHAhs0W4x32NDUs4aZomNq-x6GbxElrK7hZU/edit?usp=sharing).
 
 #### Required Reading:
 * Austin, *Christian Ethics*, Ch 3 and 4:
@@ -103,7 +103,7 @@ Beverly Wildung Harrison, *Making the Connections: Essays in Feminist Social Eth
 * Greenman, Jeffrey P. “[Anglican Evangelicals on Personal and Social Ethics](https://www.dropbox.com/s/7uycjv2bln85g0i/Greenman-ATR94-2_Anglican-Evangelical-Ethics.pdf?dl=0).” *Anglican Theological Review* 94, no. 2 (2012): 179–205.
 
 ## Week 3 (27 February): Whose Liberation?
-<i class="fas fa-upload large"></i> [Upload Critical Engagement](https://www.dropbox.com/request/BzFuTwxYOSPsF2Ru7Yxz) paper.<br /><i class="fas fa-book-reader"></i>[Read the work](https://www.dropbox.com/sh/ukg46iok5q0tmoj/AADwYTxU9D8GWg4T5aGJ45c7a?dl=0) of your colleagues.
+<i class="fas fa-upload large"></i> [Upload Critical Engagement](https://www.dropbox.com/request/BzFuTwxYOSPsF2Ru7Yxz) paper.<br /><i class="fas fa-book-reader"></i>[Read the work](https://www.dropbox.com/sh/ukg46iok5q0tmoj/AADwYTxU9D8GWg4T5aGJ45c7a?dl=0) of your colleagues.<br /><i class="fas fa-clipboard"></i>[Lecture Slides](https://docs.google.com/presentation/d/1sPoBD6r3ySjnf4iO0qdSvmXtThB4bJL0qj2gLgVGgxI/edit?usp=sharing).
 #### Required Reading:
 * De La Torre, Miguel: [Doing Ethics from the Margins, Chs. 1-3](https://www.dropbox.com/s/65uqd5j3jwaq0ui/DeLaTorre-Doing-Christian-Ethics-from%20the-Margins_1-3.pdf?dl=0).
 * West, Tracy: [Policy: The Bible and Welfare Reform](https://www.dropbox.com/s/zlikaurqbo5vay3/West_Ch3-Policy.pdf?dl=0) from *Distruptive Christian Ethics*.
@@ -115,7 +115,13 @@ Beverly Wildung Harrison, *Making the Connections: Essays in Feminist Social Eth
 #### Required Reading:
 * Douglas, *Stand Your Ground*
 
-## Week 5 (10 April): Public Safety and Just Policing
+## Week 5 (10 April): Immigration and Citizenship
+<i class="fas fa-upload large"></i> [Upload Critical Engagement](https://www.dropbox.com/request/4v5u5ZjJ7PU8mVazeXgY) paper.<br /><i class="fas fa-book-reader"></i>[Read the work](https://www.dropbox.com/sh/3zv3tra3rebpjvi/AAClMDDIAOaNvxXfolo_k_pea?dl=0) of your colleagues.
+#### Required Reading:
+* The Berkely Forum, ["Rethinking Religion and U.S. Refugee Resettlement"](https://berkleycenter.georgetown.edu/posts/rethinking-religion-and-u-s-refugee-resettlement). Read all Editorial responses.
+* Rajendra,Tisha *Migrants and Citizens*
+
+## Week 6 (1 May): Public Safety and Just Policing
 <i class="fas fa-upload large"></i> [Upload Critical Engagement](https://www.dropbox.com/request/LGs78JYIwmtJwBvzIiAm) paper.<br /><i class="fas fa-book-reader"></i>[Read the work](https://www.dropbox.com/sh/1hbzmuh9u6ggd1y/AADVTfOy76yCpnG8zGZfHe7ga?dl=0) of your colleagues.
 NOTE: This section is still being developed, please check back for updated resources.
 #### Required Reading/Watching:
@@ -128,9 +134,3 @@ NOTE: This section is still being developed, please check back for updated resou
 * Winright, Tobias [Don’t abolish the police. Reimagine law enforcement.](https://www.americamagazine.org/politics-society/2020/10/15/dont-abolish-police-reimagine-law-enforcement)
 * Read or Listen: ['CAHOOTS': How Social Workers And Police Share Responsibilities In Eugene, Oregon](https://www.npr.org/2020/06/10/874339977/cahoots-how-social-workers-and-police-share-responsibilities-in-eugene-oregon)
   * [CAHOOTS FAQ](https://whitebirdclinic.org/cahoots-faq/)
-
-## Week 6 (10 April): Immigration and Citizenship
-<i class="fas fa-upload large"></i> [Upload Critical Engagement](https://www.dropbox.com/request/4v5u5ZjJ7PU8mVazeXgY) paper.<br /><i class="fas fa-book-reader"></i>[Read the work](https://www.dropbox.com/sh/3zv3tra3rebpjvi/AAClMDDIAOaNvxXfolo_k_pea?dl=0) of your colleagues.
-#### Required Reading:
-* The Berkely Forum, ["Rethinking Religion and U.S. Refugee Resettlement"](https://berkleycenter.georgetown.edu/posts/rethinking-religion-and-u-s-refugee-resettlement). Read all Editorial responses.
-* Rajendra,Tisha *Migrants and Citizens*
