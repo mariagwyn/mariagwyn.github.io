@@ -1,3 +1,0 @@
-# Feed URL redirects
-Options +FollowSymLinks
-RewriteEngine On

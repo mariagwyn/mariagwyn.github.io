@@ -1,8 +1,7 @@
 # Maria Gwyn McDowell's site:
-- Powered by Jekyll
-- Built with [Foundation 6](http://foundation.zurb.com)
-- Built from [Foundation Jekyll](https://github.com/aaronkwhite/foundation-jekyll), v. 1.5.0
-- Gulpified with help from [Codegaze](https://codegaze.github.io/2016/01/09/a-jekyll-workflow-with-gulp/)
+- Powered by [Jekyll](https://jekyllrb.com/)
+- Built with [Bulma](https://bulma.io/)
+- Built from [Bulma Clean Theme](https://github.com/chrisrhymes/bulma-clean-theme)
 
 ## Installation:
 
