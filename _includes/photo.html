@@ -1,0 +1,91 @@
+  {% if include.caption %}
+    {% if include.alt %}
+      {% assign caption = include.caption %}
+      {% assign alt = include.alt %}
+    {% else %}
+      {% assign caption = include.caption %}
+      {% assign alt = include.caption %}
+    {% endif %}
+  {% else %}
+    {% if include.alt %}
+      {% assign caption = "" %}
+      {% assign alt = include.alt %}
+    {% else %}
+      {% assign caption = "" %}
+      {% assign alt = "" %}
+    {% endif %}
+  {% endif %}
+
+  {% if include.thumb_width %}
+    {% assign thumb_width = 'width="' | append: include.thumb_width | append: '"' %}
+  {% else %}
+    {% assign thumb_width = "" %}
+  {% endif %}
+
+  {% if include.thumb_height %}
+    {% assign thumb_height = 'height="' | append: include.thumb_height | append: '"' %}
+  {% else %}
+    {% assign thumb_height = "" %}
+  {% endif %}
+
+
+    {% if include.full_width %}
+      {% assign full_width = 'height="' | append: include.full_width | append: '"' %}
+    {% else %}
+      {% assign full_width = "800" %}
+    {% endif %}
+
+    {% if include.full_height %}
+      {% assign full_height = 'height="' | append: include.full_height | append: '"' %}
+    {% else %}
+      {% assign full_height = "" %}
+    {% endif %}
+
+  <a class="photoswipe" href="{{ include.url }}" target="_blank" data-pswp-width="{{ include.full_width }}" data-pswp-srcset data-pswp-height="{{ include.full_height }}">
+  <img src="{{ include.url }}" {{ thumb_width }} {{ thumb_height }} alt="{{ alt }}">
+    {% unless caption == "" %}
+    <div class="invisible caption">{{ caption }}</div>
+    {% endunless %}
+  </a>
+
+  {% assign gallery=site.data.[include.gallery] %}
+  {% for gallery in gallery %}
+  <div class="">
+      <p class="title is-3 has-text-centered">{{ gallery.title }}</p>
+  </div>
+  <div class="grid photoswipe-gallery" data-masonry='{ "itemSelector": ".grid-item", "columnWidth": 200 }'>
+      {% for image in gallery.images %}
+      <div class="grid-item">
+          <a class="photoswipe" href="{{ image.link }}" target="_blank" data-pswp-width="{{ image.width | default: 900 }}" data-pswp-srcset data-pswp-height="{{ image.height }}">
+            <figure class="image">
+              <img src="{{ image.link | absolute_url }}" alt="{{ include.alt }}">
+            </figure>
+        </a>
+      </div>
+      {% endfor %}
+  </div>
+  {% endfor %}
+
+
+  {% assign gallery=site.data.[include.gallery] %}
+  {% for gallery in gallery %}
+  <div class="">
+      <p class="title is-3 has-text-centered">{{ gallery.title }}</p>
+  </div>
+  <div class="grid" data-masonry='{ "itemSelector": ".grid-item", "columnWidth": 200 }'>
+      {% for image in gallery.images %}
+      <div class="grid-item">
+          <div class="card-image">
+              {% include image-modal.html ratio=image.ratio link=image.link alt=image.alt large_link=image.large_link %}
+          </div>
+          {% if image.description %}
+          <div class="card-content">
+            <div class="content has-text-centered">
+                  {{ image.description | markdownify }}
+              </div>
+          </div>
+          {% endif %}
+      </div>
+      {% endfor %}
+  </div>
+  {% endfor %}

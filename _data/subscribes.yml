@@ -1,0 +1,12 @@
+- name: Archive
+  link: /archive/
+  class: is-not-transparent
+- name: Subscribe
+  link: /feed.xml
+  link-prepend: site.baseurl
+  outrotext: via RSS
+  class: rss-subscribe
+- name: Academia.edu
+  link: https://bc.academia.edu/MariaMcDowell
+  introtext: Visit me on
+  class: rss-subscribe

@@ -1,0 +1,84 @@
+@font-face {
+  font-family: GentiumPlus;
+  src: url(http://site/fonts/GentiumPlus-R.woff);
+}
+@font-face {
+  font-family: GentiumPlus;
+  font-style: italic;
+  src: url(http://site/fonts/GentiumPlus-I.woff);
+}
+
+body {
+  font-family: 'Gentium Basic', serif;
+  background: black;
+  color: white;
+  }
+.fade {opacity: .5;}
+.large {font-size: 2rem; margin-top: 0;}
+.tl-media .tl-media-blockquote blockquote {
+  font-size: 1.4rem;
+}
+.tl-media .tl-media-blockquote blockquote br {
+  margin:.5rem 0;
+}
+.tl-media .tl-media-blockquote blockquote p {
+  margin: .5rem 0 0 0;
+  font-size: 1.4rem;
+}
+.tl-media .tl-media-blockquote blockquote p:before {
+  content: none;
+}
+.tl-timeline {background-color: black;}
+.tl-slide-content {
+  color: white;
+  background-color: transparent;
+}
+.tl-storyslider .tl-slider-container-mask {
+    background: black;
+}
+.tl-slidenav-previous .tl-slidenav-content-container .tl-slidenav-icon, .tl-slidenav-next .tl-slidenav-content-container .tl-slidenav-icon, .tl-slidenav-previous .tl-slidenav-content-container .tl-slidenav-title, .tl-slidenav-next .tl-slidenav-content-container .tl-slidenav-title, .tl-slidenav-previous .tl-slidenav-content-container .tl-slidenav-description, .tl-slidenav-next .tl-slidenav-content-container .tl-slidenav-description {
+  color: white;
+  text-shadow: 1px 1px 1px #333;
+}
+.tl-timeline p {
+    font-size: 16px;
+    line-height: 1.3em;
+}
+.tl-slide {
+  background: transparent;
+  color: white;
+}
+.tl-text {
+  background: transparent;
+  color: white;
+}
+.tl-text p {
+  color: white;
+}
+.tl-media .tl-media-blockquote blockquote p {
+  color: white;
+}
+
+.ww {}
+
+#_1st-council-of-nicea .tl-media .tl-media-blockquote blockquote  {
+    font-size: 1rem;
+  }
+
+/*
+ * Tooltip Styles
+ */
+ .photo {
+   width: 300px;
+   text-align: center;
+ }
+ .photo .ui-widget-header {
+   margin: 1em 0;
+ }
+ .map {
+   width: 350px;
+   height: 350px;
+ }
+ .ui-tooltip {
+   max-width: 350px;
+ }

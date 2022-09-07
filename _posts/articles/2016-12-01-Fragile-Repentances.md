@@ -20,7 +20,9 @@ pubtext-online: Women in Theology
 pubtext-onlinelink: https://womenintheology.org/2013/11/19/fragile-repentances/
 pubbook-amazon: https://www.amazon.com/Am-Wonderfully-Made-Orthodoxy-Inclusion/dp/908883024X
 pp: 236-243
-image-primary: /assets/images/pubs/bookcover_2016_wonderfullymade.png
+image-primary: pubs/bookcover_2016_wonderfullymade.png
+image-width: is-half
+image-float: left
 description: "An invited essay on being LGBTQ and Orthodox."
 ---
 ### Essay

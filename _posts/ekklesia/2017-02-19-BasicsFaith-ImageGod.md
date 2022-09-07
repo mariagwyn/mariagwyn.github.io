@@ -9,6 +9,7 @@ tags:
 - image of God
 - theology
 - twitter
+youtube: 1kLVzc-uTwY
 pub-type: Catechesis
 pub-location: "St. Michael & All Angels, Portland, Oregon"
 pub-date: 19 February, 2017
@@ -16,9 +17,7 @@ description: "Part 1 of a series on the Basics of the Faith, the Image of God."
 excerpt: "Tradition holds, that every human being is in the image of God, but it does not define exactly in what this image consists. --Epiphanius of Salamas"
 
 ---
-<div class="flex-video">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/1kLVzc-uTwY" frameborder="0" allowfullscreen></iframe>
-</div>
+
 <blockquote>Tradition holds, that every human being is in the image of God, but it does not define exactly in what this image consists.
 - Epiphanius of Salamas (d. 403)</blockquote>
 <blockquote>The human person is an icon of God, a finite expression of God’s infinite self-expression. – Kallistos Ware</blockquote>

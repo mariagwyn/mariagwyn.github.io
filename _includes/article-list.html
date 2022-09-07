@@ -1,0 +1,4 @@
+<div class="post-short">Article
+  <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
+  <p>{% if post.pub-source %}<em>{{ post.pub-source }}</em><br />{% endif %}{% if post.pub-location %}{{post.pub-location}}: {{post.publisher}}, {% endif %}{{post.pub-date}}</p>
+</div>

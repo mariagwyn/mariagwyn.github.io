@@ -18,13 +18,15 @@ layout: default
   {% if page.pub-date %}{{ page.pub-date }}{% endif %}{% if page.pp %}, pp. {{ page.pp}}{% endif %}</p>
 </div>
 {% if page.image-primary %}
+{% if page.image-primary %}{% include image.html %}{% endif %}
+
+{% endif %}
+{{ content }}
+</div>
 <div class="post-image">
   <img src="{{ page.image-primary}}" alt="
     {% if page.image-caption %}{{ page.image-caption }}{% else %}Book Cover{% endif %}">
   {% if page.image-primary %}
     <p>{{ page.image-caption }}</p>
   {% endif %}
-</div>
-{% endif %}
-{{ content }}
 </div>

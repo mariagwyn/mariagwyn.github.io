@@ -2,25 +2,41 @@
 layout: default
 ---
 
-<div class="page">
+{% if page.toc %}
+    {% assign contentsTitle = page.toc_title | default: 'Contents' %}
+    {% include toc.html html=content class='menu-list' h_min=2 h_max=3 contents_title=contentsTitle %}
+{% endif %}
+{% if page.pub-type %}
+<p class="pub-type"><strong>{{ page.pub-type }}</strong></p>
+{% endif %}
+
+{% if page.pub-link %}
 <div class="pub-info">
-  <p>{% if page.pub-link %}
-    <em><a href="{{ page.pub-link }}" target="_blank">{{ page.pub-source }}</a></em>{% if page.editor-prefix %}{{ page.editor-prefix }} {% endif %}{% if page.editor %}{{ page.editor }}. {% endif %}{% if page.pub-volume %}, {{ page.pub-volume }}{% endif %}
-  {% else %}<em>{{ page.pub-source }}</em>{% endif %}{% if page.pub-volume %}{{ page.pub-volume }}{% endif %}
+  <p>
+    {% if page.pub-link %}
+      <em>
+        <a href="{{ page.pub-link }}" target="_blank">{{ page.pub-source }}</a>
+      </em>
+        {% if page.editor-prefix %}{{ page.editor-prefix }} {% endif %}
+        {% if page.editor %}{{ page.editor }}. {% endif %}
+        {% if page.pub-volume %}, {{ page.pub-volume }}{% endif %}
+    {% else %}
+      <em>{{ page.pub-source }}</em>
+    {% endif %}
+    {% if page.pub-volume %}{{ page.pub-volume }}{% endif %}
   <br />
-  {% if page.pub-location %}{{ page.pub-location }}{% endif %}{% if page.publisher %}: {{page.publisher}}{% endif %}{% if page.pub-date %}, {{ page.pub-date }}{% endif %}{% if page.pp %}, pp. {{ page.pp}}{% endif %}</p>
-</div>
-{% if page.image-primary %}
-<div class="post-image">
-  <img src="{{ page.image-primary}}" alt="{{ page.image-caption }}">
-    <p>{{ page.image-caption }}</p>
+  {% if page.publisher %}: {{page.publisher}}{% if page.pub-date %}, {{ page.pub-date }}{% endif %}{% endif %}
+  {% if page.pp %}, pp. {{ page.pp}}{% endif %}</p>
 </div>
 {% endif %}
-<p>{{ page.description }}</p>
-
+{% if page.image-primary %}
+<figure class="image is-2by3">
+  <img src="{{ page.image-primary}}" alt="{{ page.image-caption }}">
+    <p>{{ page.image-caption }}</p>
+</figure>
+{% endif %}
 {% if page.file-audio or page.file-video or page.vimeo or page.youtube %}
   {% include mediaembed.html %}
 {% endif %}
 
-{{ content }}
-</div>
+{{ content }} 

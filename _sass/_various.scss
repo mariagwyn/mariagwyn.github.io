@@ -1,0 +1,75 @@
+@charset "utf-8";
+.title {
+  font-family: $family-serif;
+}
+.subtitle {
+  font-family: $family-serif;
+}
+.is-transparent {opacity:.8;}
+.is-not-transparent {opacity: 1;}
+
+h1.site-name a {
+    -webkit-text-fill-color: rgba(125,30,25,0.75);
+    -webkit-text-stroke-color: #7d1e19;
+    -webkit-text-stroke-width: 1px;
+    color: #7d1e19;
+}
+.post-header {
+  //border-bottom: 1px solid $blue;
+}
+.page-title {
+  padding: 5% 0;
+}
+.left {
+  float: left;
+  padding-right: 2em;
+}
+//.intertext {color: $danger; font-style: italic;}
+.bulma-overlay-mixin {
+  @include overlay(1.5rem);
+  background-color: $primary;
+  border-radius: 0.25em;
+  color: white;
+  opacity: 0.7;
+  padding: 1em;
+  position:relative;
+}
+.border {border-bottom: 1px solid $blue;}
+
+.float-right {
+  float: right !important; }
+
+.subheader {
+  margin-top: 0.2rem;
+  margin-bottom: 0.5rem;
+  font-weight: normal;
+  line-height: 1.4;
+  color: #8eaecf;
+}
+.navbar {
+  background-color: transparent;
+}
+.navbar-item {
+  color: $success;
+  border-top: 0.4rem solid $scheme-main;
+}
+a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover, a.navbar-item.is-active, .navbar-link:focus, .navbar-link:focus-within, .navbar-link:hover, .navbar-link.is-active {
+    background-color: $scheme-main;
+    color: $link-hover;
+    border-top: 0.4rem solid $link-hover-border;
+}
+ul.social-media-share li {
+    display: inline-block;
+    list-style: none;
+}
+ul.no-bullet, ol.no-bullet {
+    margin-left: 0;
+    list-style: none;
+}
+hr {
+    background-color: rgba($primary, .4);
+    border: none;
+    display: block;
+    height: 2px;
+    margin: 1.5rem 0;
+}

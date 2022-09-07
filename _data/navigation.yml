@@ -1,0 +1,12 @@
+- name: About
+  link: /about/
+- name: Resume
+  link: /resume/
+- name: Ekklesia
+  link: /ekklesia/
+- name: Academia
+  link: /academia/
+- name: Archive
+  link: /archive
+- name: Feed
+  link: /feed/

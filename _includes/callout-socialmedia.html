@@ -1,0 +1,56 @@
+<div class="column socialmedia">
+  <div class="block notification is-success is-transparent">
+    <div class="columns is-mobile ">
+      <ul class="column">
+        {% if site.facebook %}
+        <li>
+          <a href="https://facebook.com/{{ site.facebook }}">
+            <i class="fab fa-facebook-square"></i>
+            <span class="username">Facebook</span>
+          </a>
+        </li>
+        {% endif %}
+        {% if site.twitter %}
+        <li>
+          <a href="https://twitter.com/{{ site.twitter.username }}">
+            <i class="fab fa-twitter-square"></i>
+            <span class="username">Twitter</span>
+          </a>
+        </li>
+        {% endif %}
+        {% if site.linkedin %}
+        <li>
+          <a href="https://www.linkedin.com/in/{{ site.linkedin }}">
+            <i class="fab fa-linkedin"></i>
+            <span class="username">LinkedIn</span>
+          </a>
+        </li>
+        {% endif %}
+      </ul>
+      <ul class="column">
+        {% if site.soundcloud %}
+        <li>
+          <a href="https://soundcloud.com/{{ site.soundcloud }}">
+            <i class="fab fa-podcast"></i>
+            <span class="username">Podcast</span>
+          </a>
+        </li>
+        {% endif %}
+        {% if site.youtube %}
+        <li>
+          <a href="https://youtube.com/{{ site.youtube }}">
+            <i class="fab fa-youtube-square"></i><span class="username"> YouTube</span>
+          </a>
+        </li>
+        {% endif %}
+        {% if site.github %}
+        <li>
+          <a href="https://github.com/{{ site.github }}">
+            <i class="fab fa-github-square"></i><span class="username"> Git Hub</span>
+          </a>
+        </li>
+        {% endif %}
+      </ul>
+    </div>
+  </div>
+</div>

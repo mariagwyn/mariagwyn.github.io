@@ -1,0 +1,17 @@
+<div class="block">
+  {% if page.date %}
+  <i class="far fa-calendar"></i>{{ page.date | date: "%-d %B %Y" }}
+  {% endif %}
+  {% if page.pub-location %}<p>{{ page.pub-location }}</p>{% endif %}
+</div>
+  {% if page.scripture %}
+    {% include block-scripture.html %}
+  {% endif %}
+  {% if page.pubtext-pdf %}
+    {% include publinks.html %}
+  {% endif %}
+{% if page.categories %}
+  {% include block-categories.html %}
+{% endif %}
+{% if page.academia %}<p class="academia">On <a href="https://www.academia.edu/{{ page.academia }}" target="_blank" >Academia.edu</a></p>{% endif %}
+{% include block-share.html %}

@@ -1,80 +1,37 @@
-{% if page.heroimage %}
-<footer class="dumbotron site-footer" style="background-image: url({{ page.heroimage }});">
-{% else %}
-<footer class="dumbotron site-footer">
-{% endif %}
-  <div class="grid-container">
-    <div class="grid-x grid-margin-x">
-      <div class="cell small-12 medium-4 contacts">
-        <div class="callout" data-equalizer-watch="footer">
-          <ul class="contact-list">
-            <li>{{ site.title }}</li>
-            <li class="rss-subscribe">Subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></li>
-            <li >Visit me on <a href="https://bc.academia.edu/MariaMcDowell" target="_blank">Academia.edu</a></li>
-          </ul>
+<footer class="footer dumbotron">
+    <div class="container">
+        {% if site.footer_menu %}
+        <div class="columns is-multiline">
+            {% for item in site.data[site.footer_menu] %}
+            <div class="column has-text-centered">
+                <div>
+                    <a href="{{ item.link | relative_url }}" class="link">{{ item.name }}</a>
+                </div>
+            </div>
+            {% endfor %}
         </div>
-      </div>
-      <div class="cell small-12 medium-4 socialmedia">
-        <div class="callout grid-x" data-equalizer-watch="footer">
-          <ul class="cell social-media-list small-12 medium-6">
-            {% if site.facebook %}
-            <li>
-              <a href="https://facebook.com/{{ site.facebook }}">
-                <i class="fab fa-facebook-square"></i>
-                <span class="username">Facebook</span>
-              </a>
-            </li>
-            {% endif %}
-            {% if site.twitter %}
-            <li>
-              <a href="https://twitter.com/{{ site.twitter }}">
-                <i class="fab fa-twitter-square"></i>
-                <span class="username">Twitter</span>
-              </a>
-            </li>
-            {% endif %}
-            {% if site.linkedin %}
-            <li>
-              <a href="https://www.linkedin.com/in/{{ site.linkedin }}">
-                <i class="fab fa-linkedin"></i>
-                <span class="username">LinkedIn</span>
-              </a>
-            </li>
-            {% endif %}
-          </ul>
-          <ul class="cell social-media-list small-12 medium-6">
-            {% if site.soundcloud %}
-            <li>
-              <a href="https://soundcloud.com/{{ site.soundcloud }}">
-                <i class="fab fa-podcast"></i>
-                <span class="username">Podcast</span>
-              </a>
-            </li>
-            {% endif %}
-            {% if site.youtube %}
-            <li>
-              <a href="https://youtube.com/{{ site.youtube }}">
-                <i class="fab fa-youtube-square"></i><span class="username"> YouTube</span>
-              </a>
-            </li>
-            {% endif %}
-            {% if site.github %}
-            <li>
-              <a href="https://github.com/{{ site.github }}">
-                <i class="fab fa-github-square"></i><span class="username"> Git Hub</span>
-              </a>
-            </li>
-            {% endif %}
-          </ul>
+        {% endif %}
+        <div class="columns">
+          {% assign link = site.data.subscribes.name %}
+          {% if site.data.subscribes %}
+          <div class="column subscribes">
+            <ul class="subscribe-list notification is-danger is-transparent">
+              {% for item in site.data.subscribes %}
+                <li class="{{ item.class }}">{{ item.introtext }} <a href="{{ item.link }}">{{ item.name }}</a> {{ item.outrotext }}</li>
+              {% endfor %}
+            </ul>
+          </div>
+          {% endif %}
+          {% include callout-socialmedia.html %}
+          {% assign item = site.data.colophon.name %}
+          {% for item in site.data.colophon %}
+          <div class="column">
+            {{ item.content}}
+          </div>
+          {% endfor %}
         </div>
-      </div>
-
-      <div class="cell small-12 medium-4 colophon">
-        <div class="callout" data-equalizer-watch="footer">
-          <p class="text">This site is built with <a href="https://github.com/jekyll/jekyll">Jekyll</a> and <a href="https://pages.github.com/">hosted on github</a>.</p>
+        <div class="content is-small has-text-centered">
+            <p class="">This site is built with <a href="https://github.com/jekyll/jekyll">Jekyll</a> and <a href="https://pages.github.com/">hosted on github</a>. The base theme uses the <a href="https://bulma.io/">Bulma CSS framework</a>, with the help of <a href="https://www.csrhymes.com">Bulma Clean Theme</a></p>
         </div>
-      </div>
-      <p class="copy cell small-12">{{ site.copyright }}</p>
     </div>
-  </div>
 </footer>

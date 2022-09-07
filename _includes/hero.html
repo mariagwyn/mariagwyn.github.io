@@ -1,0 +1,11 @@
+<section class="hero {% if page.hero_height %} {{ page.hero_height }} {% else %} is-medium {% endif %} is-bold {% if page.hero_color %} {{ page.hero_color }} {% else %} is-white {% endif %}" {% if page.image %} style="background-image: url('{% if page.hero_remote == "aws" %}{{ site.image-baseurl }}{{ page.image }}{% elsif page.hero_remote == "fullpath" %}{{ page.image }}{% elsif page.hero_remote == "local" %}{{ site.image-localpath | absolute_url }}{{ page.image }}{% else %}{{ site.image-localpath }}{{ page.image }}{% endif %}'); {% if page.hero_vertposition %} background-position: {{ page.hero_vertposition }} {% endif %};" {% endif %}>
+    <div class="hero-body {% if page.hero_darken %} hero-darken {% endif %}">
+        <div class="container">
+            <h1 class="title is-2">{{ page.title }}</h1>
+            <p class="subtitle is-3">{{ page.subtitle }}</p>
+            {% if page.hero_link %}
+                <a href="{{ page.hero_link | relative_url }}" class="button is-info is-large">{{ page.hero_link_text }}</a>
+            {% endif %}
+        </div>
+    </div>
+</section> 

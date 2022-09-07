@@ -4,14 +4,14 @@ type: archive
 ---
 
 <div class="archive-description">
-  <h4>{{ content }}</h4>
+  <div>{{ content }}</div>
 </div>
 
 <div class="wrap archive">
 {% if site.categories[page.category] %}
-  <div class="grid-x grid-padding-x small-up-1 medium-up-2 large-up-3">
+  <div class="columns is-multiline">
     {% for post in site.categories[page.category] %}
-      <div class="cell">
+      <div class="column is-one-third">
         <h3><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></h3>
         <time>
           <span class="month">{{ post.date | date: "%b" }}</span>

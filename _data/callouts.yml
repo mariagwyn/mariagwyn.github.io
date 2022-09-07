@@ -1,0 +1,30 @@
+height: is-small
+image: /assets/images/hero-default.jpg
+style: dumbotron
+items:
+  - title: Resume
+    subtitle:
+    icon:
+    description: >
+      Labor in the church and the world.
+    call_to_action_name:
+    link: /resume/
+    class: cv
+    columns: 3
+  - title: Ekklesia
+    subtitle:
+    icon:
+    description: >
+      Sermons, church-related articles,<br />educational materials and projects.
+    link: /ekklesia/
+    class: ekklesia
+    columns: 6
+  - title: Academia
+    subtitle:
+    icon:
+    icon_brand:
+    description: >
+      Academic publications and presentations.
+    link: /academia/
+    class: academia
+    columns: 3

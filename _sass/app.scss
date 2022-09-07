@@ -1,0 +1,116 @@
+@charset "utf-8";
+//INITIAL VARIABLES
+// Set your brand colors
+$blue-light: hsl(210°, 40%, 68%) !default //#8eaecf;
+$blue: hsl(210°, 40%, 48%) !default //#4a7bad;
+$green: hsl(74°, 70%, 34%) !default //#77931a;
+$gold: hsl(	37°, 91%, 61%) !default //#f6b241;
+$red: hsl(3°, 67%, 29%) !default //#7d1e19;
+$brown: hsl(19°, 48%, 13%) !default //#301b11;
+$beige-light: hsl(34°, 19%, 72%) !default //#C5B9A9;
+$off-white: hsl(0°, 0%, 98%) !default //#fefefe;
+$white:        hsl(0, 0%, 100%) !default
+
+$black:        hsl(0, 0%, 4%) !default
+$black-bis:    hsl(0, 0%, 7%) !default
+$black-ter:    hsl(0, 0%, 14%) !default
+
+$grey-darker:  hsl(19°, 48%, 13%) !default
+$grey-dark:    hsl(19°, 48%, 24%) !default
+$grey:         hsl(19°, 48%, 30%) !default
+$grey-light:   hsl(34°, 19%, 72%) !default
+$grey-lighter: hsl(34°, 19%, 72%) !default
+$grey-lightest: hsl(0, 0%, 93%) !default
+
+$white-ter:    hsl(0, 0%, 96%) !default
+$white-bis:    hsl(0, 0%, 98%) !default
+
+$orange:       hsl(14,  100%, 53%) !default
+$yellow:       hsl(44,  100%, 77%) !default
+$green:        hsl(153, 53%,  53%) !default
+$turquoise:    hsl(171, 100%, 41%) !default
+$cyan:         hsl(207, 61%,  53%) !default
+$purple:       hsl(271, 100%, 71%) !default
+
+// Responsiveness
+// The container horizontal gap, which acts as the offset for breakpoints
+$gap: 32px !default
+// 960, 1152, and 1344 have been chosen because they are divisible by both 12 and 16
+$tablet: 769px !default
+// 960px container + 4rem (theme default, changed)
+$desktop: 1152px + (2 * $gap) !default
+// 1152px container + 4rem
+$widescreen: 1152px + (2 * $gap) !default
+$widescreen-enabled: true !default
+
+// Import a Google Font
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400,400italic,700');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+@import url('https://fonts.googleapis.com/css?family=Forum');
+$family-sans-serif: 'Open Sans', 'Lucida Grande', Myriad, sans-serif;
+$family-serif: 'Merriweather', Georgia, serif;
+
+//DERIVED VARIABLES
+//Colors
+$widescreen-enabled: false;
+$fullhd-enabled: false;
+
+$primary: $blue;
+$link: $blue;
+$info: $yellow;
+$success: $green;
+$warning: $yellow;
+$danger: $red;
+$scheme-main: $off-white;
+$link-hover: $success;
+$link-hover-border: $success;
+
+// Update some of Bulma's component variables
+$body-background-color: $off-white;
+$control-border-width: 2px;
+$input-border-color: transparent;
+$input-shadow: none;
+
+$border: $grey-lighter !default
+$border-hover: $grey-light !default
+$border-light-hover: $grey-light !default
+
+// General colors
+$scheme-main: $white !default
+$scheme-main-bis: $white-bis !default
+$scheme-main-ter: $white-ter !default
+$scheme-invert: $black !default
+$scheme-invert-bis: $black-bis !default
+$scheme-invert-ter: $black-ter !default
+
+$background: $white-ter !default
+
+$border: $grey-lighter !default
+$border-hover: $grey-light !default
+$border-light: $grey-lightest !default
+$border-light-hover: $grey-light !default
+
+// Text colors
+$text: $grey-dark !default
+$text-invert: findColorInvert($text) !default
+$text-light: $grey !default
+$text-strong: $grey-darker !default
+
+$content-block-margin-bottom: 1em !default
+
+$content-blockquote-background-color: $background !default
+$content-blockquote-border-left: 5px solid $border !default
+$content-blockquote-padding: 1.25em 1.5em !default
+
+$content-pre-padding: 1.25em 1.5em !default
+
+$background-image: url('../images/chi.jpg');
+//@import "https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css";
+@import "../node_modules/bulma/bulma.sass";
+
+@import "various.scss";
+@import "image.scss";
+@import "callouts.scss";
+@import "hero.scss";
+@import "typography.scss";
+@import "timeline.scss";

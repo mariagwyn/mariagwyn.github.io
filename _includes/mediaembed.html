@@ -26,7 +26,11 @@
 {% endif %}
 {% if page.youtube %}
 <h3>Video</h3>
-<div class="plyr__video-embed" id="player">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/{{ page.youtube }}?loop=false&amp;&amp;portrait=false&amp;title=true&amp;speed=true&amp;transparent=0&amp;gesture=media" allowfullscreen allowtransparency allow="autoplay"></iframe>
-</div>
+<figure class="image">
+  <div class="plyr__video-embed" id="player">
+    <iframe class="has-ratio"
+      src="https://www.youtube.com/embed/{{ page.youtube }}?origin=https://plyr.io&amp;iv_load_policy=3&amp;modestbranding=1&amp;playsinline=1&amp;showinfo=0&amp;rel=0&amp;enablejsapi=1&amp;ratio=4:3" allowfullscreen allowtransparency allow="autoplay"></iframe>
+  </div>
+</figure>
+
 {% endif %}

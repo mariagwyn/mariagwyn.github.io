@@ -1,0 +1,16 @@
+@charset "utf-8";
+p {
+  margin-bottom: 1rem;
+}
+h2, h3 {
+    color: $danger;
+    margin-top: 1.4rem;
+}
+.outline {
+  /* Prefix required. Even Firefox only supports the -webkit- prefix */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: $brown;
+}
+.fa, .fab, .fad, .fal, .far, .fas {
+  padding-right: .3rem;
+}

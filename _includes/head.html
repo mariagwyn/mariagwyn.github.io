@@ -1,64 +1,43 @@
-{% capture lvl %}{{ page.url | append:'index.html' | split:'/' | size }}{% endcapture %}
-{% capture relative %}{% for i in (3..lvl) %}../{% endfor %}{% endcapture %}
-
-<!doctype html>
-<!--[if IE 9]><html class="lt-ie10" lang="en" > <![endif]-->
-<html class="no-js" lang="en" data-useragent="Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; Trident/6.0)">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
-    {% include robots.html %}
-    <meta name="description" content="{% include meta-description.html %}">
-    <meta name="author" content="{{ site.name }}" />
-    <meta name="copyright" content="{{ site.copyright }}"/>
-
-    <!-- Open Graph: https://developers.facebook.com/docs/opengraph/howtos/maximizing-distribution-media-content/
-    Twitter: https://dev.twitter.com/docs/cards/types/summary-card
-    ============================== -->
-    <meta property="og:title" content="{{ page.title }}"/>
-    <meta property="og:site_name" content=" {{ site.title }}"/>
-    <meta property="og:url" content=" - {{ site.url }}"/>
-    <meta property="og:description" content="{% include meta-description.html %}"/>
-    <meta property="og:image" content="{{ site.url }}{{ site.picture }}"/>
-    <meta property="og:type"  content="article" />
-    <meta name="twitter:card" content="summary">
-    <meta name="twitter:site" content="@{{ site.twitter }}">
-    <meta name="twitter:creator" content="@{{ site.twitter }}">
-    <meta name="twitter:title" content="{{ page.title }}">
-    <meta name="twitter:description" content="{% include meta-description.html %}">
-    <meta name="twitter:image" content="{{ site.url }}{{ site.picture }}">
-
-    <!-- 404 Redirect -->
-    {% if page.url == "/404.html" %}
-      <meta http-equiv="refresh" content="5; url=/">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content={{ site.theme_color | default: '#ffffff' }}>
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/app.css">
+    <link rel="shortcut icon" type="image/png"
+          {% if site.favicon %} href="{{ site.favicon | relative_url }}" {% else %} href="{{ site.baseurl }}/favicon.png" {% endif %}
+    />
+    <script defer src="https://unpkg.com/alpinejs@3.9.0/dist/cdn.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css">
+    {% if page.support contains 'jquery' %}
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
+      integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI="
+      crossorigin="anonymous"></script>
     {% endif %}
-    <!-- /404 Redirect -->
-    <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ site.rss }}" />
-    <link rel="alternate" title="{{ site.title }}" type="application/json" href="{{ "/feed/index.json" | absolute_url }}" />
-    <link rel="alternate" type="application/rss+xml" title="{{ site.name }}" href="{{ site.url }}/feed.xml">
-    <script src="https://kit.fontawesome.com/7377c94b3b.js" crossorigin="anonymous"></script>
-    <script src="https://cdn.plyr.io/3.4.8/plyr.js"></script>
-    <link rel="stylesheet" href="https://cdn.plyr.io/3.4.8/plyr.css">
-    <link rel="stylesheet" href="/assets/css/style.css" />
-    {% for uniquecss in page.css %}
-      <link rel="stylesheet" type="text/css" href="/assets/uniquecss/{{ uniquecss }}">
-    {% endfor %}
-
-
-    <!-- Foundation Favicons -->
-    {% for favicon in site.theme_settings.favicons %}
-      {% assign size = favicon | split: '-' | last | split: '.' | first %}
-      <link rel="icon"
-        sizes="{{ size }}x{{ size }}"
-        href="{{ favicon }}">
-      <link rel="apple-touch-icon"
-        sizes="{{ size }}x{{ size }}"
-        href="{{ favicon }}">
-    {% endfor %}
-    <!-- Google Analytics -->
-    {% if jekyll.environment == 'production' %}
-      {% include analytics.html %}
+    {% if page.support contains 'media' or page.file-audio or page.file-video or page.vimeo or page.youtube %}
+      <script src="https://cdn.plyr.io/3.7.2/plyr.js"></script>
+      <link rel="stylesheet" href="https://cdn.plyr.io/3.7.2/plyr.css">
     {% endif %}
-  </head>
-  <body{% if page.class %} class="{{ page.class }}"{% endif %}>
+    {% if page.support contains 'gallery' %}
+      <script src="https://unpkg.com/imagesloaded@5/imagesloaded.pkgd.min.js"></script>
+      <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+      <script type="text/javascript" src="/assets/js/portfolio_masonry.js"></script>
+      <script src="/assets/js/activate_photoswipe.js" type="module"></script>
+      <link href="/assets/css/photoswipe.css" rel="stylesheet" />
+    {% endif %}
+    {% if page.support contains 'timelinejs' %}
+      <link title="timeline-styles" rel="stylesheet" href="https://cdn.knightlab.com/libs/timeline3/latest/css/timeline.css">
+      <script src="https://cdn.knightlab.com/libs/timeline3/latest/js/timeline.js"></script>
+    {% endif %}
+    {% unless site.hide_share_buttons %}
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-social@1/bin/bulma-social.min.css">
+    {% endunless %}
+    {% seo %}
+    {% if site.feed %}
+    {% feed_meta %}
+    {% endif %}
+    {%- if site.ga_id -%}
+      {%- include google-analytics.html -%}
+    {%- endif -%}
+    {%- include head-scripts.html -%}
+</head>

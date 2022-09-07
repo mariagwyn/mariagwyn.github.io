@@ -1,0 +1,22 @@
+{% assign gallery=site.data.[include.gallery] %}
+{% for gallery in gallery %}
+<div class="">
+    <p class="title is-3 has-text-centered">{{ gallery.title }}</p>
+</div>
+<div class="grid" data-masonry='{ "itemSelector": ".grid-item", "columnWidth": 200 }'>
+    {% for image in gallery.images %}
+    <div class="grid-item">
+        <div class="card-image">
+            {% include image-modal.html ratio=image.ratio link=image.link alt=image.alt large_link=image.large_link %}
+        </div>
+        {% if image.description %}
+        <div class="card-content">
+          <div class="content has-text-centered">
+                {{ image.description | markdownify }}
+            </div>
+        </div>
+        {% endif %}
+    </div>
+    {% endfor %}
+</div>
+{% endfor %}

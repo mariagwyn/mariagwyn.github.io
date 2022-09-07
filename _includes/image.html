@@ -1,0 +1,15 @@
+<div class="column inline-image {{ page.image-width }} {{ page.image-float | default: left }}">
+  <figure class="image {{ page.image-ratio | default: is-16by9 }}">
+    {% if include.pathaws %}
+      <img src="{{ site.image-baseurl | absolute_url }}{{ include.src }}" alt="{{ include.alt }}">
+    {% elsif include.pathfull %}
+      <img src="{{ include.src }}" alt="{{ include.alt }}">
+    {% else %}
+      <img src="{{ site.image-localpath | absolute_url }}/{{ page.image-primary}}" alt="{{ page.image-alt }}">
+    {% endif %}
+    {% if page.image-alt %}
+    <span class="title is-5">{{ page.image-alt }}</span>
+    <div class="attribution">{{ page.image-attribution }}</div>
+    {% endif %}
+</figure>
+</div>
