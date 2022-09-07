@@ -11,10 +11,10 @@ Icon
 test*
 
 /* Don't commit Dev packages */
-assets/_dev/bower_components
 node_modules
-_dev
+_site
 npm-debug.log
+.jekyll-cache
 
 /* Exclude Caching */
 .sass-cache/
