@@ -14,8 +14,8 @@
 [Bundler](http://bundler.io/) - `gem install bundler` (mac users may need sudo)  
 
 [NodeJS](http://nodejs.org) - use the installer.  
-[Yarn](https://yarnpkg.com/en/docs/install) - follow installation instructions  
-[GulpJS](https://github.com/gulpjs/gulp) - `npm install -g gulp` (mac users may need sudo) 
+[Yarn](https://yarnpkg.com/en/docs/install) - follow installation instructions. Yarn is installed per-project.
+[GulpJS](https://github.com/gulpjs/gulp) - `npm install -g gulp` (mac users may need sudo)
 
 ### Local Installation
 
@@ -27,4 +27,4 @@ Git clone this repository, or download it into a directory of your choice. Insid
 For the most part, the site follows a typical Jekyll structure. However, the theme utilizes Zurb Foundation, and the builds are through Gulp rather than Jekyll. This allows for various optimizations, automated tasks, etc.
 
 ### assets and assets/_dev
-The ```assets``` directory holds all the images, css, fonts, js and documents which will be included in the Jekyll build. Within ```assets```, the ```_dev``` folder holds all the unprocessed SCSS, JS, Foundation and image files. Running the install tasks above should build the required bower and node_modules folders.
+The ```assets``` directory holds all the images, css, fonts, js and documents which will be included in the Jekyll build. The ```_dev``` folder holds all the unprocessed SCSS, JS, Foundation and image files. You should not have to modify this folder, it is for local use only. Running the install tasks above should build the required bower and node_modules folders.

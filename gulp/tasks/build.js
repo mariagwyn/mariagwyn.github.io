@@ -1,6 +1,7 @@
 var gulp          = require('gulp');
-var sequence      = require('run-sequence');
+const { series } = require('gulp');
 
 gulp.task('build', function(done) {
-    sequence('clean', 'jekyll-build', ['sass', 'javascript', 'optimize-images', 'copy'], done);
+    series('clean', 'jekyll-build');
+    done();
 });

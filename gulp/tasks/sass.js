@@ -7,7 +7,7 @@ var isProduction  = require('../util/isProduction');
 var sass          = require('gulp-sass');
 var cleancss      = require('gulp-clean-css');
 
-gulp.task('sass', function() {
+gulp.task('sass', function(done) {
   browserSync.notify(config.notification);
   var minifycss = $.if(isProduction, $.cssnano());
 
@@ -23,4 +23,5 @@ gulp.task('sass', function() {
     .pipe(gulp.dest(config.dest.buildDir))
     // Auto-inject styles into browsers
     .pipe(browserSync.stream());
+    done();
 });
