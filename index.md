@@ -8,6 +8,11 @@ bio: true
 hide_hero: true
 post-list: medium
 fullwidth: true
+support:
+  - jquery-rss
+uniquejs:
+  - feed-wit.rss.js
+  - feed-deip.rss.js
 ---
 <div class="columns">
   <div class="column is-9">
@@ -24,3 +29,9 @@ fullwidth: true
   </div>
 </div>
 {% include resumes-twocol.html %}
+<section class="feeds">
+  <h4 class="feed-title">Recent <a href="http://womenintheology.org" target="_blank">WIT</a> Posts</h4>
+  <div id="wit-feed" class="wit columns is-multiline"></div>
+  <h4 class="feed-title">Visit <a href="http://deiprofundis.org" target="_blank">DeiProfundis</a><small> to read Maria's earliest theological blogging.</small></h4>
+  <div id="deip-feed" class="deip columns is-multiline"></div>
+</section>
