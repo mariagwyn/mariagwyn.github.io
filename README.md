@@ -15,9 +15,10 @@
 ### Local Installation
 
 Git clone this repository, or download it into a directory of your choice. Inside the directory run   
-1. `bundle install` (reference: Gemfile and Gemfile.lock)
-2. Run `bundle exec jekyll serve` to create a local site that updates as files are modified.
-3. To build CSS files, run `npm run css-build` and to watch for CSS changes, run `npm run css-watch` (see package.json for other commands).
+1. `npm install` (refernce: pachage.json)
+2. `bundle install` (reference: Gemfile and Gemfile.lock)
+3. Run `bundle exec jekyll serve` to create a local site that updates as files are modified.
+4. To build CSS files, run `npm run css-build` and to watch for CSS changes, run `npm run css-watch` (see package.json for other commands).
 
 ## Structure & Design:
 For the most part, the site follows a typical Jekyll structure. The theme utilizes Bulma.
