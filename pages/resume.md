@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Resume
-permalink: /resume
+permalink: /resume/
 sidebar: false
 excerpt: Resume for The Rev'd Maria Gwyn McDowell, PhD
 uniquejs: timeline.js
