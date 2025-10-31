@@ -101,14 +101,12 @@ defaults:
       post-listlong: false
 
 # Build settings
-# theme: mgm-bulma-jekyll
-# theme: minima
+theme: minima
+# theme: bulma-clean-theme
+force_theme: light
+
 plugins:
   - jekyll-feed
-  - jekyll-seo-tag
-  - jekyll-redirect-from
-  - jekyll-sitemap
-  - jemoji
 
 # Exclude from processing.
 # The following items will not be processed, by default.
