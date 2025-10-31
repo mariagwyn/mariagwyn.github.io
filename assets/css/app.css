@@ -7570,7 +7570,8 @@ header .header-picture {
     width: 100%; }
 
 p {
-  margin-bottom: 1rem; }
+  margin-bottom: 1rem;
+  font-size: 1.1rem; }
 
 h2, h3 {
   color: #7b1d18;

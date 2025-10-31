@@ -15,7 +15,7 @@
 ### Local Installation
 
 Git clone this repository, or download it into a directory of your choice. Inside the directory run   
-1. `npm install` (refernce: pachage.json)
+1. `npm install` (reference: package.json)
 2. `bundle install` (reference: Gemfile and Gemfile.lock)
 3. Run `bundle exec jekyll serve` to create a local site that updates as files are modified.
 4. To build CSS files, run `npm run css-build` and to watch for CSS changes, run `npm run css-watch` (see package.json for other commands).

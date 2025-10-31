@@ -14,9 +14,18 @@ This is a selected list of both church and secular work arranged in a timeline.
 <section class="timeline">
 <ul>
 <li class="ekklesia"><div markdown="1">
-<time>December 2018 - Present</time>
+<time>January 2024 - Present</time>
+#### Rector
+*[Christ Episcopal Church](http://christchurchtacoma.org), Tacoma, Washington*
+</div></li>
+<li class="ekklesia"><div markdown="1">
+<time>December 2018 - December 2023</time>
 #### Rector
 *[St. Philip the Deacon Episcopal Church](http://stphilipthedeacon.org), Portland, Oregon*
+
+<strong>Diocesan Service:</strong> Dean of Metro-East Convocation (2022-2024); Liturgy & Music Working Group (2018-2022; Co-
+Convener 2022-2024); Disciplinary Board (2021-2024); Chaplain, Bishop Search Committee (2020); Co-
+Founder & Executive Board of PNW UBE (2020-2021); Diocesan Vision Subcommittee (2019).
 </div></li>
 <li class="ekklesia"><div markdown="1">
 <time>March 2018 - November 2018</time>
@@ -27,6 +36,7 @@ This is a selected list of both church and secular work arranged in a timeline.
 <time>March 2018 - 2020</time>
 #### Project Pioneer for the Vice President of Support
 *[Acquia](http://acquia.com), Portland, Oregon*
+
 Propose and manage the project development of tools and processes across company departments, including resource investment decisions.
 </div></li>
 <li class="ekklesia"><div markdown="1">
