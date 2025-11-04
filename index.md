@@ -14,15 +14,20 @@ uniquejs:
   - feed-wit.rss.js
   - feed-deip.rss.js
 ---
+<div class="buttons">
+         <a class="button is-primary">Primary</a>
+         <a class="button is-link">Link</a>
+       </div>
+
 <div class="columns">
   <div class="column is-9">
-  <h2 class="small subheader border">Ekklesia<small class="float-right"><a href="/ekklesia/">See all</a></small></h2>
+  <h2 class="small subheader border">Ekklesia<small class="float-right"><a href="/ekklesia/" class="is-size-6">See all</a></small></h2>
     {% for post in site.categories.ekklesia limit: 8 %}
       {% include post-list.html %}
     {% endfor %}
   </div>
   <div class="column is-3">
-  <h2 class="small subheader border">Academia<small class="float-right"><a href="/academia/">See all</a></small></h2>
+  <h2 class="small subheader border">Academia<small class="float-right"><a href="/academia/" class="is-size-6">See all</a></small></h2>
     {% for post in site.categories.academia limit: 4 %}
       {% include article-list.html %}
     {% endfor %}

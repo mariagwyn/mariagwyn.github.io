@@ -1,0 +1,46 @@
+---
+---
+/* In /assets/css/app.scss */
+
+:root {
+  /* Set new values */
+
+  --bulma-family-primary: Merriweather, serif;
+/* Colors - redifine black/grey -hsl(0, 0%, 4%)- as brown */
+$primary: #333333;
+$black:        hsl(18, 48%, 4%) !default;
+$black-bis:    hsl(18, 48%, 7%) !default;
+$black-ter:    hsl(18, 48%, 14%) !default;
+
+$grey-darker:  hsl(33, 18%, 21%) !default; // #4f2b1c
+$grey-dark:    hsl(33, 18%, 29%) !default;
+$grey:         hsl(33, 18%, 48%) !default;
+$grey-light:   hsl(33, 18%, 71%) !default;
+$grey-lighter: hsl(33, 18%, 86%) !default;
+$grey-lightest: hsl(33, 18%, 93%) !default;
+
+$white-ter:    hsl(0, 0%, 96%) !default;
+$white-bis:    hsl(0, 0%, 98%) !default;
+$white:        hsl(0, 0%, 100%) !default;
+
+$orange:       hsl(14,  100%, 51%) !default;
+$yellow:       hsl(44,  100%, 51%) !default;
+$green:        hsl(74, 69%, 33%) !default; // #77931a
+$turquoise:    hsl(171, 100%, 41%) !default;
+$cyan:         hsl(207, 61%,  53%) !default;
+$blue:         hsl(210, 40%, 42%) !default; // #497aab
+$purple:       hsl(271, 100%, 71%) !default;
+$red:          hsl(3, 67%, 28%) !default; // #7b1d18
+}
+
+
+/* Typography */
+@import url("https://fonts.googleapis.com/css?family=Merriweather:400,400italic,700");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700");
+@import url("https://fonts.googleapis.com/css?family=Forum");
+
+$family-sans-serif: "Open Sans", "Lucida Grande", Myriad, BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+$family-serif: "Merriweather", Georgia, serif;
+
+/* Import Main CSS file from theme */
+@import "main";

@@ -101,8 +101,8 @@ defaults:
       post-listlong: false
 
 # Build settings
-theme: minima
-# theme: bulma-clean-theme
+# theme: minima
+theme: bulma-clean-theme
 force_theme: light
 
 plugins:

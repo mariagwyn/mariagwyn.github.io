@@ -1,0 +1,18 @@
+{
+  "name": "MariaGwyn",
+  "version": "0.1.0",
+  "author": "Maria McDowell",
+  "license": "MIT",
+  "description": "Bulma for Jekyll on MariaGwyn's sites.",
+  "scripts": {
+    "build-bulma": "sass --load-path=node_modules assets/css/mgm.scss assets/css/bulma-mgm.css",
+    "start": "npm run build-bulma -- --watch"
+  },
+  "devDependencies": {
+    "bulma": "^1.0.4",
+    "sass": "^1.93.3"
+  },
+  "dependencies": {
+    "photoswipe": "^5.2.4"
+  }
+}
